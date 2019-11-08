@@ -28,7 +28,6 @@
 						</table>
 					</div>
 				</div>
-				<xsl:call-template name="contactUs"/> <!-- footer.xsl -->
 				<xsl:call-template name="lastFooter"/> <!-- footer.xsl -->
 			</body>
 		</html>

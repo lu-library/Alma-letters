@@ -4,19 +4,46 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 <xsl:template name="salutation">
 </xsl:template>
 <xsl:template name="lastFooter">
-	<table>
-		<xsl:attribute name="style">
-			<xsl:call-template name="footerTableStyleCss" /> <!-- style.xsl -->
-		</xsl:attribute>
-		<tr>
-			<xsl:for-each select="notification_data/organization_unit">
-				<xsl:attribute name="style">
-					<xsl:call-template name="listStyleCss" /> <!-- style.xsl -->
-				</xsl:attribute>
-				<td align="center"><xsl:value-of select="name"/>&#160;<xsl:value-of select="line1"/>&#160;<xsl:value-of select="line2"/>&#160;<xsl:value-of select="city"/>&#160;<xsl:value-of select="postal_code"/>&#160;<xsl:value-of select="country"/></td>
-			</xsl:for-each>
-		</tr>
-	</table>
+  <table>
+    <xsl:attribute name="style">
+      <xsl:call-template name="lhdFooterTableStyleCss" /> <!-- style.xsl -->
+    </xsl:attribute>
+    <tr>
+			<td>
+				<p>If you have questions and need assistance, please contact us:</p>
+				<table>
+					<xsl:attribute name="style">
+						<xsl:call-template name="lhdFooterTableStyleCss" /> <!-- style.xsl -->
+					</xsl:attribute>
+					<tbody>
+						<tr>
+							<td><strong>Paterson</strong></htd>
+							<td>(807) 343-8225</td>
+					  	<td><a href="mailto:researchhelp@lakeheadu.ca">researchhelp@lakeheadu.ca</a></td>
+				  	</tr>
+				  <tr>
+					  <td><strong>Education</strong></td>
+					  <td>(807) 343-8718</td>
+					  <td><a href="mailto:edlib@lakeheadu.ca">edlib@lakeheadu.ca</a></td>
+				  </tr>
+				  <tr>
+					  <td><strong>Law</strong></td>
+					  <td>(807) 346-7830</td>
+					  <td><a href="mailto:law.library@lakeheadu.ca">law.library@lakeheadu.ca</a></td>
+				  </tr>
+				  <tr>
+					  <td><strong>Orillia</strong></td>
+					  <td>(705) 330-4008 ext. 2250</td>
+					  <td><a href="mailto:orlibrary@lakeheadu.ca">orlibrary@lakeheadu.ca</a></td>
+				  </tr>
+			  </tbody>
+		  </table>
+		</td>
+	</tr>
+    <tr>
+	  <td>For more information please visit your <a href="https://ocul-lhd.primo.exlibrisgroup.com/discovery/account?vid=01OCUL_LHD:LHD_DEFAULT">Library Account</a>.</td>
+	</tr>
+  </table>
 </xsl:template>
 <xsl:template name="contactUs">
 	<table align="left">
@@ -31,20 +58,11 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 			</td>
 		</tr>
 	</table>
-	<br />
-	<table>
-	  <tr>
-		<td>For more information please visit your <a href="https://ocul-lhd.primo.exlibrisgroup.com/discovery/login?vid=01OCUL_LHD:DEFAULT">Library Account</a>.</td>
-	  </tr>
-	  <tr>
-		<td>If you have any questions please contact a staff member from Access Services at <a href="mailto:circ@lakeheadu.ca">circ@lakeheadu.ca</a> or 807-343-8205.</td>
-	  </tr>
-	</table>
 </xsl:template>
 <xsl:template name="myAccount">
-	<table align="right">
+	<table align="left">
 		<tr>
-			<td align="right">
+			<td align="left">
 				<a>
 					<xsl:attribute name="href">
 						@@email_my_account@@
@@ -55,7 +73,4 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 		</tr>
 	</table>
 </xsl:template>
-
-
-
 </xsl:stylesheet>
