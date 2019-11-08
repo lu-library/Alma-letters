@@ -7,7 +7,7 @@
 	<xsl:include href="style.xsl"/>
 
 	<xsl:template match="/">
-		<html>
+	  <html>
 			<head>
 				<xsl:call-template name="generalStyle"/>
 			</head>
