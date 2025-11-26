@@ -60,24 +60,47 @@
                   </td>
                 </tr>
               </xsl:if>
+							<!-- START stop emails for converted to resource sharing -->
+							<xsl:if test="notification_data/request/status_note">                        
+								<xsl:if test="contains(notification_data/request/status_note, 'ConvertedToResourceSharingRequest')">
+									<xsl:message terminate="yes">A converted to resource sharing cancellatio, don't send email</xsl:message>
+								</xsl:if>				
+							</xsl:if>							
+							<!-- END stop emails for converted to resource sharing -->
               <tr>
                 <td>
-                  <b>@@reason_deleting_request@@: </b>
-                  <xsl:value-of select="notification_data/request/status_note_display"/>
+									<b> @@reason_deleting_request@@: </b>
+									<xsl:value-of select="notification_data/request/status_note_display" />
+								</td>
+							</tr>
+							<!-- If the approval note is populated, don't show cancel_reason but the reject note -->
+							<xsl:choose>
+								<xsl:when test="notification_data/request/approval_entity/reject_reason != ''">
+									<xsl:if test="notification_data/request/approval_entity/note != ''">
+										<tr>
+											<td>												
+												<xsl:value-of select="notification_data/request/approval_entity/note"/>												
                 </td>
               </tr>
+									</xsl:if>
+								</xsl:when>
+								<xsl:otherwise>			
               <xsl:if test="notification_data/request/cancel_reason != ''">
                 <tr>
                   <td>
-                    <b>@@request_cancellation_note@@: </b>
-                    <xsl:value-of select="notification_data/request/cancel_reason"/>
+												<b> @@request_cancellation_note@@: </b>
+												<xsl:value-of select="notification_data/request/cancel_reason" />
                   </td>
                 </tr>
               </xsl:if>
+								</xsl:otherwise>
+							</xsl:choose>															
             </table>
           </div>
         </div>
-        <xsl:call-template name="lastFooter"/> <!-- footer.xsl -->
+				<br/>
+				<xsl:call-template name="lastFooter" /> <!-- footer.xsl -->								
+				<xsl:call-template name="myAccount" />									
       </body>
     </html>
   </xsl:template>

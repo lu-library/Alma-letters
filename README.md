@@ -1,8 +1,8 @@
 # Alma Letters
 Letters for Alma are customized by Lakehead University Library
 
-- [x] [Cancel Request Letter](letters/letters/FulCancelRequestLetter.xsl)
-- [x] [Courtesy Letter](letters/letters/FulUserLoansCourtesyLetter.xsl)
+- [x] [Cancel Request Letter](letters/FulCancelRequestLetter.xsl)
+- [x] [Courtesy Letter](letters/FulUserLoansCourtesyLetter.xsl)
 - [x] [Email Records Letter](letters/EmailRecordsLetter.xsl)
 - [x] [Fine Fee Payment Receipt Letter](letters/FineFeePaymentReceiptLetter.xsl)
 - [x] [Fines And Fees Report Letter](letters/FinesAndFeesReportLetter.xsl)
