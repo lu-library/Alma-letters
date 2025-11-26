@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<xsl:stylesheet version="1.0"
+xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+
+<xsl:template name="generalStyle">
+ <style>
+ body {@@language_related_body_css@@ background-color:#fff}
+ .listing td {border-bottom: 1px solid #eee}
+ .listing tr:hover td {background-color:#eee}
+ .listing th {background-color:#f5f5f5 }
+ h4{line-height: 0.2em}
+ <!-- START AFN styles -->
+ .afn_steps_list li{margin-bottom:1em}
+ #afn_letter_name_id{margin-top:1em; font-size: 30%;}
+ .afn_letter_plain_list{list-style-type: none;}
+ <!-- END AFN styles -->
+ </style>
+</xsl:template>
+
+<xsl:template name="bodyStyleCss">
+font-family: arial; color:#333; margin:0; padding:0em; font-size:80%
+</xsl:template>
+
+<xsl:template name="listStyleCss">
+list-style: none; margin:0 0 0 1em; padding:0
+</xsl:template>
+
+<xsl:template name="mainTableStyleCss">
+width:100%; text-align:left
+</xsl:template>
+
+<xsl:template name="headerLogoStyleCss">
+background-color:#ffffff;  width:100%;
+</xsl:template>
+
+<!-- START UG prefers logo color scheme for new 2025 logo -->
+<xsl:template name="headerLogoStyleCssUG">
+
+<!-- UG Omni grey WITH white text Logo -->
+background-color:#3a3a3a !important;  width:100%;
+</xsl:template>
+
+<xsl:template name="headerTableStyleCssUG">
+width:100%; height:30px; text-shadow:1px 1px 1px #fff;
+</xsl:template>
+<!-- END UG prefers logo color scheme for new 2025 logo -->
+
+<xsl:template name="headerTableStyleCss">
+background-color:#e9e9e9;  width:100%; height:30px; text-shadow:1px 1px 1px #fff;
+</xsl:template>
+
+<xsl:template name="footerTableStyleCss">
+width:100%; margin-top:1em;  font-weight:700; line-height:2em; font-size:150%;
+</xsl:template>
+
+</xsl:stylesheet>

@@ -1,0 +1,19 @@
+<notification_data>
+    <general_data>
+        <letter_name>Resource Sharing Receive Slip Letter</letter_name>
+        <current_date>04/04/2020</current_date>
+    </general_data>
+
+    <patron_name>Lastname, First</patron_name>
+    <barcode>123456789</barcode>
+    <request>
+        <pickup_location_str>University of Guelph Library</pickup_location_str>            
+        <external_request_id>01OCULOG0001234</external_request_id>
+        <due_date>22/04/2020</due_date>
+        <display>
+            <normalized_title>A Normalized Title</normalized_title>
+            <author>A Normalized Title</author>
+        </display>
+    </request>
+
+ </notification_data>

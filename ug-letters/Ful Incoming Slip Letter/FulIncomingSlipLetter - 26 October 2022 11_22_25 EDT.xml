@@ -1,0 +1,402 @@
+<notification_data>
+    <assignee></assignee>
+    <general_data>
+        <address_c>None;None</address_c>
+        <address_c>None;None</address_c>
+        <address_from>address_from</address_from>
+        <current_date>26 October 2022</current_date>
+        <current_time>11:22:24 EDT</current_time>
+        <letter_channel_info></letter_channel_info>
+        <letter_name>Resource Sharing Lending Slip Letter</letter_name>
+        <letter_type>FulIncomingSlipLetter</letter_type>
+        <subject>Resource Sharing Lending Slip</subject>
+    </general_data>
+    <incoming_request>
+        <message></message>
+        <active_messages>false</active_messages>
+        <active_notes>false</active_notes>
+        <actual_format_returnable>false</actual_format_returnable>
+        <additional_borrower_information>Dickinson College - Main Library</additional_borrower_information>
+        <alerts></alerts>
+        <allow_other_format>false</allow_other_format>
+        <assign_to></assign_to>
+        <assignee></assignee>
+        <borrowing_institution>Dickinson College</borrowing_institution>
+        <borrowing_library>Main Library</borrowing_library>
+        <cancel_note></cancel_note>
+        <cancel_reason></cancel_reason>
+        <checkedin_possible>false</checkedin_possible>
+        <citation_type>CR</citation_type>
+        <complete_possible>true</complete_possible>
+        <contact_address>Dickinson College Library - ILL, 28 N. College St., Carlisle, PA 17013</contact_address>
+        <contact_email>contact_email</contact_email>
+        <contact_phone>717-245-1142</contact_phone>
+        <copyright_approval_status>Null</copyright_approval_status>
+        <create_date>26 October 2022</create_date>
+        <create_date_str>26 October 2022</create_date_str>
+        <create_date_with_time_str>26 October 2022 09:26:26 EDT</create_date_with_time_str>
+        <created_by_user></created_by_user>
+        <date_for_reply></date_for_reply>
+        <date_for_reply_str></date_for_reply_str>
+        <date_received_by_partner></date_received_by_partner>
+        <desired_due_date></desired_due_date>
+        <display>
+            <additional_author></additional_author>
+            <additional_person_name></additional_person_name>
+            <additional_title></additional_title>
+            <autho_initials></autho_initials>
+            <author></author>
+            <availability>&lt;span class=&quot;recordAvailable jsNoHighlight&quot;&gt;Availability:&lt;/span&gt;&lt;span class=&quot;jsNoHighlight&quot;&gt;Physical version&lt;/span&gt; &lt;span class=&quot;jsNoHighlight&quot;&gt;at&lt;/span&gt; &lt;strong title=&quot;McLaughlin Library: Guelph Periodical Stacks&quot;&gt;mclaughlin: per; RC 321.J83&lt;/strong&gt;  v. 173 (1985) ; v. 175 (1987) - v. 181 (1993). 
+&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;span class=&quot;recordAvailable invisible jsNoHighlight&quot;&gt;Availability:&lt;/span&gt;&lt;span class=&quot;jsNoHighlight&quot;&gt;Physical version&lt;/span&gt; &lt;span class=&quot;jsNoHighlight&quot;&gt;at&lt;/span&gt; &lt;strong title=&quot;Offsite Storage (Annex): Annex - Guelph Ownership&quot;&gt;annex: ugannex; RC 321.J83&lt;/strong&gt;  v. 1 (1874) - v. 14 (1887) ; v. 16 (1889) - v. 172 (1984). 
+            </availability>
+            <barcode></barcode>
+            <call_number></call_number>
+            <chapter></chapter>
+            <chapter_author></chapter_author>
+            <chapter_title></chapter_title>
+            <citation_type_name>CR</citation_type_name>
+            <composer></composer>
+            <creator_and_publisher>&lt;span class=&quot;recordAuthor&quot;&gt;&lt;strong&gt;Article&lt;/strong&gt; &lt;strong&gt;{Journal - Physical}&lt;/strong&gt; By &lt;span dir=&quot;auto&quot;&gt;Jewell, James Stewart,&lt;/span&gt; (&lt;span dir=&quot;auto&quot;&gt;Baltimore : Williams &amp; Wilkins Co, 1874-&lt;/span&gt;)&lt;/span&gt;</creator_and_publisher>
+            <creator_and_publisher_for_export></creator_and_publisher_for_export>
+            <doi></doi>
+            <edition></edition>
+            <editor></editor>
+            <electronic_location></electronic_location>
+            <end_page></end_page>
+            <end_page2></end_page2>
+            <identifier></identifier>
+            <isbn></isbn>
+            <issn>0022-3018 </issn>
+            <issue>4</issue>
+            <journal_title>The Journal of nervous and mental disease.</journal_title>
+            <lcc_number></lcc_number>
+            <material_type>Article</material_type>
+            <music_part></music_part>
+            <normalized_title>Mental Disease and the Melting Pot/The Journal of nervous and mental disease.</normalized_title>
+            <note></note>
+            <oclc_number></oclc_number>
+            <opus></opus>
+            <other_standard_id></other_standard_id>
+            <pages>379-395</pages>
+            <pages_normalized>379-395</pages_normalized>
+            <part></part>
+            <place_of_publication></place_of_publication>
+            <pmid></pmid>
+            <pnx_format></pnx_format>
+            <publication_date></publication_date>
+            <publisher></publisher>
+            <remote_record_id></remote_record_id>
+            <series></series>
+            <series_title_number></series_title_number>
+            <song_movement></song_movement>
+            <source></source>
+            <start_page></start_page>
+            <start_page2></start_page2>
+            <subjects>Neurology--Periodicals. -- Psychiatry--Periodicals. </subjects>
+            <title>Mental Disease and the Melting Pot</title>
+            <upper_title_link>true</upper_title_link>
+            <url></url>
+            <volume>72</volume>
+            <volume_bk></volume_bk>
+            <year></year>
+        </display>
+        <document_delivery_file_name></document_delivery_file_name>
+        <document_delivery_link_indicator></document_delivery_link_indicator>
+        <document_delivery_max_num_of_views></document_delivery_max_num_of_views>
+        <document_delivery_num_of_views></document_delivery_num_of_views>
+        <due_date></due_date>
+        <due_date_str></due_date_str>
+        <duplicated>false</duplicated>
+        <entity_action></entity_action>
+        <event_name></event_name>
+        <expiration_date></expiration_date>
+        <external_request_id>19758710</external_request_id>
+        <format>DIGITAL</format>
+        <format_str>DIGITAL</format_str>
+        <identifier>0022-3018</identifier>
+        <id></id>
+        <integration_profile_id></integration_profile_id>
+        <integration_profile_id_str></integration_profile_id_str>
+        <anonymized>false</anonymized>
+        <rapido_request>false</rapido_request>
+        <item_barcode></item_barcode>
+        <item_exists_for_renew>true</item_exists_for_renew>
+        <item_id></item_id>
+        <item_return_date></item_return_date>
+        <item_sent_date></item_sent_date>
+        <journal_title></journal_title>
+        <labels></labels>
+        <language></language>
+        <level_of_service></level_of_service>
+        <library_id>12900830000231</library_id>
+        <library_unit_id></library_unit_id>
+        <locate_status>ResourceLocated</locate_status>
+        <lost_damaged_fee>
+            <currency></currency>
+            <normalized_sum></normalized_sum>
+            <sum></sum>
+            <vat>0.00</vat>
+        </lost_damaged_fee>
+        <lost_damaged_status_type>false</lost_damaged_status_type>
+        <message_id>1417722</message_id>
+        <mms_id>9916663913505154</mms_id>
+        <modification_date_str>26 October 2022</modification_date_str>
+        <modification_date_with_time_str>26 October 2022 09:26:26 EDT</modification_date_with_time_str>
+        <modified_by_user></modified_by_user>
+        <multi_barcode_visible>false</multi_barcode_visible>
+        <multi_item_barcode_str>Multiple barcodes</multi_item_barcode_str>
+        <needed_by></needed_by>
+        <needed_by_date_str></needed_by_date_str>
+        <needed_by_dummy>
+            <calendar>31 December 1969</calendar>
+            <calendar_ui></calendar_ui>
+            <day>1</day>
+            <day_ui></day_ui>
+            <default_value_for_with_validation>0</default_value_for_with_validation>
+            <full_date></full_date>
+            <full_date_from_ui></full_date_from_ui>
+            <input_date_tag_format>00.00.0</input_date_tag_format>
+            <month>0</month>
+            <month_ui></month_ui>
+            <date>true</date>
+            <year>1970</year>
+            <year_ui></year_ui>
+        </needed_by_dummy>
+        <note></note>
+        <note_to_partner></note_to_partner>
+        <num_of_items>0</num_of_items>
+        <num_of_move_requests>0</num_of_move_requests>
+        <num_of_retruned_items>0</num_of_retruned_items>
+        <overdue_sent></overdue_sent>
+        <overdue_sent_date></overdue_sent_date>
+        <partner_code></partner_code>
+        <partner_data></partner_data>
+        <partner_id>9269164520005154</partner_id>
+        <partner_name>Rapid ILL</partner_name>
+        <pod_id></pod_id>
+        <print_slip_date>26 October 2022</print_slip_date>
+        <print_slip_date_dummy>26 October 2022</print_slip_date_dummy>
+        <profile_type></profile_type>
+        <rapid_enabled>true</rapid_enabled>
+        <rapido_allow_renew>false</rapido_allow_renew>
+        <rapido_delivery_option></rapido_delivery_option>
+        <rapido_policy_id></rapido_policy_id>
+        <rapido_requester_id></rapido_requester_id>
+        <rapido_rule_result></rapido_rule_result>
+        <rapidr_external_request_id></rapidr_external_request_id>
+        <reactivate_general_msg>false</reactivate_general_msg>
+        <reactivate_privilege>true</reactivate_privilege>
+        <reason_unfilled></reason_unfilled>
+        <reassign_link_visible>true</reassign_link_visible>
+        <recall_date></recall_date>
+        <reject_possible>true</reject_possible>
+        <release_assign_link_visible>false</release_assign_link_visible>
+        <request_completed>false</request_completed>
+        <request_metadata>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;dc:record xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:dcterms=&quot;http://purl.org/dc/terms/&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;&gt;&lt;dc:material_type&gt;Journal&lt;/dc:material_type&gt;&lt;dc:identifier_issn&gt;0022-3018&lt;/dc:identifier_issn&gt;&lt;dc:date&gt;1930&lt;/dc:date&gt;&lt;dc:rlterms_issue&gt;4&lt;/dc:rlterms_issue&gt;&lt;dc:rlterms_pages&gt;379-395&lt;/dc:rlterms_pages&gt;&lt;dc:rlterms_callNumber&gt;RC 321.J83&lt;/dc:rlterms_callNumber&gt;&lt;dc:title&gt;Mental Disease and the Melting Pot&lt;/dc:title&gt;&lt;dc:creator&gt;MALZBERG, BENJAMIN&lt;/dc:creator&gt;&lt;dc:rlterms_journalTitle&gt;The Journal of nervous and mental disease&lt;/dc:rlterms_journalTitle&gt;&lt;dc:rlterms_volumePartNumber&gt;72&lt;/dc:rlterms_volumePartNumber&gt;&lt;/dc:record&gt;</request_metadata>
+        <requested_barcode></requested_barcode>
+        <requested_item></requested_item>
+        <requested_media></requested_media>
+        <requester_email></requester_email>
+        <resource_from_network>false</resource_from_network>
+        <resource_slip_printed>true</resource_slip_printed>
+        <resource_slip_reported>true</resource_slip_reported>
+        <return_staus_date></return_staus_date>
+        <service_provider></service_provider>
+        <shipping_cost>
+            <currency></currency>
+            <normalized_sum></normalized_sum>
+            <sum></sum>
+            <vat>0.00</vat>
+        </shipping_cost>
+        <status>REQUEST_CREATED_LEND</status>
+        <status_before_edit></status_before_edit>
+        <title>Mental Disease and the Melting Pot</title>
+        <transaction_result></transaction_result>
+        <type_value>Link</type_value>
+        <unavailable_resource>false</unavailable_resource>
+        <will_be_shipped></will_be_shipped>
+    </incoming_request>
+    <items></items>
+    <languages>
+        <string>en</string>
+    </languages>
+    <letter_params></letter_params>
+    <letter_texts></letter_texts>
+    <level_of_service></level_of_service>
+    <metadata>
+        <additional_author></additional_author>
+        <additional_person_name></additional_person_name>
+        <additional_title></additional_title>
+        <autho_initials></autho_initials>
+        <author>MALZBERG, BENJAMIN</author>
+        <availability></availability>
+        <barcode></barcode>
+        <call_number>RC 321.J83</call_number>
+        <chapter></chapter>
+        <chapter_author></chapter_author>
+        <chapter_title></chapter_title>
+        <citation_type_name></citation_type_name>
+        <composer></composer>
+        <creator_and_publisher></creator_and_publisher>
+        <creator_and_publisher_for_export></creator_and_publisher_for_export>
+        <doi></doi>
+        <edition></edition>
+        <editor></editor>
+        <electronic_location></electronic_location>
+        <end_page></end_page>
+        <end_page2></end_page2>
+        <identifier></identifier>
+        <isbn></isbn>
+        <issn>0022-3018</issn>
+        <issue>4</issue>
+        <journal_title>The Journal of nervous and mental disease</journal_title>
+        <lcc_number></lcc_number>
+        <material_type>Article</material_type>
+        <music_part></music_part>
+        <normalized_title>Mental Disease and the Melting Pot</normalized_title>
+        <note></note>
+        <oclc_number></oclc_number>
+        <opus></opus>
+        <other_standard_id></other_standard_id>
+        <pages>379-395</pages>
+        <pages_normalized>379-395</pages_normalized>
+        <part></part>
+        <place_of_publication></place_of_publication>
+        <pmid></pmid>
+        <pnx_format></pnx_format>
+        <publication_date>1930</publication_date>
+        <publisher></publisher>
+        <remote_record_id></remote_record_id>
+        <series></series>
+        <series_title_number></series_title_number>
+        <song_movement></song_movement>
+        <source></source>
+        <start_page></start_page>
+        <start_page2></start_page2>
+        <subjects></subjects>
+        <title>Mental Disease and the Melting Pot</title>
+        <upper_title_link>true</upper_title_link>
+        <url></url>
+        <volume>72</volume>
+        <volume_bk></volume_bk>
+        <year></year>
+    </metadata>
+    <normalize_sum_strategy></normalize_sum_strategy>
+    <organization_unit>
+        <address></address>
+        <automatic_creation>false</automatic_creation>
+        <automatically_activate_locate_profile>false</automatically_activate_locate_profile>
+        <automatically_locate_resource>false</automatically_locate_resource>
+        <bibliographic_titles></bibliographic_titles>
+        <cancel_request_on_locate_failure>false</cancel_request_on_locate_failure>
+        <code>01OCUL_GUE</code>
+        <code_rfid></code_rfid>
+        <country></country>
+        <create_date></create_date>
+        <created_by_user></created_by_user>
+        <data_encryption_type></data_encryption_type>
+        <default_acq_loctaion_id></default_acq_loctaion_id>
+        <default_item_loctaion_id></default_item_loctaion_id>
+        <default_move_loctaion_id></default_move_loctaion_id>
+        <default_pickup_loctaion_id></default_pickup_loctaion_id>
+        <default_printer></default_printer>
+        <description>University of Guelph </description>
+        <digital_objects></digital_objects>
+        <digital_storage_size></digital_storage_size>
+        <disable_call_number_calculation>false</disable_call_number_calculation>
+        <edi_code></edi_code>
+        <edi_type></edi_type>
+        <email></email>
+        <entity_action></entity_action>
+        <hold_shelf_email_delay></hold_shelf_email_delay>
+        <ignore_electronic>false</ignore_electronic>
+        <ignore_electronic_for_physical_s>false</ignore_electronic_for_physical_s>
+        <inactive_dates_end_bor></inactive_dates_end_bor>
+        <inactive_dates_end_lend></inactive_dates_end_lend>
+        <inactive_dates_start_bor></inactive_dates_start_bor>
+        <inactive_dates_start_lend></inactive_dates_start_lend>
+        <isil_code></isil_code>
+        <itemless_library></itemless_library>
+        <leader_institution_id></leader_institution_id>
+        <library_id></library_id>
+        <library_unit_id></library_unit_id>
+        <modified_by_user></modified_by_user>
+        <name>University of Guelph</name>
+        <named_users></named_users>
+        <org_scope>
+            <customer_id>5150</customer_id>
+            <institution_id>5154</institution_id>
+            <library_id></library_id>
+            <library_unit_id></library_unit_id>
+        </org_scope>
+        <organization_id>5154</organization_id>
+        <organization_path>5150.5154</organization_path>
+        <organization_type>INSTITUTION</organization_type>
+        <parent_org_id>5150</parent_org_id>
+        <path>01OCUL.01OCUL_GUE</path>
+        <personal_delivery_by_other_libraries>false</personal_delivery_by_other_libraries>
+        <phone></phone>
+        <premium_sandbox>1</premium_sandbox>
+        <prod_instance_name></prod_instance_name>
+        <rapido_symbol></rapido_symbol>
+        <reject_not_available>false</reject_not_available>
+        <reject_not_requestable>false</reject_not_requestable>
+        <reject_on_locate_failure>false</reject_on_locate_failure>
+        <reject_only_electronic>false</reject_only_electronic>
+        <reshelf_period></reshelf_period>
+        <resource_sharing_library>true</resource_sharing_library>
+        <extend_due_date></extend_due_date>
+        <uresolver_locate>false</uresolver_locate>
+        <serves_other_institutions>true</serves_other_institutions>
+        <ship_resources_directly>false</ship_resources_directly>
+        <standard_sandbox></standard_sandbox>
+        <status>ACTIVE</status>
+        <support_code></support_code>
+        <temp_inactive_borrowing>false</temp_inactive_borrowing>
+        <temp_inactive_lending>false</temp_inactive_lending>
+        <unique_ejournal_titles></unique_ejournal_titles>
+        <url_mapping_prefix>ocul-gue</url_mapping_prefix>
+    </organization_unit>
+    <partner_integration_type>RAPID</partner_integration_type>
+    <partner_name>Rapid ILL</partner_name>
+    <partner_system_type>RAPID</partner_system_type>
+    <receivers>
+        <receiver>
+            <attached_to_entity_id>1379890990005154</attached_to_entity_id>
+            <entity_id></entity_id>
+            <entity_type></entity_type>
+            <params></params>
+            <preferred_language></preferred_language>
+            <printer>
+                <code>q-ugmcln</code>
+                <create_date>11 November 2019</create_date>
+                <created_by_user></created_by_user>
+                <description></description>
+                <email></email>
+                <entity_action></entity_action>
+                <library_id>221360870005154</library_id>
+                <library_unit_id></library_unit_id>
+                <modified_by_user></modified_by_user>
+                <name>McLaughlin Circ Print Queue</name>
+                <printout_queue_indicator>true</printout_queue_indicator>
+            </printer>
+            <receiver_id></receiver_id>
+            <receiver_type></receiver_type>
+            <receiver_type_class>com.exlibris.core.infra.model.HPrinter</receiver_type_class>
+        </receiver>
+    </receivers>
+    <requested_media_description></requested_media_description>
+    <send_after_commit>true</send_after_commit>
+    <sms_content></sms_content>
+    <throw_exceptions>false</throw_exceptions>
+    <webhook_data>
+        <fees></fees>
+        <items></items>
+        <loans></loans>
+        <outgoing_resource_sharing_requests></outgoing_resource_sharing_requests>
+        <receivers></receivers>
+        <smss_content></smss_content>
+        <user_requests></user_requests>
+    </webhook_data>
+</notification_data>

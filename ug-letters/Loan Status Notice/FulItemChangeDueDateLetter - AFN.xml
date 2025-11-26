@@ -1,0 +1,3209 @@
+<notification_data>
+    <general_data>
+        <address_c>None;None</address_c>
+        <address_c>None;None</address_c>
+        <address_from>FAKELIB@uoguelph.ca</address_from>
+        <current_date>18 May 2021</current_date>
+        <letter_channel_info></letter_channel_info>
+        <letter_name>Due date change for library item</letter_name>
+        <letter_type>FulItemChangeDueDateLetter</letter_type>
+        <subject>Due date change for library item</subject>
+    </general_data>
+    <item_loans>
+        <item_loan>
+            <accession_number></accession_number>
+            <alternative_call_number></alternative_call_number>
+            <author>Isaacs, Anne.</author>
+            <barcode>31188017643202</barcode>
+            <booking_request_id></booking_request_id>
+            <calculated_due_date></calculated_due_date>
+            <call_number>PZ7.I762 P36 2006</call_number>
+            <create_date>18 May 2021</create_date>
+            <delivery_address></delivery_address>
+            <description></description>
+            <description_for_display>Call Number: PZ7.I762 P36 2006 </description_for_display>
+            <due_date>25 May 2021</due_date>
+            <due_date_shortened_reason></due_date_shortened_reason>
+            <due_date_start_calculation_date></due_date_start_calculation_date>
+            <entity_action></entity_action>
+            <external_item_id></external_item_id>
+            <fine></fine>
+            <fine_action></fine_action>
+            <from_another_inst></from_another_inst>
+            <from_another_inst_circ_desk></from_another_inst_circ_desk>
+            <from_another_inst_library></from_another_inst_library>
+            <from_fulfillment_configuration_util>false</from_fulfillment_configuration_util>
+            <item_description></item_description>
+            <item_id>23131081040005154</item_id>
+            <item_loan_change_list></item_loan_change_list>
+            <item_location_lib_id>221360870005154</item_location_lib_id>
+            <job_title></job_title>
+            <last_renew_date></last_renew_date>
+            <last_renew_status></last_renew_status>
+            <library_id>3380515460005154</library_id>
+            <library_name>McLaughlin Library</library_name>
+            <library_unit_id></library_unit_id>
+            <loan_circ_desk_id>3380515480005154</loan_circ_desk_id>
+            <loan_circ_desk_institution_code></loan_circ_desk_institution_code>
+            <loan_date>18 May 2021</loan_date>
+            <loan_note></loan_note>
+            <loan_notes></loan_notes>
+            <loan_status>Active</loan_status>
+            <location_code>book</location_code>
+            <location_name>Book Stacks</location_name>
+            <material_type>BOOK</material_type>
+            <middle_id>22131081050005154</middle_id>
+            <mms_id>9938166653505154</mms_id>
+            <need_to_create_user_demerit>false</need_to_create_user_demerit>
+            <new_due_date_str>25 May 2021 23:59:00 EDT</new_due_date_str>
+            <next_step></next_step>
+            <normalized_barcode>31188017643202</normalized_barcode>
+            <normalized_fine></normalized_fine>
+            <notified_by_profiles></notified_by_profiles>
+            <old_due_date>15 September 2021</old_due_date>
+            <old_due_date_str>15 September 2021 23:59:00 EDT</old_due_date_str>
+            <originating_system_id></originating_system_id>
+            <originating_user_id></originating_user_id>
+            <physical_item>
+                <accession_number></accession_number>
+                <alt_number_source></alt_number_source>
+                <alternative_call_number></alternative_call_number>
+                <alternative_call_number_type></alternative_call_number_type>
+                <arrival_date>13 April 2007</arrival_date>
+                <arrival_operator>import</arrival_operator>
+                <author>Isaacs, Anne.</author>
+                <barcode>31188017643202</barcode>
+                <base_status>0</base_status>
+                <break_indicator></break_indicator>
+                <call_number>PZ7.I762 P36 2006</call_number>
+                <call_number_type>0</call_number_type>
+                <chronology_i></chronology_i>
+                <chronology_j></chronology_j>
+                <chronology_k></chronology_k>
+                <chronology_l></chronology_l>
+                <chronology_m></chronology_m>
+                <complete_edition>1st ed.</complete_edition>
+                <copy_id>1</copy_id>
+                <create_date>25 November 2019</create_date>
+                <customer_id>5150</customer_id>
+                <date_of_publication>2006.</date_of_publication>
+                <description></description>
+                <display_alternative_call_number></display_alternative_call_number>
+                <enumeration_a></enumeration_a>
+                <enumeration_b></enumeration_b>
+                <enumeration_c></enumeration_c>
+                <enumeration_d></enumeration_d>
+                <enumeration_e></enumeration_e>
+                <enumeration_f></enumeration_f>
+                <enumeration_g></enumeration_g>
+                <enumeration_h></enumeration_h>
+                <expected_arrival_date></expected_arrival_date>
+                <expected_return_from_temp_location></expected_return_from_temp_location>
+                <fulfillment_note></fulfillment_note>
+                <holding_d>22131081050005154</holding_d>
+                <institution_id>5154</institution_id>
+                <internal_note_1></internal_note_1>
+                <internal_note_2></internal_note_2>
+                <internal_note_3>ON_RESERVE: N | RESERVE_CHARGES: 0 | RECALLS_PLACED: 0 | HOLDS_PLACED: 0 | HISTORICAL_BOOKINGS: 0 | SHORT_LOAN_CHARGES: 0 | </internal_note_3>
+                <inventory_date></inventory_date>
+                <inventory_number></inventory_number>
+                <inventory_price></inventory_price>
+                <item_requested></item_requested>
+                <magnetic>false</magnetic>
+                <isbn>9780439644839</isbn>
+                <issn></issn>
+                <issue_date></issue_date>
+                <issue_year></issue_year>
+                <item_d>23131081040005154</item_d>
+                <item_policy>BOOK</item_policy>
+                <item_replacement_cost></item_replacement_cost>
+                <language>eng</language>
+                <library_id>221360870005154</library_id>
+                <library_unit_id></library_unit_id>
+                <loaded_by_update_order>false</loaded_by_update_order>
+                <location_code>book</location_code>
+                <material_type>BOOK</material_type>
+                <mms_id>9938166653505154</mms_id>
+                <modification_date>18 May 2021</modification_date>
+                <network_number>
+                    <string>(CaOKQ)2586134-queensdb-Voyager</string>
+                    <string>2586134</string>
+                    <string>(OCoLC)ocm60590022</string>
+                    <string>(EXLNZ-01OCUL_NETWORK)991774366405151</string>
+                </network_number>
+                <org_fields>
+                    <customer_id>5150</customer_id>
+                    <institution_id>5154</institution_id>
+                    <library_id>2213library_id60870005154</library_id>
+                    <library_unit_id></library_unit_id>
+                </org_fields>
+                <pages></pages>
+                <pattern_linking_number></pattern_linking_number>
+                <pattern_type></pattern_type>
+                <permanent_call_number>PZ7.I762 P36 2006</permanent_call_number>
+                <permanent_call_number_type>0</permanent_call_number_type>
+                <permanent_library_id>permanent_library_id</permanent_library_id>
+                <permanent_location_code>book</permanent_location_code>
+                <pieces>1</pieces>
+                <place_of_publication>New York :</place_of_publication>
+                <line_id></line_id>
+                <process_id>4429865670005154</process_id>
+                <process_type>LOAN</process_type>
+                <provenance></provenance>
+                <public_note></public_note>
+                <publication_place>New York :</publication_place>
+                <publication_year>2006.</publication_year>
+                <publisher>Scholastic Press,</publisher>
+                <publisher_const>Scholastic Press</publisher_const>
+                <real_item_policy>BOOK</real_item_policy>
+                <receive_number></receive_number>
+                <row_call_number>$$h PZ7.I762 $$i P36 2006 </row_call_number>
+                <series_volume></series_volume>
+                <statistics_note_1></statistics_note_1>
+                <statistics_note_2></statistics_note_2>
+                <statistics_note_3></statistics_note_3>
+                <storage_location_d></storage_location_d>
+                <suppressed>false</suppressed>
+                <temporary_call_number></temporary_call_number>
+                <temporary_call_number_type></temporary_call_number_type>
+                <temporary_item_policy></temporary_item_policy>
+                <temporary_library></temporary_library>
+                <temporary_location_code></temporary_location_code>
+                <temporary_physical_location_in_use>false</temporary_physical_location_in_use>
+                <title>Pancakes for supper! /</title>
+                <title_abcnph>Pancakes for supper! / Anne Isaacs ; illustrated by Mark Teague.</title_abcnph>
+                <tmp_number_source></tmp_number_source>
+                <version_date>18 May 2021</version_date>
+                <weeding_date></weeding_date>
+                <weeding_number></weeding_number>
+            </physical_item>
+            <policy_list>
+                <ful_policy_wrapper>
+                    <active></active>
+                    <additional_data></additional_data>
+                    <application></application>
+                    <create_date>07 February 2021</create_date>
+                    <create_date_dummy>
+                        <calendar>07 February 2021</calendar>
+                        <calendar_ui></calendar_ui>
+                        <day>7</day>
+                        <day_ui></day_ui>
+                        <default_value_for_with_validation>1612684976000</default_value_for_with_validation>
+                        <full_date>2021-02-07</full_date>
+                        <full_date_from_ui></full_date_from_ui>
+                        <input_date_tag_format>07.02.2021</input_date_tag_format>
+                        <month>1</month>
+                        <month_ui></month_ui>
+                        <date>false</date>
+                        <year>2021</year>
+                        <year_ui></year_ui>
+                    </create_date_dummy>
+                    <creator>SYSTEM</creator>
+                    <customer_id>0</customer_id>
+                    <definition_level>Generic</definition_level>
+                    <entity_action></entity_action>
+                    <id>2127011</id>
+                    <index_xml></index_xml>
+                    <institution_id>11</institution_id>
+                    <key>No limit_11</key>
+                    <library_id></library_id>
+                    <library_unit_id></library_unit_id>
+                    <modification_date>07 February 2021</modification_date>
+                    <modification_date_dummy>
+                        <calendar>07 February 2021</calendar>
+                        <calendar_ui></calendar_ui>
+                        <day>7</day>
+                        <day_ui></day_ui>
+                        <default_value_for_with_validation>1612684976000</default_value_for_with_validation>
+                        <full_date>2021-02-07</full_date>
+                        <full_date_from_ui></full_date_from_ui>
+                        <input_date_tag_format>07.02.2021</input_date_tag_format>
+                        <month>1</month>
+                        <month_ui></month_ui>
+                        <date>false</date>
+                        <year>2021</year>
+                        <year_ui></year_ui>
+                    </modification_date_dummy>
+                    <modified_by></modified_by>
+                    <org_fields>
+                        <customer_id>0</customer_id>
+                        <institution_id>11</institution_id>
+                        <library_id></library_id>
+                        <library_unit_id></library_unit_id>
+                    </org_fields>
+                    <organization_unit_id>11</organization_unit_id>
+                    <originating_d></originating_d>
+                    <policy_constant>None</policy_constant>
+                    <policy_description>Do not limit the time in which renewal is allowed</policy_description>
+                    <policy_is_default_for_this_level></policy_is_default_for_this_level>
+                    <policy_is_default_value></policy_is_default_value>
+                    <policy_name>No limit</policy_name>
+                    <policy_type>TimeFrameRenewalAllowed</policy_type>
+                    <special_entity>
+                        <active></active>
+                        <additional_data></additional_data>
+                        <create_date>07 February 2021</create_date>
+                        <definition_level>Generic</definition_level>
+                        <entity_action></entity_action>
+                        <index_xml></index_xml>
+                        <library_id></library_id>
+                        <library_unit_id></library_unit_id>
+                        <originating_d></originating_d>
+                        <policy_constant>None</policy_constant>
+                        <policy_description>Do not limit the time in which renewal is allowed</policy_description>
+                        <policy_is_default_for_this_level></policy_is_default_for_this_level>
+                        <policy_is_default_value></policy_is_default_value>
+                        <policy_name>No limit</policy_name>
+                        <policy_type>TimeFrameRenewalAllowed</policy_type>
+                        <unit_of_measurement></unit_of_measurement>
+                        <value></value>
+                    </special_entity>
+                    <translated_columns></translated_columns>
+                    <translated_fields>
+                        <map_entry>POLICY_NAME<value>
+                            <field>POLICY_NAME</field>
+                            <translations></translations>
+                            <translations_object_value></translations_object_value>
+                        </value>
+POLICY_NAME</map_entry>
+                    <map_entry>POLICY_DESCRIPTION<value>
+                        <field>POLICY_DESCRIPTION</field>
+                        <translations></translations>
+                        <translations_object_value></translations_object_value>
+                    </value>
+POLICY_DESCRIPTION</map_entry>
+            </translated_fields>
+            <unit_of_measurement></unit_of_measurement>
+            <value></value>
+        </ful_policy_wrapper>
+        <ful_policy_wrapper>
+            <active></active>
+            <additional_data></additional_data>
+            <application></application>
+            <create_date>27 July 2010</create_date>
+            <create_date_dummy>
+                <calendar>27 July 2010</calendar>
+                <calendar_ui></calendar_ui>
+                <day>27</day>
+                <day_ui></day_ui>
+                <default_value_for_with_validation>1280209844255</default_value_for_with_validation>
+                <full_date>2010-07-27</full_date>
+                <full_date_from_ui></full_date_from_ui>
+                <input_date_tag_format>27.07.2010</input_date_tag_format>
+                <month>6</month>
+                <month_ui></month_ui>
+                <date>false</date>
+                <year>2010</year>
+                <year_ui></year_ui>
+            </create_date_dummy>
+            <creator>Ex Libris</creator>
+            <customer_id>0</customer_id>
+            <definition_level>Generic</definition_level>
+            <entity_action></entity_action>
+            <id>2014011</id>
+            <index_xml></index_xml>
+            <institution_id>11</institution_id>
+            <key>Loanable_11</key>
+            <library_id></library_id>
+            <library_unit_id></library_unit_id>
+            <modification_date>27 July 2010</modification_date>
+            <modification_date_dummy>
+                <calendar>27 July 2010</calendar>
+                <calendar_ui></calendar_ui>
+                <day>27</day>
+                <day_ui></day_ui>
+                <default_value_for_with_validation>1280209877746</default_value_for_with_validation>
+                <full_date>2010-07-27</full_date>
+                <full_date_from_ui></full_date_from_ui>
+                <input_date_tag_format>27.07.2010</input_date_tag_format>
+                <month>6</month>
+                <month_ui></month_ui>
+                <date>false</date>
+                <year>2010</year>
+                <year_ui></year_ui>
+            </modification_date_dummy>
+            <modified_by>John</modified_by>
+            <org_fields>
+                <customer_id>0</customer_id>
+                <institution_id>11</institution_id>
+                <library_id></library_id>
+                <library_unit_id></library_unit_id>
+            </org_fields>
+            <organization_unit_id>11</organization_unit_id>
+            <originating_d></originating_d>
+            <policy_constant>TRUE</policy_constant>
+            <policy_description>Loanable</policy_description>
+            <policy_is_default_for_this_level></policy_is_default_for_this_level>
+            <policy_is_default_value></policy_is_default_value>
+            <policy_name>Loanable</policy_name>
+            <policy_type>Loanability</policy_type>
+            <special_entity>
+                <active></active>
+                <additional_data></additional_data>
+                <create_date>27 July 2010</create_date>
+                <definition_level>Generic</definition_level>
+                <entity_action></entity_action>
+                <index_xml></index_xml>
+                <library_id></library_id>
+                <library_unit_id></library_unit_id>
+                <originating_d></originating_d>
+                <policy_constant>TRUE</policy_constant>
+                <policy_description>Loanable</policy_description>
+                <policy_is_default_for_this_level></policy_is_default_for_this_level>
+                <policy_is_default_value></policy_is_default_value>
+                <policy_name>Loanable</policy_name>
+                <policy_type>Loanability</policy_type>
+                <unit_of_measurement></unit_of_measurement>
+                <value></value>
+            </special_entity>
+            <translated_columns></translated_columns>
+            <translated_fields>
+                <map_entry>POLICY_NAME<value>
+                    <field>POLICY_NAME</field>
+                    <translations></translations>
+                    <translations_object_value></translations_object_value>
+                </value>
+POLICY_NAME</map_entry>
+            <map_entry>POLICY_DESCRIPTION<value>
+                <field>POLICY_DESCRIPTION</field>
+                <translations></translations>
+                <translations_object_value></translations_object_value>
+            </value>
+POLICY_DESCRIPTION</map_entry>
+    </translated_fields>
+    <unit_of_measurement></unit_of_measurement>
+    <value></value>
+</ful_policy_wrapper>
+<ful_policy_wrapper>
+    <active></active>
+    <additional_data></additional_data>
+    <application></application>
+    <create_date>27 July 2010</create_date>
+    <create_date_dummy>
+        <calendar>27 July 2010</calendar>
+        <calendar_ui></calendar_ui>
+        <day>27</day>
+        <day_ui></day_ui>
+        <default_value_for_with_validation>1280209919156</default_value_for_with_validation>
+        <full_date>2010-07-27</full_date>
+        <full_date_from_ui></full_date_from_ui>
+        <input_date_tag_format>27.07.2010</input_date_tag_format>
+        <month>6</month>
+        <month_ui></month_ui>
+        <date>false</date>
+        <year>2010</year>
+        <year_ui></year_ui>
+    </create_date_dummy>
+    <creator>Ex Libris</creator>
+    <customer_id>0</customer_id>
+    <definition_level>Generic</definition_level>
+    <entity_action></entity_action>
+    <id>2034011</id>
+    <index_xml></index_xml>
+    <institution_id>11</institution_id>
+    <key>Recall Allowed_11</key>
+    <library_id></library_id>
+    <library_unit_id></library_unit_id>
+    <modification_date>27 July 2010</modification_date>
+    <modification_date_dummy>
+        <calendar>27 July 2010</calendar>
+        <calendar_ui></calendar_ui>
+        <day>27</day>
+        <day_ui></day_ui>
+        <default_value_for_with_validation>1280209936785</default_value_for_with_validation>
+        <full_date>2010-07-27</full_date>
+        <full_date_from_ui></full_date_from_ui>
+        <input_date_tag_format>27.07.2010</input_date_tag_format>
+        <month>6</month>
+        <month_ui></month_ui>
+        <date>false</date>
+        <year>2010</year>
+        <year_ui></year_ui>
+    </modification_date_dummy>
+    <modified_by>John</modified_by>
+    <org_fields>
+        <customer_id>0</customer_id>
+        <institution_id>11</institution_id>
+        <library_id></library_id>
+        <library_unit_id></library_unit_id>
+    </org_fields>
+    <organization_unit_id>11</organization_unit_id>
+    <originating_d></originating_d>
+    <policy_constant>TRUE</policy_constant>
+    <policy_description>Recall is possible</policy_description>
+    <policy_is_default_for_this_level></policy_is_default_for_this_level>
+    <policy_is_default_value></policy_is_default_value>
+    <policy_name>Recall Allowed</policy_name>
+    <policy_type>Recallability</policy_type>
+    <special_entity>
+        <active></active>
+        <additional_data></additional_data>
+        <create_date>27 July 2010</create_date>
+        <definition_level>Generic</definition_level>
+        <entity_action></entity_action>
+        <index_xml></index_xml>
+        <library_id></library_id>
+        <library_unit_id></library_unit_id>
+        <originating_d></originating_d>
+        <policy_constant>TRUE</policy_constant>
+        <policy_description>Recall is possible</policy_description>
+        <policy_is_default_for_this_level></policy_is_default_for_this_level>
+        <policy_is_default_value></policy_is_default_value>
+        <policy_name>Recall Allowed</policy_name>
+        <policy_type>Recallability</policy_type>
+        <unit_of_measurement></unit_of_measurement>
+        <value></value>
+    </special_entity>
+    <translated_columns></translated_columns>
+    <translated_fields>
+        <map_entry>POLICY_NAME<value>
+            <field>POLICY_NAME</field>
+            <translations></translations>
+            <translations_object_value></translations_object_value>
+        </value>
+POLICY_NAME</map_entry>
+    <map_entry>POLICY_DESCRIPTION<value>
+        <field>POLICY_DESCRIPTION</field>
+        <translations></translations>
+        <translations_object_value></translations_object_value>
+    </value>
+POLICY_DESCRIPTION</map_entry>
+</translated_fields>
+<unit_of_measurement></unit_of_measurement>
+<value></value>
+</ful_policy_wrapper>
+<ful_policy_wrapper>
+<active></active>
+<additional_data></additional_data>
+<application></application>
+<create_date>31 May 2019</create_date>
+<create_date_dummy>
+<calendar>31 May 2019</calendar>
+<calendar_ui></calendar_ui>
+<day>31</day>
+<day_ui></day_ui>
+<default_value_for_with_validation>1559335620308</default_value_for_with_validation>
+<full_date>2019-05-31</full_date>
+<full_date_from_ui></full_date_from_ui>
+<input_date_tag_format>31.05.2019</input_date_tag_format>
+<month>4</month>
+<month_ui></month_ui>
+<date>false</date>
+<year>2019</year>
+<year_ui></year_ui>
+</create_date_dummy>
+<creator>exl_impl</creator>
+<customer_id>5150</customer_id>
+<definition_level>Institution</definition_level>
+<entity_action></entity_action>
+<id>1069974770005154</id>
+<index_xml></index_xml>
+<institution_id>5154</institution_id>
+<key>120 Days Loan_5154</key>
+<library_id></library_id>
+<library_unit_id></library_unit_id>
+<modification_date>31 May 2019</modification_date>
+<modification_date_dummy>
+<calendar>31 May 2019</calendar>
+<calendar_ui></calendar_ui>
+<day>31</day>
+<day_ui></day_ui>
+<default_value_for_with_validation>1559335620440</default_value_for_with_validation>
+<full_date>2019-05-31</full_date>
+<full_date_from_ui></full_date_from_ui>
+<input_date_tag_format>31.05.2019</input_date_tag_format>
+<month>4</month>
+<month_ui></month_ui>
+<date>false</date>
+<year>2019</year>
+<year_ui></year_ui>
+</modification_date_dummy>
+<modified_by>exl_impl</modified_by>
+<org_fields>
+<customer_id>5150</customer_id>
+<institution_id>5154</institution_id>
+<library_id></library_id>
+<library_unit_id></library_unit_id>
+</org_fields>
+<organization_unit_id>5154</organization_unit_id>
+<originating_d></originating_d>
+<policy_constant></policy_constant>
+<policy_description>120 Days Loan</policy_description>
+<policy_is_default_for_this_level></policy_is_default_for_this_level>
+<policy_is_default_value></policy_is_default_value>
+<policy_name>120 Days Loan</policy_name>
+<policy_type>RegularDueDate</policy_type>
+<special_entity>
+<active></active>
+<additional_data></additional_data>
+<create_date>31 May 2019</create_date>
+<definition_level>Institution</definition_level>
+<entity_action></entity_action>
+<index_xml></index_xml>
+<library_id></library_id>
+<library_unit_id></library_unit_id>
+<originating_d></originating_d>
+<policy_constant></policy_constant>
+<policy_description>120 Days Loan</policy_description>
+<policy_is_default_for_this_level></policy_is_default_for_this_level>
+<policy_is_default_value></policy_is_default_value>
+<policy_name>120 Days Loan</policy_name>
+<policy_type>RegularDueDate</policy_type>
+<unit_of_measurement>CALDAY</unit_of_measurement>
+<value>120</value>
+</special_entity>
+<translated_columns></translated_columns>
+<translated_fields>
+<map_entry>POLICY_NAME<value>
+    <field>POLICY_NAME</field>
+    <translations></translations>
+    <translations_object_value></translations_object_value>
+</value>
+POLICY_NAME</map_entry>
+<map_entry>POLICY_DESCRIPTION<value>
+<field>POLICY_DESCRIPTION</field>
+<translations></translations>
+<translations_object_value></translations_object_value>
+</value>
+POLICY_DESCRIPTION</map_entry>
+</translated_fields>
+<unit_of_measurement>CALDAY</unit_of_measurement>
+<value>120</value>
+</ful_policy_wrapper>
+<ful_policy_wrapper>
+<active></active>
+<additional_data></additional_data>
+<application></application>
+<create_date>23 September 2019</create_date>
+<create_date_dummy>
+<calendar>23 September 2019</calendar>
+<calendar_ui></calendar_ui>
+<day>23</day>
+<day_ui></day_ui>
+<default_value_for_with_validation>1569260831934</default_value_for_with_validation>
+<full_date>2019-09-23</full_date>
+<full_date_from_ui></full_date_from_ui>
+<input_date_tag_format>23.09.2019</input_date_tag_format>
+<month>8</month>
+<month_ui></month_ui>
+<date>false</date>
+<year>2019</year>
+<year_ui></year_ui>
+</create_date_dummy>
+<creator>Distribute Network Zone fulfillment changes to member institutions</creator>
+<customer_id>5150</customer_id>
+<definition_level>Network</definition_level>
+<entity_action></entity_action>
+<id>1246563800005154</id>
+<index_xml></index_xml>
+<institution_id>5154</institution_id>
+<key>14 day requested item due date_5154</key>
+<library_id></library_id>
+<library_unit_id></library_unit_id>
+<modification_date>23 September 2019</modification_date>
+<modification_date_dummy>
+<calendar>23 September 2019</calendar>
+<calendar_ui></calendar_ui>
+<day>23</day>
+<day_ui></day_ui>
+<default_value_for_with_validation>1569260831934</default_value_for_with_validation>
+<full_date>2019-09-23</full_date>
+<full_date_from_ui></full_date_from_ui>
+<input_date_tag_format>23.09.2019</input_date_tag_format>
+<month>8</month>
+<month_ui></month_ui>
+<date>false</date>
+<year>2019</year>
+<year_ui></year_ui>
+</modification_date_dummy>
+<modified_by>Distribute Network Zone fulfillment changes to member institutions</modified_by>
+<org_fields>
+<customer_id>5150</customer_id>
+<institution_id>5154</institution_id>
+<library_id></library_id>
+<library_unit_id></library_unit_id>
+</org_fields>
+<organization_unit_id>5154</organization_unit_id>
+<originating_d>8215232700005151</originating_d>
+<policy_constant></policy_constant>
+<policy_description></policy_description>
+<policy_is_default_for_this_level></policy_is_default_for_this_level>
+<policy_is_default_value></policy_is_default_value>
+<policy_name>14 day requested item due date</policy_name>
+<policy_type>RequestedItemDueDate</policy_type>
+<special_entity>
+<active></active>
+<additional_data></additional_data>
+<create_date>23 September 2019</create_date>
+<definition_level>Network</definition_level>
+<entity_action></entity_action>
+<index_xml></index_xml>
+<library_id></library_id>
+<library_unit_id></library_unit_id>
+<originating_d>8215232700005151</originating_d>
+<policy_constant></policy_constant>
+<policy_description></policy_description>
+<policy_is_default_for_this_level></policy_is_default_for_this_level>
+<policy_is_default_value></policy_is_default_value>
+<policy_name>14 day requested item due date</policy_name>
+<policy_type>RequestedItemDueDate</policy_type>
+<unit_of_measurement>CALDAY</unit_of_measurement>
+<value>14</value>
+</special_entity>
+<translated_columns></translated_columns>
+<translated_fields>
+<map_entry>POLICY_NAME<value>
+<field>POLICY_NAME</field>
+<translations></translations>
+<translations_object_value></translations_object_value>
+</value>
+POLICY_NAME</map_entry>
+<map_entry>POLICY_DESCRIPTION<value>
+<field>POLICY_DESCRIPTION</field>
+<translations></translations>
+<translations_object_value></translations_object_value>
+</value>
+POLICY_DESCRIPTION</map_entry>
+</translated_fields>
+<unit_of_measurement>CALDAY</unit_of_measurement>
+<value>14</value>
+</ful_policy_wrapper>
+<ful_policy_wrapper>
+<active></active>
+<additional_data></additional_data>
+<application></application>
+<create_date>31 May 2019</create_date>
+<create_date_dummy>
+<calendar>31 May 2019</calendar>
+<calendar_ui></calendar_ui>
+<day>31</day>
+<day_ui></day_ui>
+<default_value_for_with_validation>1559335620314</default_value_for_with_validation>
+<full_date>2019-05-31</full_date>
+<full_date_from_ui></full_date_from_ui>
+<input_date_tag_format>31.05.2019</input_date_tag_format>
+<month>4</month>
+<month_ui></month_ui>
+<date>false</date>
+<year>2019</year>
+<year_ui></year_ui>
+</create_date_dummy>
+<creator>exl_impl</creator>
+<customer_id>5150</customer_id>
+<definition_level>Institution</definition_level>
+<entity_action></entity_action>
+<id>1069974870005154</id>
+<index_xml></index_xml>
+<institution_id>5154</institution_id>
+<key>7 Days Recall Period_5154</key>
+<library_id></library_id>
+<library_unit_id></library_unit_id>
+<modification_date>31 May 2019</modification_date>
+<modification_date_dummy>
+<calendar>31 May 2019</calendar>
+<calendar_ui></calendar_ui>
+<day>31</day>
+<day_ui></day_ui>
+<default_value_for_with_validation>1559335620506</default_value_for_with_validation>
+<full_date>2019-05-31</full_date>
+<full_date_from_ui></full_date_from_ui>
+<input_date_tag_format>31.05.2019</input_date_tag_format>
+<month>4</month>
+<month_ui></month_ui>
+<date>false</date>
+<year>2019</year>
+<year_ui></year_ui>
+</modification_date_dummy>
+<modified_by>exl_impl</modified_by>
+<org_fields>
+<customer_id>5150</customer_id>
+<institution_id>5154</institution_id>
+<library_id></library_id>
+<library_unit_id></library_unit_id>
+</org_fields>
+<organization_unit_id>5154</organization_unit_id>
+<originating_d></originating_d>
+<policy_constant></policy_constant>
+<policy_description>7 Days Recall Period</policy_description>
+<policy_is_default_for_this_level></policy_is_default_for_this_level>
+<policy_is_default_value></policy_is_default_value>
+<policy_name>7 Days Recall Period</policy_name>
+<policy_type>RecallDueDate</policy_type>
+<special_entity>
+<active></active>
+<additional_data></additional_data>
+<create_date>31 May 2019</create_date>
+<definition_level>Institution</definition_level>
+<entity_action></entity_action>
+<index_xml></index_xml>
+<library_id></library_id>
+<library_unit_id></library_unit_id>
+<originating_d></originating_d>
+<policy_constant></policy_constant>
+<policy_description>7 Days Recall Period</policy_description>
+<policy_is_default_for_this_level></policy_is_default_for_this_level>
+<policy_is_default_value></policy_is_default_value>
+<policy_name>7 Days Recall Period</policy_name>
+<policy_type>RecallDueDate</policy_type>
+<unit_of_measurement>CALDAY</unit_of_measurement>
+<value>7</value>
+</special_entity>
+<translated_columns></translated_columns>
+<translated_fields>
+<map_entry>POLICY_NAME<value>
+<field>POLICY_NAME</field>
+<translations></translations>
+<translations_object_value></translations_object_value>
+</value>
+POLICY_NAME</map_entry>
+<map_entry>POLICY_DESCRIPTION<value>
+<field>POLICY_DESCRIPTION</field>
+<translations></translations>
+<translations_object_value></translations_object_value>
+</value>
+POLICY_DESCRIPTION</map_entry>
+</translated_fields>
+<unit_of_measurement>CALDAY</unit_of_measurement>
+<value>7</value>
+</ful_policy_wrapper>
+<ful_policy_wrapper>
+<active></active>
+<additional_data></additional_data>
+<application></application>
+<create_date>31 May 2019</create_date>
+<create_date_dummy>
+<calendar>31 May 2019</calendar>
+<calendar_ui></calendar_ui>
+<day>31</day>
+<day_ui></day_ui>
+<default_value_for_with_validation>1559335620318</default_value_for_with_validation>
+<full_date>2019-05-31</full_date>
+<full_date_from_ui></full_date_from_ui>
+<input_date_tag_format>31.05.2019</input_date_tag_format>
+<month>4</month>
+<month_ui></month_ui>
+<date>false</date>
+<year>2019</year>
+<year_ui></year_ui>
+</create_date_dummy>
+<creator>exl_impl</creator>
+<customer_id>5150</customer_id>
+<definition_level>Institution</definition_level>
+<entity_action></entity_action>
+<id>1069975170005154</id>
+<index_xml></index_xml>
+<institution_id>5154</institution_id>
+<key>No Renew Fee_5154</key>
+<library_id></library_id>
+<library_unit_id></library_unit_id>
+<modification_date>31 May 2019</modification_date>
+<modification_date_dummy>
+<calendar>31 May 2019</calendar>
+<calendar_ui></calendar_ui>
+<day>31</day>
+<day_ui></day_ui>
+<default_value_for_with_validation>1559335620716</default_value_for_with_validation>
+<full_date>2019-05-31</full_date>
+<full_date_from_ui></full_date_from_ui>
+<input_date_tag_format>31.05.2019</input_date_tag_format>
+<month>4</month>
+<month_ui></month_ui>
+<date>false</date>
+<year>2019</year>
+<year_ui></year_ui>
+</modification_date_dummy>
+<modified_by>exl_impl</modified_by>
+<org_fields>
+<customer_id>5150</customer_id>
+<institution_id>5154</institution_id>
+<library_id></library_id>
+<library_unit_id></library_unit_id>
+</org_fields>
+<organization_unit_id>5154</organization_unit_id>
+<originating_d></originating_d>
+<policy_constant></policy_constant>
+<policy_description>No Renew Fee</policy_description>
+<policy_is_default_for_this_level></policy_is_default_for_this_level>
+<policy_is_default_value></policy_is_default_value>
+<policy_name>No Renew Fee</policy_name>
+<policy_type>RenewFee</policy_type>
+<special_entity>
+<active></active>
+<additional_data></additional_data>
+<create_date>31 May 2019</create_date>
+<definition_level>Institution</definition_level>
+<entity_action></entity_action>
+<index_xml></index_xml>
+<library_id></library_id>
+<library_unit_id></library_unit_id>
+<originating_d></originating_d>
+<policy_constant></policy_constant>
+<policy_description>No Renew Fee</policy_description>
+<policy_is_default_for_this_level></policy_is_default_for_this_level>
+<policy_is_default_value></policy_is_default_value>
+<policy_name>No Renew Fee</policy_name>
+<policy_type>RenewFee</policy_type>
+<unit_of_measurement></unit_of_measurement>
+<value>0.00</value>
+</special_entity>
+<translated_columns></translated_columns>
+<translated_fields>
+<map_entry>POLICY_NAME<value>
+<field>POLICY_NAME</field>
+<translations></translations>
+<translations_object_value></translations_object_value>
+</value>
+POLICY_NAME</map_entry>
+<map_entry>POLICY_DESCRIPTION<value>
+<field>POLICY_DESCRIPTION</field>
+<translations></translations>
+<translations_object_value></translations_object_value>
+</value>
+POLICY_DESCRIPTION</map_entry>
+</translated_fields>
+<unit_of_measurement></unit_of_measurement>
+<value>0.00</value>
+</ful_policy_wrapper>
+<ful_policy_wrapper>
+<active></active>
+<additional_data></additional_data>
+<application></application>
+<create_date>23 September 2019</create_date>
+<create_date_dummy>
+<calendar>23 September 2019</calendar>
+<calendar_ui></calendar_ui>
+<day>23</day>
+<day_ui></day_ui>
+<default_value_for_with_validation>1569260831879</default_value_for_with_validation>
+<full_date>2019-09-23</full_date>
+<full_date_from_ui></full_date_from_ui>
+<input_date_tag_format>23.09.2019</input_date_tag_format>
+<month>8</month>
+<month_ui></month_ui>
+<date>false</date>
+<year>2019</year>
+<year_ui></year_ui>
+</create_date_dummy>
+<creator>Distribute Network Zone fulfillment changes to member institutions</creator>
+<customer_id>5150</customer_id>
+<definition_level>Network</definition_level>
+<entity_action></entity_action>
+<id>1246563600005154</id>
+<index_xml></index_xml>
+<institution_id>5154</institution_id>
+<key>$25 lost item fine_5154</key>
+<library_id></library_id>
+<library_unit_id></library_unit_id>
+<modification_date>24 October 2019</modification_date>
+<modification_date_dummy>
+<calendar>24 October 2019</calendar>
+<calendar_ui></calendar_ui>
+<day>24</day>
+<day_ui></day_ui>
+<default_value_for_with_validation>1571923447183</default_value_for_with_validation>
+<full_date>2019-10-24</full_date>
+<full_date_from_ui></full_date_from_ui>
+<input_date_tag_format>24.10.2019</input_date_tag_format>
+<month>9</month>
+<month_ui></month_ui>
+<date>false</date>
+<year>2019</year>
+<year_ui></year_ui>
+</modification_date_dummy>
+<modified_by>Distribute Network Zone fulfillment changes to member institutions</modified_by>
+<org_fields>
+<customer_id>5150</customer_id>
+<institution_id>5154</institution_id>
+<library_id></library_id>
+<library_unit_id></library_unit_id>
+</org_fields>
+<organization_unit_id>5154</organization_unit_id>
+<originating_d>8203646170005151</originating_d>
+<policy_constant></policy_constant>
+<policy_description></policy_description>
+<policy_is_default_for_this_level></policy_is_default_for_this_level>
+<policy_is_default_value></policy_is_default_value>
+<policy_name>$25 lost item fine</policy_name>
+<policy_type>LostItemFine</policy_type>
+<special_entity>
+<active></active>
+<additional_data></additional_data>
+<create_date>23 September 2019</create_date>
+<definition_level>Network</definition_level>
+<entity_action></entity_action>
+<index_xml></index_xml>
+<library_id></library_id>
+<library_unit_id></library_unit_id>
+<originating_d>8203646170005151</originating_d>
+<policy_constant></policy_constant>
+<policy_description></policy_description>
+<policy_is_default_for_this_level></policy_is_default_for_this_level>
+<policy_is_default_value></policy_is_default_value>
+<policy_name>$25 lost item fine</policy_name>
+<policy_type>LostItemFine</policy_type>
+<unit_of_measurement></unit_of_measurement>
+<value>25.0</value>
+</special_entity>
+<translated_columns></translated_columns>
+<translated_fields>
+<map_entry>POLICY_NAME<value>
+<field>POLICY_NAME</field>
+<translations></translations>
+<translations_object_value></translations_object_value>
+</value>
+POLICY_NAME</map_entry>
+<map_entry>POLICY_DESCRIPTION<value>
+<field>POLICY_DESCRIPTION</field>
+<translations></translations>
+<translations_object_value></translations_object_value>
+</value>
+POLICY_DESCRIPTION</map_entry>
+</translated_fields>
+<unit_of_measurement></unit_of_measurement>
+<value>25.0</value>
+</ful_policy_wrapper>
+<ful_policy_wrapper>
+<active></active>
+<additional_data></additional_data>
+<application></application>
+<create_date>23 September 2019</create_date>
+<create_date_dummy>
+<calendar>23 September 2019</calendar>
+<calendar_ui></calendar_ui>
+<day>23</day>
+<day_ui></day_ui>
+<default_value_for_with_validation>1569260831976</default_value_for_with_validation>
+<full_date>2019-09-23</full_date>
+<full_date_from_ui></full_date_from_ui>
+<input_date_tag_format>23.09.2019</input_date_tag_format>
+<month>8</month>
+<month_ui></month_ui>
+<date>false</date>
+<year>2019</year>
+<year_ui></year_ui>
+</create_date_dummy>
+<creator>Distribute Network Zone fulfillment changes to member institutions</creator>
+<customer_id>5150</customer_id>
+<definition_level>Network</definition_level>
+<entity_action></entity_action>
+<id>1246563950005154</id>
+<index_xml></index_xml>
+<institution_id>5154</institution_id>
+<key>$125 lost item replacement charge_5154</key>
+<library_id></library_id>
+<library_unit_id></library_unit_id>
+<modification_date>23 September 2019</modification_date>
+<modification_date_dummy>
+<calendar>23 September 2019</calendar>
+<calendar_ui></calendar_ui>
+<day>23</day>
+<day_ui></day_ui>
+<default_value_for_with_validation>1569260831976</default_value_for_with_validation>
+<full_date>2019-09-23</full_date>
+<full_date_from_ui></full_date_from_ui>
+<input_date_tag_format>23.09.2019</input_date_tag_format>
+<month>8</month>
+<month_ui></month_ui>
+<date>false</date>
+<year>2019</year>
+<year_ui></year_ui>
+</modification_date_dummy>
+<modified_by>Distribute Network Zone fulfillment changes to member institutions</modified_by>
+<org_fields>
+<customer_id>5150</customer_id>
+<institution_id>5154</institution_id>
+<library_id></library_id>
+<library_unit_id></library_unit_id>
+</org_fields>
+<organization_unit_id>5154</organization_unit_id>
+<originating_d>8203646320005151</originating_d>
+<policy_constant></policy_constant>
+<policy_description></policy_description>
+<policy_is_default_for_this_level></policy_is_default_for_this_level>
+<policy_is_default_value></policy_is_default_value>
+<policy_name>$125 lost item replacement charge</policy_name>
+<policy_type>LostItemReplacementFee</policy_type>
+<special_entity>
+<active></active>
+<additional_data></additional_data>
+<create_date>23 September 2019</create_date>
+<definition_level>Network</definition_level>
+<entity_action></entity_action>
+<index_xml></index_xml>
+<library_id></library_id>
+<library_unit_id></library_unit_id>
+<originating_d>8203646320005151</originating_d>
+<policy_constant></policy_constant>
+<policy_description></policy_description>
+<policy_is_default_for_this_level></policy_is_default_for_this_level>
+<policy_is_default_value></policy_is_default_value>
+<policy_name>$125 lost item replacement charge</policy_name>
+<policy_type>LostItemReplacementFee</policy_type>
+<unit_of_measurement></unit_of_measurement>
+<value>125.0</value>
+</special_entity>
+<translated_columns></translated_columns>
+<translated_fields>
+<map_entry>POLICY_NAME<value>
+<field>POLICY_NAME</field>
+<translations></translations>
+<translations_object_value></translations_object_value>
+</value>
+POLICY_NAME</map_entry>
+<map_entry>POLICY_DESCRIPTION<value>
+<field>POLICY_DESCRIPTION</field>
+<translations></translations>
+<translations_object_value></translations_object_value>
+</value>
+POLICY_DESCRIPTION</map_entry>
+</translated_fields>
+<unit_of_measurement></unit_of_measurement>
+<value>125.0</value>
+</ful_policy_wrapper>
+<ful_policy_wrapper>
+<active></active>
+<additional_data></additional_data>
+<application></application>
+<create_date>13 July 2011</create_date>
+<create_date_dummy>
+<calendar>13 July 2011</calendar>
+<calendar_ui></calendar_ui>
+<day>13</day>
+<day_ui></day_ui>
+<default_value_for_with_validation>1310564955000</default_value_for_with_validation>
+<full_date>2011-07-13</full_date>
+<full_date_from_ui></full_date_from_ui>
+<input_date_tag_format>13.07.2011</input_date_tag_format>
+<month>6</month>
+<month_ui></month_ui>
+<date>false</date>
+<year>2011</year>
+<year_ui></year_ui>
+</create_date_dummy>
+<creator>SYSTEM</creator>
+<customer_id>0</customer_id>
+<definition_level>Generic</definition_level>
+<entity_action></entity_action>
+<id>2018011</id>
+<index_xml></index_xml>
+<institution_id>11</institution_id>
+<key>100 Percent Lost Item Refund_11</key>
+<library_id></library_id>
+<library_unit_id></library_unit_id>
+<modification_date></modification_date>
+<modification_date_dummy>
+<calendar>31 December 1969</calendar>
+<calendar_ui></calendar_ui>
+<day>1</day>
+<day_ui></day_ui>
+<default_value_for_with_validation>0</default_value_for_with_validation>
+<full_date></full_date>
+<full_date_from_ui></full_date_from_ui>
+<input_date_tag_format>00.00.0</input_date_tag_format>
+<month>0</month>
+<month_ui></month_ui>
+<date>true</date>
+<year>1970</year>
+<year_ui></year_ui>
+</modification_date_dummy>
+<modified_by></modified_by>
+<org_fields>
+<customer_id>0</customer_id>
+<institution_id>11</institution_id>
+<library_id></library_id>
+<library_unit_id></library_unit_id>
+</org_fields>
+<organization_unit_id>11</organization_unit_id>
+<originating_d></originating_d>
+<policy_constant></policy_constant>
+<policy_description>Default lost item replacement refund</policy_description>
+<policy_is_default_for_this_level></policy_is_default_for_this_level>
+<policy_is_default_value></policy_is_default_value>
+<policy_name>100 Percent Lost Item Refund</policy_name>
+<policy_type>LostItemReplacementRefund</policy_type>
+<special_entity>
+<active></active>
+<additional_data></additional_data>
+<create_date>13 July 2011</create_date>
+<definition_level>Generic</definition_level>
+<entity_action></entity_action>
+<index_xml></index_xml>
+<library_id></library_id>
+<library_unit_id></library_unit_id>
+<originating_d></originating_d>
+<policy_constant></policy_constant>
+<policy_description>Default lost item replacement refund</policy_description>
+<policy_is_default_for_this_level></policy_is_default_for_this_level>
+<policy_is_default_value></policy_is_default_value>
+<policy_name>100 Percent Lost Item Refund</policy_name>
+<policy_type>LostItemReplacementRefund</policy_type>
+<unit_of_measurement></unit_of_measurement>
+<value>100</value>
+</special_entity>
+<translated_columns></translated_columns>
+<translated_fields>
+<map_entry>POLICY_NAME<value>
+<field>POLICY_NAME</field>
+<translations></translations>
+<translations_object_value></translations_object_value>
+</value>
+POLICY_NAME</map_entry>
+<map_entry>POLICY_DESCRIPTION<value>
+<field>POLICY_DESCRIPTION</field>
+<translations></translations>
+<translations_object_value></translations_object_value>
+</value>
+POLICY_DESCRIPTION</map_entry>
+</translated_fields>
+<unit_of_measurement></unit_of_measurement>
+<value>100</value>
+</ful_policy_wrapper>
+<ful_policy_wrapper>
+<active></active>
+<additional_data></additional_data>
+<application></application>
+<create_date>23 September 2019</create_date>
+<create_date_dummy>
+<calendar>23 September 2019</calendar>
+<calendar_ui></calendar_ui>
+<day>23</day>
+<day_ui></day_ui>
+<default_value_for_with_validation>1569260831914</default_value_for_with_validation>
+<full_date>2019-09-23</full_date>
+<full_date_from_ui></full_date_from_ui>
+<input_date_tag_format>23.09.2019</input_date_tag_format>
+<month>8</month>
+<month_ui></month_ui>
+<date>false</date>
+<year>2019</year>
+<year_ui></year_ui>
+</create_date_dummy>
+<creator>Distribute Network Zone fulfillment changes to member institutions</creator>
+<customer_id>5150</customer_id>
+<definition_level>Network</definition_level>
+<entity_action></entity_action>
+<id>1246563750005154</id>
+<index_xml></index_xml>
+<institution_id>5154</institution_id>
+<key>$56 maximum fine_5154</key>
+<library_id></library_id>
+<library_unit_id></library_unit_id>
+<modification_date>23 September 2019</modification_date>
+<modification_date_dummy>
+<calendar>23 September 2019</calendar>
+<calendar_ui></calendar_ui>
+<day>23</day>
+<day_ui></day_ui>
+<default_value_for_with_validation>1569260831914</default_value_for_with_validation>
+<full_date>2019-09-23</full_date>
+<full_date_from_ui></full_date_from_ui>
+<input_date_tag_format>23.09.2019</input_date_tag_format>
+<month>8</month>
+<month_ui></month_ui>
+<date>false</date>
+<year>2019</year>
+<year_ui></year_ui>
+</modification_date_dummy>
+<modified_by>Distribute Network Zone fulfillment changes to member institutions</modified_by>
+<org_fields>
+<customer_id>5150</customer_id>
+<institution_id>5154</institution_id>
+<library_id></library_id>
+<library_unit_id></library_unit_id>
+</org_fields>
+<organization_unit_id>5154</organization_unit_id>
+<originating_d>8203647010005151</originating_d>
+<policy_constant></policy_constant>
+<policy_description></policy_description>
+<policy_is_default_for_this_level></policy_is_default_for_this_level>
+<policy_is_default_value></policy_is_default_value>
+<policy_name>$56 maximum fine</policy_name>
+<policy_type>MaximumFine</policy_type>
+<special_entity>
+<active></active>
+<additional_data></additional_data>
+<create_date>23 September 2019</create_date>
+<definition_level>Network</definition_level>
+<entity_action></entity_action>
+<index_xml></index_xml>
+<library_id></library_id>
+<library_unit_id></library_unit_id>
+<originating_d>8203647010005151</originating_d>
+<policy_constant></policy_constant>
+<policy_description></policy_description>
+<policy_is_default_for_this_level></policy_is_default_for_this_level>
+<policy_is_default_value></policy_is_default_value>
+<policy_name>$56 maximum fine</policy_name>
+<policy_type>MaximumFine</policy_type>
+<unit_of_measurement></unit_of_measurement>
+<value>56.0</value>
+</special_entity>
+<translated_columns></translated_columns>
+<translated_fields>
+<map_entry>POLICY_NAME<value>
+<field>POLICY_NAME</field>
+<translations></translations>
+<translations_object_value></translations_object_value>
+</value>
+POLICY_NAME</map_entry>
+<map_entry>POLICY_DESCRIPTION<value>
+<field>POLICY_DESCRIPTION</field>
+<translations></translations>
+<translations_object_value></translations_object_value>
+</value>
+POLICY_DESCRIPTION</map_entry>
+</translated_fields>
+<unit_of_measurement></unit_of_measurement>
+<value>56.0</value>
+</ful_policy_wrapper>
+<ful_policy_wrapper>
+<active></active>
+<additional_data></additional_data>
+<application></application>
+<create_date>27 July 2010</create_date>
+<create_date_dummy>
+<calendar>27 July 2010</calendar>
+<calendar_ui></calendar_ui>
+<day>27</day>
+<day_ui></day_ui>
+<default_value_for_with_validation>1280213393778</default_value_for_with_validation>
+<full_date>2010-07-27</full_date>
+<full_date_from_ui></full_date_from_ui>
+<input_date_tag_format>27.07.2010</input_date_tag_format>
+<month>6</month>
+<month_ui></month_ui>
+<date>false</date>
+<year>2010</year>
+<year_ui></year_ui>
+</create_date_dummy>
+<creator>Ex Libris</creator>
+<customer_id>0</customer_id>
+<definition_level>Generic</definition_level>
+<entity_action></entity_action>
+<id>2023011</id>
+<index_xml></index_xml>
+<institution_id>11</institution_id>
+<key>No Overdue Fine_11</key>
+<library_id></library_id>
+<library_unit_id></library_unit_id>
+<modification_date>27 July 2010</modification_date>
+<modification_date_dummy>
+<calendar>27 July 2010</calendar>
+<calendar_ui></calendar_ui>
+<day>27</day>
+<day_ui></day_ui>
+<default_value_for_with_validation>1280213396482</default_value_for_with_validation>
+<full_date>2010-07-27</full_date>
+<full_date_from_ui></full_date_from_ui>
+<input_date_tag_format>27.07.2010</input_date_tag_format>
+<month>6</month>
+<month_ui></month_ui>
+<date>false</date>
+<year>2010</year>
+<year_ui></year_ui>
+</modification_date_dummy>
+<modified_by>John</modified_by>
+<org_fields>
+<customer_id>0</customer_id>
+<institution_id>11</institution_id>
+<library_id></library_id>
+<library_unit_id></library_unit_id>
+</org_fields>
+<organization_unit_id>11</organization_unit_id>
+<originating_d></originating_d>
+<policy_constant></policy_constant>
+<policy_description>Default Value for overdue fine</policy_description>
+<policy_is_default_for_this_level></policy_is_default_for_this_level>
+<policy_is_default_value></policy_is_default_value>
+<policy_name>No Overdue Fine</policy_name>
+<policy_type>OverdueFine</policy_type>
+<special_entity>
+<active></active>
+<additional_data></additional_data>
+<create_date>27 July 2010</create_date>
+<definition_level>Generic</definition_level>
+<entity_action></entity_action>
+<index_xml></index_xml>
+<library_id></library_id>
+<library_unit_id></library_unit_id>
+<originating_d></originating_d>
+<policy_constant></policy_constant>
+<policy_description>Default Value for overdue fine</policy_description>
+<policy_is_default_for_this_level></policy_is_default_for_this_level>
+<policy_is_default_value></policy_is_default_value>
+<policy_name>No Overdue Fine</policy_name>
+<policy_type>OverdueFine</policy_type>
+<unit_of_measurement>DAY</unit_of_measurement>
+<value>0</value>
+</special_entity>
+<translated_columns></translated_columns>
+<translated_fields>
+<map_entry>POLICY_NAME<value>
+<field>POLICY_NAME</field>
+<translations></translations>
+<translations_object_value></translations_object_value>
+</value>
+POLICY_NAME</map_entry>
+<map_entry>POLICY_DESCRIPTION<value>
+<field>POLICY_DESCRIPTION</field>
+<translations></translations>
+<translations_object_value></translations_object_value>
+</value>
+POLICY_DESCRIPTION</map_entry>
+</translated_fields>
+<unit_of_measurement>DAY</unit_of_measurement>
+<value>0</value>
+</ful_policy_wrapper>
+<ful_policy_wrapper>
+<active></active>
+<additional_data></additional_data>
+<application></application>
+<create_date>23 September 2019</create_date>
+<create_date_dummy>
+<calendar>23 September 2019</calendar>
+<calendar_ui></calendar_ui>
+<day>23</day>
+<day_ui></day_ui>
+<default_value_for_with_validation>1569260831890</default_value_for_with_validation>
+<full_date>2019-09-23</full_date>
+<full_date_from_ui></full_date_from_ui>
+<input_date_tag_format>23.09.2019</input_date_tag_format>
+<month>8</month>
+<month_ui></month_ui>
+<date>false</date>
+<year>2019</year>
+<year_ui></year_ui>
+</create_date_dummy>
+<creator>Distribute Network Zone fulfillment changes to member institutions</creator>
+<customer_id>5150</customer_id>
+<definition_level>Network</definition_level>
+<entity_action></entity_action>
+<id>1246563650005154</id>
+<index_xml></index_xml>
+<institution_id>5154</institution_id>
+<key>$4 per day recall fine_5154</key>
+<library_id></library_id>
+<library_unit_id></library_unit_id>
+<modification_date>23 September 2019</modification_date>
+<modification_date_dummy>
+<calendar>23 September 2019</calendar>
+<calendar_ui></calendar_ui>
+<day>23</day>
+<day_ui></day_ui>
+<default_value_for_with_validation>1569260831890</default_value_for_with_validation>
+<full_date>2019-09-23</full_date>
+<full_date_from_ui></full_date_from_ui>
+<input_date_tag_format>23.09.2019</input_date_tag_format>
+<month>8</month>
+<month_ui></month_ui>
+<date>false</date>
+<year>2019</year>
+<year_ui></year_ui>
+</modification_date_dummy>
+<modified_by>Distribute Network Zone fulfillment changes to member institutions</modified_by>
+<org_fields>
+<customer_id>5150</customer_id>
+<institution_id>5154</institution_id>
+<library_id></library_id>
+<library_unit_id></library_unit_id>
+</org_fields>
+<organization_unit_id>5154</organization_unit_id>
+<originating_d>8203647960005151</originating_d>
+<policy_constant></policy_constant>
+<policy_description></policy_description>
+<policy_is_default_for_this_level></policy_is_default_for_this_level>
+<policy_is_default_value></policy_is_default_value>
+<policy_name>$4 per day recall fine</policy_name>
+<policy_type>RecalledOverdueFine</policy_type>
+<special_entity>
+<active></active>
+<additional_data></additional_data>
+<create_date>23 September 2019</create_date>
+<definition_level>Network</definition_level>
+<entity_action></entity_action>
+<index_xml></index_xml>
+<library_id></library_id>
+<library_unit_id></library_unit_id>
+<originating_d>8203647960005151</originating_d>
+<policy_constant></policy_constant>
+<policy_description></policy_description>
+<policy_is_default_for_this_level></policy_is_default_for_this_level>
+<policy_is_default_value></policy_is_default_value>
+<policy_name>$4 per day recall fine</policy_name>
+<policy_type>RecalledOverdueFine</policy_type>
+<unit_of_measurement>DAY</unit_of_measurement>
+<value>4.0</value>
+</special_entity>
+<translated_columns></translated_columns>
+<translated_fields>
+<map_entry>POLICY_NAME<value>
+<field>POLICY_NAME</field>
+<translations></translations>
+<translations_object_value></translations_object_value>
+</value>
+POLICY_NAME</map_entry>
+<map_entry>POLICY_DESCRIPTION<value>
+<field>POLICY_DESCRIPTION</field>
+<translations></translations>
+<translations_object_value></translations_object_value>
+</value>
+POLICY_DESCRIPTION</map_entry>
+</translated_fields>
+<unit_of_measurement>DAY</unit_of_measurement>
+<value>4.0</value>
+</ful_policy_wrapper>
+<ful_policy_wrapper>
+<active></active>
+<additional_data></additional_data>
+<application></application>
+<create_date>31 May 2019</create_date>
+<create_date_dummy>
+<calendar>31 May 2019</calendar>
+<calendar_ui></calendar_ui>
+<day>31</day>
+<day_ui></day_ui>
+<default_value_for_with_validation>1559335620313</default_value_for_with_validation>
+<full_date>2019-05-31</full_date>
+<full_date_from_ui></full_date_from_ui>
+<input_date_tag_format>31.05.2019</input_date_tag_format>
+<month>4</month>
+<month_ui></month_ui>
+<date>false</date>
+<year>2019</year>
+<year_ui></year_ui>
+</create_date_dummy>
+<creator>exl_impl</creator>
+<customer_id>5150</customer_id>
+<definition_level>Institution</definition_level>
+<entity_action></entity_action>
+<id>1069974820005154</id>
+<index_xml></index_xml>
+<institution_id>5154</institution_id>
+<key>No Grace Period_5154</key>
+<library_id></library_id>
+<library_unit_id></library_unit_id>
+<modification_date>31 May 2019</modification_date>
+<modification_date_dummy>
+<calendar>31 May 2019</calendar>
+<calendar_ui></calendar_ui>
+<day>31</day>
+<day_ui></day_ui>
+<default_value_for_with_validation>1559335620485</default_value_for_with_validation>
+<full_date>2019-05-31</full_date>
+<full_date_from_ui></full_date_from_ui>
+<input_date_tag_format>31.05.2019</input_date_tag_format>
+<month>4</month>
+<month_ui></month_ui>
+<date>false</date>
+<year>2019</year>
+<year_ui></year_ui>
+</modification_date_dummy>
+<modified_by>exl_impl</modified_by>
+<org_fields>
+<customer_id>5150</customer_id>
+<institution_id>5154</institution_id>
+<library_id></library_id>
+<library_unit_id></library_unit_id>
+</org_fields>
+<organization_unit_id>5154</organization_unit_id>
+<originating_d></originating_d>
+<policy_constant>None</policy_constant>
+<policy_description>No Grace Period</policy_description>
+<policy_is_default_for_this_level></policy_is_default_for_this_level>
+<policy_is_default_value></policy_is_default_value>
+<policy_name>No Grace Period</policy_name>
+<policy_type>Grace</policy_type>
+<special_entity>
+<active></active>
+<additional_data></additional_data>
+<create_date>31 May 2019</create_date>
+<definition_level>Institution</definition_level>
+<entity_action></entity_action>
+<index_xml></index_xml>
+<library_id></library_id>
+<library_unit_id></library_unit_id>
+<originating_d></originating_d>
+<policy_constant>None</policy_constant>
+<policy_description>No Grace Period</policy_description>
+<policy_is_default_for_this_level></policy_is_default_for_this_level>
+<policy_is_default_value></policy_is_default_value>
+<policy_name>No Grace Period</policy_name>
+<policy_type>Grace</policy_type>
+<unit_of_measurement></unit_of_measurement>
+<value></value>
+</special_entity>
+<translated_columns></translated_columns>
+<translated_fields>
+<map_entry>POLICY_NAME<value>
+<field>POLICY_NAME</field>
+<translations></translations>
+<translations_object_value></translations_object_value>
+</value>
+POLICY_NAME</map_entry>
+<map_entry>POLICY_DESCRIPTION<value>
+<field>POLICY_DESCRIPTION</field>
+<translations></translations>
+<translations_object_value></translations_object_value>
+</value>
+POLICY_DESCRIPTION</map_entry>
+</translated_fields>
+<unit_of_measurement></unit_of_measurement>
+<value></value>
+</ful_policy_wrapper>
+<ful_policy_wrapper>
+<active></active>
+<additional_data></additional_data>
+<application></application>
+<create_date>06 June 2011</create_date>
+<create_date_dummy>
+<calendar>06 June 2011</calendar>
+<calendar_ui></calendar_ui>
+<day>6</day>
+<day_ui></day_ui>
+<default_value_for_with_validation>1307346233000</default_value_for_with_validation>
+<full_date>2011-06-06</full_date>
+<full_date_from_ui></full_date_from_ui>
+<input_date_tag_format>06.06.2011</input_date_tag_format>
+<month>5</month>
+<month_ui></month_ui>
+<date>false</date>
+<year>2011</year>
+<year_ui></year_ui>
+</create_date_dummy>
+<creator>SYSTEM</creator>
+<customer_id>0</customer_id>
+<definition_level>Generic</definition_level>
+<entity_action></entity_action>
+<id>2013011</id>
+<index_xml></index_xml>
+<institution_id>11</institution_id>
+<key>Renewable_11</key>
+<library_id></library_id>
+<library_unit_id></library_unit_id>
+<modification_date></modification_date>
+<modification_date_dummy>
+<calendar>31 December 1969</calendar>
+<calendar_ui></calendar_ui>
+<day>1</day>
+<day_ui></day_ui>
+<default_value_for_with_validation>0</default_value_for_with_validation>
+<full_date></full_date>
+<full_date_from_ui></full_date_from_ui>
+<input_date_tag_format>00.00.0</input_date_tag_format>
+<month>0</month>
+<month_ui></month_ui>
+<date>true</date>
+<year>1970</year>
+<year_ui></year_ui>
+</modification_date_dummy>
+<modified_by></modified_by>
+<org_fields>
+<customer_id>0</customer_id>
+<institution_id>11</institution_id>
+<library_id></library_id>
+<library_unit_id></library_unit_id>
+</org_fields>
+<organization_unit_id>11</organization_unit_id>
+<originating_d></originating_d>
+<policy_constant>TRUE</policy_constant>
+<policy_description>Is item renewable</policy_description>
+<policy_is_default_for_this_level></policy_is_default_for_this_level>
+<policy_is_default_value></policy_is_default_value>
+<policy_name>Renewable</policy_name>
+<policy_type>IsRenewable</policy_type>
+<special_entity>
+<active></active>
+<additional_data></additional_data>
+<create_date>06 June 2011</create_date>
+<definition_level>Generic</definition_level>
+<entity_action></entity_action>
+<index_xml></index_xml>
+<library_id></library_id>
+<library_unit_id></library_unit_id>
+<originating_d></originating_d>
+<policy_constant>TRUE</policy_constant>
+<policy_description>Is item renewable</policy_description>
+<policy_is_default_for_this_level></policy_is_default_for_this_level>
+<policy_is_default_value></policy_is_default_value>
+<policy_name>Renewable</policy_name>
+<policy_type>IsRenewable</policy_type>
+<unit_of_measurement></unit_of_measurement>
+<value></value>
+</special_entity>
+<translated_columns></translated_columns>
+<translated_fields>
+<map_entry>POLICY_NAME<value>
+<field>POLICY_NAME</field>
+<translations></translations>
+<translations_object_value></translations_object_value>
+</value>
+POLICY_NAME</map_entry>
+<map_entry>POLICY_DESCRIPTION<value>
+<field>POLICY_DESCRIPTION</field>
+<translations></translations>
+<translations_object_value></translations_object_value>
+</value>
+POLICY_DESCRIPTION</map_entry>
+</translated_fields>
+<unit_of_measurement></unit_of_measurement>
+<value></value>
+</ful_policy_wrapper>
+<ful_policy_wrapper>
+<active></active>
+<additional_data></additional_data>
+<application></application>
+<create_date>06 June 2011</create_date>
+<create_date_dummy>
+<calendar>06 June 2011</calendar>
+<calendar_ui></calendar_ui>
+<day>6</day>
+<day_ui></day_ui>
+<default_value_for_with_validation>1307346233000</default_value_for_with_validation>
+<full_date>2011-06-06</full_date>
+<full_date_from_ui></full_date_from_ui>
+<input_date_tag_format>06.06.2011</input_date_tag_format>
+<month>5</month>
+<month_ui></month_ui>
+<date>false</date>
+<year>2011</year>
+<year_ui></year_ui>
+</create_date_dummy>
+<creator>SYSTEM</creator>
+<customer_id>0</customer_id>
+<definition_level>Generic</definition_level>
+<entity_action></entity_action>
+<id>2020011</id>
+<index_xml></index_xml>
+<institution_id>11</institution_id>
+<key>No Maximimum Renew Period_11</key>
+<library_id></library_id>
+<library_unit_id></library_unit_id>
+<modification_date></modification_date>
+<modification_date_dummy>
+<calendar>31 December 1969</calendar>
+<calendar_ui></calendar_ui>
+<day>1</day>
+<day_ui></day_ui>
+<default_value_for_with_validation>0</default_value_for_with_validation>
+<full_date></full_date>
+<full_date_from_ui></full_date_from_ui>
+<input_date_tag_format>00.00.0</input_date_tag_format>
+<month>0</month>
+<month_ui></month_ui>
+<date>true</date>
+<year>1970</year>
+<year_ui></year_ui>
+</modification_date_dummy>
+<modified_by></modified_by>
+<org_fields>
+<customer_id>0</customer_id>
+<institution_id>11</institution_id>
+<library_id></library_id>
+<library_unit_id></library_unit_id>
+</org_fields>
+<organization_unit_id>11</organization_unit_id>
+<originating_d></originating_d>
+<policy_constant>None</policy_constant>
+<policy_description>Default Maximum Renewal Period</policy_description>
+<policy_is_default_for_this_level></policy_is_default_for_this_level>
+<policy_is_default_value></policy_is_default_value>
+<policy_name>No Maximimum Renew Period</policy_name>
+<policy_type>MaximumRenewalPeriod</policy_type>
+<special_entity>
+<active></active>
+<additional_data></additional_data>
+<create_date>06 June 2011</create_date>
+<definition_level>Generic</definition_level>
+<entity_action></entity_action>
+<index_xml></index_xml>
+<library_id></library_id>
+<library_unit_id></library_unit_id>
+<originating_d></originating_d>
+<policy_constant>None</policy_constant>
+<policy_description>Default Maximum Renewal Period</policy_description>
+<policy_is_default_for_this_level></policy_is_default_for_this_level>
+<policy_is_default_value></policy_is_default_value>
+<policy_name>No Maximimum Renew Period</policy_name>
+<policy_type>MaximumRenewalPeriod</policy_type>
+<unit_of_measurement></unit_of_measurement>
+<value></value>
+</special_entity>
+<translated_columns></translated_columns>
+<translated_fields>
+<map_entry>POLICY_NAME<value>
+<field>POLICY_NAME</field>
+<translations></translations>
+<translations_object_value></translations_object_value>
+</value>
+POLICY_NAME</map_entry>
+<map_entry>POLICY_DESCRIPTION<value>
+<field>POLICY_DESCRIPTION</field>
+<translations></translations>
+<translations_object_value></translations_object_value>
+</value>
+POLICY_DESCRIPTION</map_entry>
+</translated_fields>
+<unit_of_measurement></unit_of_measurement>
+<value></value>
+</ful_policy_wrapper>
+<ful_policy_wrapper>
+<active></active>
+<additional_data></additional_data>
+<application></application>
+<create_date>16 June 2013</create_date>
+<create_date_dummy>
+<calendar>16 June 2013</calendar>
+<calendar_ui></calendar_ui>
+<day>16</day>
+<day_ui></day_ui>
+<default_value_for_with_validation>1371367905000</default_value_for_with_validation>
+<full_date>2013-06-16</full_date>
+<full_date_from_ui></full_date_from_ui>
+<input_date_tag_format>16.06.2013</input_date_tag_format>
+<month>5</month>
+<month_ui></month_ui>
+<date>false</date>
+<year>2013</year>
+<year_ui></year_ui>
+</create_date_dummy>
+<creator>SYSTEM</creator>
+<customer_id>0</customer_id>
+<definition_level>Generic</definition_level>
+<entity_action></entity_action>
+<id>2109011</id>
+<index_xml></index_xml>
+<institution_id>11</institution_id>
+<key>Move to the end of the next open day_11</key>
+<library_id></library_id>
+<library_unit_id></library_unit_id>
+<modification_date>16 June 2013</modification_date>
+<modification_date_dummy>
+<calendar>16 June 2013</calendar>
+<calendar_ui></calendar_ui>
+<day>16</day>
+<day_ui></day_ui>
+<default_value_for_with_validation>1371367905000</default_value_for_with_validation>
+<full_date>2013-06-16</full_date>
+<full_date_from_ui></full_date_from_ui>
+<input_date_tag_format>16.06.2013</input_date_tag_format>
+<month>5</month>
+<month_ui></month_ui>
+<date>false</date>
+<year>2013</year>
+<year_ui></year_ui>
+</modification_date_dummy>
+<modified_by></modified_by>
+<org_fields>
+<customer_id>0</customer_id>
+<institution_id>11</institution_id>
+<library_id></library_id>
+<library_unit_id></library_unit_id>
+</org_fields>
+<organization_unit_id>11</organization_unit_id>
+<originating_d></originating_d>
+<policy_constant>MoveForwardEndDay</policy_constant>
+<policy_description>Move to the end of the next open day</policy_description>
+<policy_is_default_for_this_level></policy_is_default_for_this_level>
+<policy_is_default_value></policy_is_default_value>
+<policy_name>Move to the end of the next open day</policy_name>
+<policy_type>ClosedLibraryDueDateMng</policy_type>
+<special_entity>
+<active></active>
+<additional_data></additional_data>
+<create_date>16 June 2013</create_date>
+<definition_level>Generic</definition_level>
+<entity_action></entity_action>
+<index_xml></index_xml>
+<library_id></library_id>
+<library_unit_id></library_unit_id>
+<originating_d></originating_d>
+<policy_constant>MoveForwardEndDay</policy_constant>
+<policy_description>Move to the end of the next open day</policy_description>
+<policy_is_default_for_this_level></policy_is_default_for_this_level>
+<policy_is_default_value></policy_is_default_value>
+<policy_name>Move to the end of the next open day</policy_name>
+<policy_type>ClosedLibraryDueDateMng</policy_type>
+<unit_of_measurement></unit_of_measurement>
+<value></value>
+</special_entity>
+<translated_columns></translated_columns>
+<translated_fields>
+<map_entry>POLICY_NAME<value>
+<field>POLICY_NAME</field>
+<translations></translations>
+<translations_object_value></translations_object_value>
+</value>
+POLICY_NAME</map_entry>
+<map_entry>POLICY_DESCRIPTION<value>
+<field>POLICY_DESCRIPTION</field>
+<translations></translations>
+<translations_object_value></translations_object_value>
+</value>
+POLICY_DESCRIPTION</map_entry>
+</translated_fields>
+<unit_of_measurement></unit_of_measurement>
+<value></value>
+</ful_policy_wrapper>
+<ful_policy_wrapper>
+<active></active>
+<additional_data></additional_data>
+<application></application>
+<create_date>23 December 2012</create_date>
+<create_date_dummy>
+<calendar>23 December 2012</calendar>
+<calendar_ui></calendar_ui>
+<day>23</day>
+<day_ui></day_ui>
+<default_value_for_with_validation>1356272462000</default_value_for_with_validation>
+<full_date>2012-12-23</full_date>
+<full_date_from_ui></full_date_from_ui>
+<input_date_tag_format>23.12.2012</input_date_tag_format>
+<month>11</month>
+<month_ui></month_ui>
+<date>false</date>
+<year>2012</year>
+<year_ui></year_ui>
+</create_date_dummy>
+<creator>SYSTEM</creator>
+<customer_id>0</customer_id>
+<definition_level>Generic</definition_level>
+<entity_action></entity_action>
+<id>2101011</id>
+<index_xml></index_xml>
+<institution_id>11</institution_id>
+<key>Restore to original due date_11</key>
+<library_id></library_id>
+<library_unit_id></library_unit_id>
+<modification_date>23 December 2012</modification_date>
+<modification_date_dummy>
+<calendar>23 December 2012</calendar>
+<calendar_ui></calendar_ui>
+<day>23</day>
+<day_ui></day_ui>
+<default_value_for_with_validation>1356272462000</default_value_for_with_validation>
+<full_date>2012-12-23</full_date>
+<full_date_from_ui></full_date_from_ui>
+<input_date_tag_format>23.12.2012</input_date_tag_format>
+<month>11</month>
+<month_ui></month_ui>
+<date>false</date>
+<year>2012</year>
+<year_ui></year_ui>
+</modification_date_dummy>
+<modified_by></modified_by>
+<org_fields>
+<customer_id>0</customer_id>
+<institution_id>11</institution_id>
+<library_id></library_id>
+<library_unit_id></library_unit_id>
+</org_fields>
+<organization_unit_id>11</organization_unit_id>
+<originating_d></originating_d>
+<policy_constant>RESTORE_ORIGINAL_DUE_DATE</policy_constant>
+<policy_description>This option will take the due date of the loan before the recall was done on the loan</policy_description>
+<policy_is_default_for_this_level></policy_is_default_for_this_level>
+<policy_is_default_value></policy_is_default_value>
+<policy_name>Restore to original due date</policy_name>
+<policy_type>CancelledRecallDueDate</policy_type>
+<special_entity>
+<active></active>
+<additional_data></additional_data>
+<create_date>23 December 2012</create_date>
+<definition_level>Generic</definition_level>
+<entity_action></entity_action>
+<index_xml></index_xml>
+<library_id></library_id>
+<library_unit_id></library_unit_id>
+<originating_d></originating_d>
+<policy_constant>RESTORE_ORIGINAL_DUE_DATE</policy_constant>
+<policy_description>This option will take the due date of the loan before the recall was done on the loan</policy_description>
+<policy_is_default_for_this_level></policy_is_default_for_this_level>
+<policy_is_default_value></policy_is_default_value>
+<policy_name>Restore to original due date</policy_name>
+<policy_type>CancelledRecallDueDate</policy_type>
+<unit_of_measurement></unit_of_measurement>
+<value></value>
+</special_entity>
+<translated_columns></translated_columns>
+<translated_fields>
+<map_entry>POLICY_NAME<value>
+<field>POLICY_NAME</field>
+<translations></translations>
+<translations_object_value></translations_object_value>
+</value>
+POLICY_NAME</map_entry>
+<map_entry>POLICY_DESCRIPTION<value>
+<field>POLICY_DESCRIPTION</field>
+<translations></translations>
+<translations_object_value></translations_object_value>
+</value>
+POLICY_DESCRIPTION</map_entry>
+</translated_fields>
+<unit_of_measurement></unit_of_measurement>
+<value></value>
+</ful_policy_wrapper>
+<ful_policy_wrapper>
+<active></active>
+<additional_data></additional_data>
+<application></application>
+<create_date>31 May 2019</create_date>
+<create_date_dummy>
+<calendar>31 May 2019</calendar>
+<calendar_ui></calendar_ui>
+<day>31</day>
+<day_ui></day_ui>
+<default_value_for_with_validation>1559335620323</default_value_for_with_validation>
+<full_date>2019-05-31</full_date>
+<full_date_from_ui></full_date_from_ui>
+<input_date_tag_format>31.05.2019</input_date_tag_format>
+<month>4</month>
+<month_ui></month_ui>
+<date>false</date>
+<year>2019</year>
+<year_ui></year_ui>
+</create_date_dummy>
+<creator>exl_impl</creator>
+<customer_id>5150</customer_id>
+<definition_level>Institution</definition_level>
+<entity_action></entity_action>
+<id>1069975320005154</id>
+<index_xml></index_xml>
+<institution_id>5154</institution_id>
+<key>No Overdue Notification Fine Type 1_5154</key>
+<library_id></library_id>
+<library_unit_id></library_unit_id>
+<modification_date>31 May 2019</modification_date>
+<modification_date_dummy>
+<calendar>31 May 2019</calendar>
+<calendar_ui></calendar_ui>
+<day>31</day>
+<day_ui></day_ui>
+<default_value_for_with_validation>1559335620819</default_value_for_with_validation>
+<full_date>2019-05-31</full_date>
+<full_date_from_ui></full_date_from_ui>
+<input_date_tag_format>31.05.2019</input_date_tag_format>
+<month>4</month>
+<month_ui></month_ui>
+<date>false</date>
+<year>2019</year>
+<year_ui></year_ui>
+</modification_date_dummy>
+<modified_by>exl_impl</modified_by>
+<org_fields>
+<customer_id>5150</customer_id>
+<institution_id>5154</institution_id>
+<library_id></library_id>
+<library_unit_id></library_unit_id>
+</org_fields>
+<organization_unit_id>5154</organization_unit_id>
+<originating_d></originating_d>
+<policy_constant>None</policy_constant>
+<policy_description>No Overdue Notification Fine Type 1</policy_description>
+<policy_is_default_for_this_level></policy_is_default_for_this_level>
+<policy_is_default_value></policy_is_default_value>
+<policy_name>No Overdue Notification Fine Type 1</policy_name>
+<policy_type>OverdueNotificationFine1</policy_type>
+<special_entity>
+<active></active>
+<additional_data></additional_data>
+<create_date>31 May 2019</create_date>
+<definition_level>Institution</definition_level>
+<entity_action></entity_action>
+<index_xml></index_xml>
+<library_id></library_id>
+<library_unit_id></library_unit_id>
+<originating_d></originating_d>
+<policy_constant>None</policy_constant>
+<policy_description>No Overdue Notification Fine Type 1</policy_description>
+<policy_is_default_for_this_level></policy_is_default_for_this_level>
+<policy_is_default_value></policy_is_default_value>
+<policy_name>No Overdue Notification Fine Type 1</policy_name>
+<policy_type>OverdueNotificationFine1</policy_type>
+<unit_of_measurement></unit_of_measurement>
+<value></value>
+</special_entity>
+<translated_columns></translated_columns>
+<translated_fields>
+<map_entry>POLICY_NAME<value>
+<field>POLICY_NAME</field>
+<translations></translations>
+<translations_object_value></translations_object_value>
+</value>
+POLICY_NAME</map_entry>
+<map_entry>POLICY_DESCRIPTION<value>
+<field>POLICY_DESCRIPTION</field>
+<translations></translations>
+<translations_object_value></translations_object_value>
+</value>
+POLICY_DESCRIPTION</map_entry>
+</translated_fields>
+<unit_of_measurement></unit_of_measurement>
+<value></value>
+</ful_policy_wrapper>
+<ful_policy_wrapper>
+<active></active>
+<additional_data></additional_data>
+<application></application>
+<create_date>31 May 2019</create_date>
+<create_date_dummy>
+<calendar>31 May 2019</calendar>
+<calendar_ui></calendar_ui>
+<day>31</day>
+<day_ui></day_ui>
+<default_value_for_with_validation>1559335620323</default_value_for_with_validation>
+<full_date>2019-05-31</full_date>
+<full_date_from_ui></full_date_from_ui>
+<input_date_tag_format>31.05.2019</input_date_tag_format>
+<month>4</month>
+<month_ui></month_ui>
+<date>false</date>
+<year>2019</year>
+<year_ui></year_ui>
+</create_date_dummy>
+<creator>exl_impl</creator>
+<customer_id>5150</customer_id>
+<definition_level>Institution</definition_level>
+<entity_action></entity_action>
+<id>1069975370005154</id>
+<index_xml></index_xml>
+<institution_id>5154</institution_id>
+<key>No Overdue Notification Fine Type 2_5154</key>
+<library_id></library_id>
+<library_unit_id></library_unit_id>
+<modification_date>31 May 2019</modification_date>
+<modification_date_dummy>
+<calendar>31 May 2019</calendar>
+<calendar_ui></calendar_ui>
+<day>31</day>
+<day_ui></day_ui>
+<default_value_for_with_validation>1559335620846</default_value_for_with_validation>
+<full_date>2019-05-31</full_date>
+<full_date_from_ui></full_date_from_ui>
+<input_date_tag_format>31.05.2019</input_date_tag_format>
+<month>4</month>
+<month_ui></month_ui>
+<date>false</date>
+<year>2019</year>
+<year_ui></year_ui>
+</modification_date_dummy>
+<modified_by>exl_impl</modified_by>
+<org_fields>
+<customer_id>5150</customer_id>
+<institution_id>5154</institution_id>
+<library_id></library_id>
+<library_unit_id></library_unit_id>
+</org_fields>
+<organization_unit_id>5154</organization_unit_id>
+<originating_d></originating_d>
+<policy_constant>None</policy_constant>
+<policy_description>No Overdue Notification Fine Type 2</policy_description>
+<policy_is_default_for_this_level></policy_is_default_for_this_level>
+<policy_is_default_value></policy_is_default_value>
+<policy_name>No Overdue Notification Fine Type 2</policy_name>
+<policy_type>OverdueNotificationFine2</policy_type>
+<special_entity>
+<active></active>
+<additional_data></additional_data>
+<create_date>31 May 2019</create_date>
+<definition_level>Institution</definition_level>
+<entity_action></entity_action>
+<index_xml></index_xml>
+<library_id></library_id>
+<library_unit_id></library_unit_id>
+<originating_d></originating_d>
+<policy_constant>None</policy_constant>
+<policy_description>No Overdue Notification Fine Type 2</policy_description>
+<policy_is_default_for_this_level></policy_is_default_for_this_level>
+<policy_is_default_value></policy_is_default_value>
+<policy_name>No Overdue Notification Fine Type 2</policy_name>
+<policy_type>OverdueNotificationFine2</policy_type>
+<unit_of_measurement></unit_of_measurement>
+<value></value>
+</special_entity>
+<translated_columns></translated_columns>
+<translated_fields>
+<map_entry>POLICY_NAME<value>
+<field>POLICY_NAME</field>
+<translations></translations>
+<translations_object_value></translations_object_value>
+</value>
+POLICY_NAME</map_entry>
+<map_entry>POLICY_DESCRIPTION<value>
+<field>POLICY_DESCRIPTION</field>
+<translations></translations>
+<translations_object_value></translations_object_value>
+</value>
+POLICY_DESCRIPTION</map_entry>
+</translated_fields>
+<unit_of_measurement></unit_of_measurement>
+<value></value>
+</ful_policy_wrapper>
+<ful_policy_wrapper>
+<active></active>
+<additional_data></additional_data>
+<application></application>
+<create_date>31 May 2019</create_date>
+<create_date_dummy>
+<calendar>31 May 2019</calendar>
+<calendar_ui></calendar_ui>
+<day>31</day>
+<day_ui></day_ui>
+<default_value_for_with_validation>1559335620323</default_value_for_with_validation>
+<full_date>2019-05-31</full_date>
+<full_date_from_ui></full_date_from_ui>
+<input_date_tag_format>31.05.2019</input_date_tag_format>
+<month>4</month>
+<month_ui></month_ui>
+<date>false</date>
+<year>2019</year>
+<year_ui></year_ui>
+</create_date_dummy>
+<creator>exl_impl</creator>
+<customer_id>5150</customer_id>
+<definition_level>Institution</definition_level>
+<entity_action></entity_action>
+<id>1069975420005154</id>
+<index_xml></index_xml>
+<institution_id>5154</institution_id>
+<key>No Overdue Notification Fine Type 3_5154</key>
+<library_id></library_id>
+<library_unit_id></library_unit_id>
+<modification_date>31 May 2019</modification_date>
+<modification_date_dummy>
+<calendar>31 May 2019</calendar>
+<calendar_ui></calendar_ui>
+<day>31</day>
+<day_ui></day_ui>
+<default_value_for_with_validation>1559335620870</default_value_for_with_validation>
+<full_date>2019-05-31</full_date>
+<full_date_from_ui></full_date_from_ui>
+<input_date_tag_format>31.05.2019</input_date_tag_format>
+<month>4</month>
+<month_ui></month_ui>
+<date>false</date>
+<year>2019</year>
+<year_ui></year_ui>
+</modification_date_dummy>
+<modified_by>exl_impl</modified_by>
+<org_fields>
+<customer_id>5150</customer_id>
+<institution_id>5154</institution_id>
+<library_id></library_id>
+<library_unit_id></library_unit_id>
+</org_fields>
+<organization_unit_id>5154</organization_unit_id>
+<originating_d></originating_d>
+<policy_constant>None</policy_constant>
+<policy_description>No Overdue Notification Fine Type 3</policy_description>
+<policy_is_default_for_this_level></policy_is_default_for_this_level>
+<policy_is_default_value></policy_is_default_value>
+<policy_name>No Overdue Notification Fine Type 3</policy_name>
+<policy_type>OverdueNotificationFine3</policy_type>
+<special_entity>
+<active></active>
+<additional_data></additional_data>
+<create_date>31 May 2019</create_date>
+<definition_level>Institution</definition_level>
+<entity_action></entity_action>
+<index_xml></index_xml>
+<library_id></library_id>
+<library_unit_id></library_unit_id>
+<originating_d></originating_d>
+<policy_constant>None</policy_constant>
+<policy_description>No Overdue Notification Fine Type 3</policy_description>
+<policy_is_default_for_this_level></policy_is_default_for_this_level>
+<policy_is_default_value></policy_is_default_value>
+<policy_name>No Overdue Notification Fine Type 3</policy_name>
+<policy_type>OverdueNotificationFine3</policy_type>
+<unit_of_measurement></unit_of_measurement>
+<value></value>
+</special_entity>
+<translated_columns></translated_columns>
+<translated_fields>
+<map_entry>POLICY_NAME<value>
+<field>POLICY_NAME</field>
+<translations></translations>
+<translations_object_value></translations_object_value>
+</value>
+POLICY_NAME</map_entry>
+<map_entry>POLICY_DESCRIPTION<value>
+<field>POLICY_DESCRIPTION</field>
+<translations></translations>
+<translations_object_value></translations_object_value>
+</value>
+POLICY_DESCRIPTION</map_entry>
+</translated_fields>
+<unit_of_measurement></unit_of_measurement>
+<value></value>
+</ful_policy_wrapper>
+<ful_policy_wrapper>
+<active></active>
+<additional_data></additional_data>
+<application></application>
+<create_date>31 May 2019</create_date>
+<create_date_dummy>
+<calendar>31 May 2019</calendar>
+<calendar_ui></calendar_ui>
+<day>31</day>
+<day_ui></day_ui>
+<default_value_for_with_validation>1559335620323</default_value_for_with_validation>
+<full_date>2019-05-31</full_date>
+<full_date_from_ui></full_date_from_ui>
+<input_date_tag_format>31.05.2019</input_date_tag_format>
+<month>4</month>
+<month_ui></month_ui>
+<date>false</date>
+<year>2019</year>
+<year_ui></year_ui>
+</create_date_dummy>
+<creator>exl_impl</creator>
+<customer_id>5150</customer_id>
+<definition_level>Institution</definition_level>
+<entity_action></entity_action>
+<id>1069975470005154</id>
+<index_xml></index_xml>
+<institution_id>5154</institution_id>
+<key>No Overdue Notification Fine Type 4_5154</key>
+<library_id></library_id>
+<library_unit_id></library_unit_id>
+<modification_date>31 May 2019</modification_date>
+<modification_date_dummy>
+<calendar>31 May 2019</calendar>
+<calendar_ui></calendar_ui>
+<day>31</day>
+<day_ui></day_ui>
+<default_value_for_with_validation>1559335620894</default_value_for_with_validation>
+<full_date>2019-05-31</full_date>
+<full_date_from_ui></full_date_from_ui>
+<input_date_tag_format>31.05.2019</input_date_tag_format>
+<month>4</month>
+<month_ui></month_ui>
+<date>false</date>
+<year>2019</year>
+<year_ui></year_ui>
+</modification_date_dummy>
+<modified_by>exl_impl</modified_by>
+<org_fields>
+<customer_id>5150</customer_id>
+<institution_id>5154</institution_id>
+<library_id></library_id>
+<library_unit_id></library_unit_id>
+</org_fields>
+<organization_unit_id>5154</organization_unit_id>
+<originating_d></originating_d>
+<policy_constant>None</policy_constant>
+<policy_description>No Overdue Notification Fine Type 4</policy_description>
+<policy_is_default_for_this_level></policy_is_default_for_this_level>
+<policy_is_default_value></policy_is_default_value>
+<policy_name>No Overdue Notification Fine Type 4</policy_name>
+<policy_type>OverdueNotificationFine4</policy_type>
+<special_entity>
+<active></active>
+<additional_data></additional_data>
+<create_date>31 May 2019</create_date>
+<definition_level>Institution</definition_level>
+<entity_action></entity_action>
+<index_xml></index_xml>
+<library_id></library_id>
+<library_unit_id></library_unit_id>
+<originating_d></originating_d>
+<policy_constant>None</policy_constant>
+<policy_description>No Overdue Notification Fine Type 4</policy_description>
+<policy_is_default_for_this_level></policy_is_default_for_this_level>
+<policy_is_default_value></policy_is_default_value>
+<policy_name>No Overdue Notification Fine Type 4</policy_name>
+<policy_type>OverdueNotificationFine4</policy_type>
+<unit_of_measurement></unit_of_measurement>
+<value></value>
+</special_entity>
+<translated_columns></translated_columns>
+<translated_fields>
+<map_entry>POLICY_NAME<value>
+<field>POLICY_NAME</field>
+<translations></translations>
+<translations_object_value></translations_object_value>
+</value>
+POLICY_NAME</map_entry>
+<map_entry>POLICY_DESCRIPTION<value>
+<field>POLICY_DESCRIPTION</field>
+<translations></translations>
+<translations_object_value></translations_object_value>
+</value>
+POLICY_DESCRIPTION</map_entry>
+</translated_fields>
+<unit_of_measurement></unit_of_measurement>
+<value></value>
+</ful_policy_wrapper>
+<ful_policy_wrapper>
+<active></active>
+<additional_data></additional_data>
+<application></application>
+<create_date>31 May 2019</create_date>
+<create_date_dummy>
+<calendar>31 May 2019</calendar>
+<calendar_ui></calendar_ui>
+<day>31</day>
+<day_ui></day_ui>
+<default_value_for_with_validation>1559335620323</default_value_for_with_validation>
+<full_date>2019-05-31</full_date>
+<full_date_from_ui></full_date_from_ui>
+<input_date_tag_format>31.05.2019</input_date_tag_format>
+<month>4</month>
+<month_ui></month_ui>
+<date>false</date>
+<year>2019</year>
+<year_ui></year_ui>
+</create_date_dummy>
+<creator>exl_impl</creator>
+<customer_id>5150</customer_id>
+<definition_level>Institution</definition_level>
+<entity_action></entity_action>
+<id>1069975520005154</id>
+<index_xml></index_xml>
+<institution_id>5154</institution_id>
+<key>No Overdue Notification Fine Type 5_5154</key>
+<library_id></library_id>
+<library_unit_id></library_unit_id>
+<modification_date>31 May 2019</modification_date>
+<modification_date_dummy>
+<calendar>31 May 2019</calendar>
+<calendar_ui></calendar_ui>
+<day>31</day>
+<day_ui></day_ui>
+<default_value_for_with_validation>1559335620922</default_value_for_with_validation>
+<full_date>2019-05-31</full_date>
+<full_date_from_ui></full_date_from_ui>
+<input_date_tag_format>31.05.2019</input_date_tag_format>
+<month>4</month>
+<month_ui></month_ui>
+<date>false</date>
+<year>2019</year>
+<year_ui></year_ui>
+</modification_date_dummy>
+<modified_by>exl_impl</modified_by>
+<org_fields>
+<customer_id>5150</customer_id>
+<institution_id>5154</institution_id>
+<library_id></library_id>
+<library_unit_id></library_unit_id>
+</org_fields>
+<organization_unit_id>5154</organization_unit_id>
+<originating_d></originating_d>
+<policy_constant>None</policy_constant>
+<policy_description>No Overdue Notification Fine Type 5</policy_description>
+<policy_is_default_for_this_level></policy_is_default_for_this_level>
+<policy_is_default_value></policy_is_default_value>
+<policy_name>No Overdue Notification Fine Type 5</policy_name>
+<policy_type>OverdueNotificationFine5</policy_type>
+<special_entity>
+<active></active>
+<additional_data></additional_data>
+<create_date>31 May 2019</create_date>
+<definition_level>Institution</definition_level>
+<entity_action></entity_action>
+<index_xml></index_xml>
+<library_id></library_id>
+<library_unit_id></library_unit_id>
+<originating_d></originating_d>
+<policy_constant>None</policy_constant>
+<policy_description>No Overdue Notification Fine Type 5</policy_description>
+<policy_is_default_for_this_level></policy_is_default_for_this_level>
+<policy_is_default_value></policy_is_default_value>
+<policy_name>No Overdue Notification Fine Type 5</policy_name>
+<policy_type>OverdueNotificationFine5</policy_type>
+<unit_of_measurement></unit_of_measurement>
+<value></value>
+</special_entity>
+<translated_columns></translated_columns>
+<translated_fields>
+<map_entry>POLICY_NAME<value>
+<field>POLICY_NAME</field>
+<translations></translations>
+<translations_object_value></translations_object_value>
+</value>
+POLICY_NAME</map_entry>
+<map_entry>POLICY_DESCRIPTION<value>
+<field>POLICY_DESCRIPTION</field>
+<translations></translations>
+<translations_object_value></translations_object_value>
+</value>
+POLICY_DESCRIPTION</map_entry>
+</translated_fields>
+<unit_of_measurement></unit_of_measurement>
+<value></value>
+</ful_policy_wrapper>
+<ful_policy_wrapper>
+<active></active>
+<additional_data></additional_data>
+<application></application>
+<create_date>31 May 2019</create_date>
+<create_date_dummy>
+<calendar>31 May 2019</calendar>
+<calendar_ui></calendar_ui>
+<day>31</day>
+<day_ui></day_ui>
+<default_value_for_with_validation>1559335620323</default_value_for_with_validation>
+<full_date>2019-05-31</full_date>
+<full_date_from_ui></full_date_from_ui>
+<input_date_tag_format>31.05.2019</input_date_tag_format>
+<month>4</month>
+<month_ui></month_ui>
+<date>false</date>
+<year>2019</year>
+<year_ui></year_ui>
+</create_date_dummy>
+<creator>exl_impl</creator>
+<customer_id>5150</customer_id>
+<definition_level>Institution</definition_level>
+<entity_action></entity_action>
+<id>1069975570005154</id>
+<index_xml></index_xml>
+<institution_id>5154</institution_id>
+<key>None Block When Overdue_5154</key>
+<library_id></library_id>
+<library_unit_id></library_unit_id>
+<modification_date>31 May 2019</modification_date>
+<modification_date_dummy>
+<calendar>31 May 2019</calendar>
+<calendar_ui></calendar_ui>
+<day>31</day>
+<day_ui></day_ui>
+<default_value_for_with_validation>1559335620991</default_value_for_with_validation>
+<full_date>2019-05-31</full_date>
+<full_date_from_ui></full_date_from_ui>
+<input_date_tag_format>31.05.2019</input_date_tag_format>
+<month>4</month>
+<month_ui></month_ui>
+<date>false</date>
+<year>2019</year>
+<year_ui></year_ui>
+</modification_date_dummy>
+<modified_by>exl_impl</modified_by>
+<org_fields>
+<customer_id>5150</customer_id>
+<institution_id>5154</institution_id>
+<library_id></library_id>
+<library_unit_id></library_unit_id>
+</org_fields>
+<organization_unit_id>5154</organization_unit_id>
+<originating_d></originating_d>
+<policy_constant>None</policy_constant>
+<policy_description>None Block When Overdue</policy_description>
+<policy_is_default_for_this_level></policy_is_default_for_this_level>
+<policy_is_default_value></policy_is_default_value>
+<policy_name>None Block When Overdue</policy_name>
+<policy_type>BlockWhenOverdue</policy_type>
+<special_entity>
+<active></active>
+<additional_data></additional_data>
+<create_date>31 May 2019</create_date>
+<definition_level>Institution</definition_level>
+<entity_action></entity_action>
+<index_xml></index_xml>
+<library_id></library_id>
+<library_unit_id></library_unit_id>
+<originating_d></originating_d>
+<policy_constant>None</policy_constant>
+<policy_description>None Block When Overdue</policy_description>
+<policy_is_default_for_this_level></policy_is_default_for_this_level>
+<policy_is_default_value></policy_is_default_value>
+<policy_name>None Block When Overdue</policy_name>
+<policy_type>BlockWhenOverdue</policy_type>
+<unit_of_measurement></unit_of_measurement>
+<value>false</value>
+</special_entity>
+<translated_columns></translated_columns>
+<translated_fields>
+<map_entry>POLICY_NAME<value>
+<field>POLICY_NAME</field>
+<translations></translations>
+<translations_object_value></translations_object_value>
+</value>
+POLICY_NAME</map_entry>
+<map_entry>POLICY_DESCRIPTION<value>
+<field>POLICY_DESCRIPTION</field>
+<translations></translations>
+<translations_object_value></translations_object_value>
+</value>
+POLICY_DESCRIPTION</map_entry>
+</translated_fields>
+<unit_of_measurement></unit_of_measurement>
+<value>false</value>
+</ful_policy_wrapper>
+<ful_policy_wrapper>
+<active></active>
+<additional_data></additional_data>
+<application></application>
+<create_date>11 December 2016</create_date>
+<create_date_dummy>
+<calendar>11 December 2016</calendar>
+<calendar_ui></calendar_ui>
+<day>11</day>
+<day_ui></day_ui>
+<default_value_for_with_validation>1481471010000</default_value_for_with_validation>
+<full_date>2016-12-11</full_date>
+<full_date_from_ui></full_date_from_ui>
+<input_date_tag_format>11.12.2016</input_date_tag_format>
+<month>11</month>
+<month_ui></month_ui>
+<date>false</date>
+<year>2016</year>
+<year_ui></year_ui>
+</create_date_dummy>
+<creator>SYSTEM</creator>
+<customer_id>0</customer_id>
+<definition_level>Generic</definition_level>
+<entity_action></entity_action>
+<id>2116012</id>
+<index_xml></index_xml>
+<institution_id>11</institution_id>
+<key>No Maximum Block Period_11</key>
+<library_id></library_id>
+<library_unit_id></library_unit_id>
+<modification_date>11 December 2016</modification_date>
+<modification_date_dummy>
+<calendar>11 December 2016</calendar>
+<calendar_ui></calendar_ui>
+<day>11</day>
+<day_ui></day_ui>
+<default_value_for_with_validation>1481471010000</default_value_for_with_validation>
+<full_date>2016-12-11</full_date>
+<full_date_from_ui></full_date_from_ui>
+<input_date_tag_format>11.12.2016</input_date_tag_format>
+<month>11</month>
+<month_ui></month_ui>
+<date>false</date>
+<year>2016</year>
+<year_ui></year_ui>
+</modification_date_dummy>
+<modified_by></modified_by>
+<org_fields>
+<customer_id>0</customer_id>
+<institution_id>11</institution_id>
+<library_id></library_id>
+<library_unit_id></library_unit_id>
+</org_fields>
+<organization_unit_id>11</organization_unit_id>
+<originating_d></originating_d>
+<policy_constant>None</policy_constant>
+<policy_description>No Maximum Block Period for Block When Overdue</policy_description>
+<policy_is_default_for_this_level></policy_is_default_for_this_level>
+<policy_is_default_value></policy_is_default_value>
+<policy_name>No Maximum Block Period</policy_name>
+<policy_type>MaximumOverdueBlockPeriod</policy_type>
+<special_entity>
+<active></active>
+<additional_data></additional_data>
+<create_date>11 December 2016</create_date>
+<definition_level>Generic</definition_level>
+<entity_action></entity_action>
+<index_xml></index_xml>
+<library_id></library_id>
+<library_unit_id></library_unit_id>
+<originating_d></originating_d>
+<policy_constant>None</policy_constant>
+<policy_description>No Maximum Block Period for Block When Overdue</policy_description>
+<policy_is_default_for_this_level></policy_is_default_for_this_level>
+<policy_is_default_value></policy_is_default_value>
+<policy_name>No Maximum Block Period</policy_name>
+<policy_type>MaximumOverdueBlockPeriod</policy_type>
+<unit_of_measurement></unit_of_measurement>
+<value></value>
+</special_entity>
+<translated_columns></translated_columns>
+<translated_fields>
+<map_entry>POLICY_NAME<value>
+<field>POLICY_NAME</field>
+<translations></translations>
+<translations_object_value></translations_object_value>
+</value>
+POLICY_NAME</map_entry>
+<map_entry>POLICY_DESCRIPTION<value>
+<field>POLICY_DESCRIPTION</field>
+<translations></translations>
+<translations_object_value></translations_object_value>
+</value>
+POLICY_DESCRIPTION</map_entry>
+</translated_fields>
+<unit_of_measurement></unit_of_measurement>
+<value></value>
+</ful_policy_wrapper>
+<ful_policy_wrapper>
+<active></active>
+<additional_data></additional_data>
+<application></application>
+<create_date>31 May 2019</create_date>
+<create_date_dummy>
+<calendar>31 May 2019</calendar>
+<calendar_ui></calendar_ui>
+<day>31</day>
+<day_ui></day_ui>
+<default_value_for_with_validation>1559335620318</default_value_for_with_validation>
+<full_date>2019-05-31</full_date>
+<full_date_from_ui></full_date_from_ui>
+<input_date_tag_format>31.05.2019</input_date_tag_format>
+<month>4</month>
+<month_ui></month_ui>
+<date>false</date>
+<year>2019</year>
+<year_ui></year_ui>
+</create_date_dummy>
+<creator>exl_impl</creator>
+<customer_id>5150</customer_id>
+<definition_level>Institution</definition_level>
+<entity_action></entity_action>
+<id>some_id</id>
+<index_xml></index_xml>
+<institution_id>5154</institution_id>
+<key>30 Minute Reloan Limit_5154</key>
+<library_id></library_id>
+<library_unit_id></library_unit_id>
+<modification_date>16 January 2020</modification_date>
+<modification_date_dummy>
+<calendar>16 January 2020</calendar>
+<calendar_ui></calendar_ui>
+<day>16</day>
+<day_ui></day_ui>
+<default_value_for_with_validation>1579204506258</default_value_for_with_validation>
+<full_date>2020-01-16</full_date>
+<full_date_from_ui></full_date_from_ui>
+<input_date_tag_format>16.01.2020</input_date_tag_format>
+<month>0</month>
+<month_ui></month_ui>
+<date>false</date>
+<year>2020</year>
+<year_ui></year_ui>
+</modification_date_dummy>
+<modified_by>exl_impl</modified_by>
+<org_fields>
+<customer_id>5150</customer_id>
+<institution_id>5154</institution_id>
+<library_id></library_id>
+<library_unit_id></library_unit_id>
+</org_fields>
+<organization_unit_id>5154</organization_unit_id>
+<originating_d></originating_d>
+<policy_constant></policy_constant>
+<policy_description>30 Minute Reloan Limit</policy_description>
+<policy_is_default_for_this_level></policy_is_default_for_this_level>
+<policy_is_default_value></policy_is_default_value>
+<policy_name>30 Minute Reloan Limit</policy_name>
+<policy_type>ReloanLimit</policy_type>
+<special_entity>
+<active></active>
+<additional_data></additional_data>
+<create_date>31 May 2019</create_date>
+<definition_level>Institution</definition_level>
+<entity_action></entity_action>
+<index_xml></index_xml>
+<library_id></library_id>
+<library_unit_id></library_unit_id>
+<originating_d></originating_d>
+<policy_constant></policy_constant>
+<policy_description>30 Minute Reloan Limit</policy_description>
+<policy_is_default_for_this_level></policy_is_default_for_this_level>
+<policy_is_default_value></policy_is_default_value>
+<policy_name>30 Minute Reloan Limit</policy_name>
+<policy_type>ReloanLimit</policy_type>
+<unit_of_measurement>MIN</unit_of_measurement>
+<value>30</value>
+</special_entity>
+<translated_columns></translated_columns>
+<translated_fields>
+<map_entry>POLICY_NAME<value>
+<field>POLICY_NAME</field>
+<translations></translations>
+<translations_object_value></translations_object_value>
+</value>
+POLICY_NAME</map_entry>
+<map_entry>POLICY_DESCRIPTION<value>
+<field>POLICY_DESCRIPTION</field>
+<translations></translations>
+<translations_object_value></translations_object_value>
+</value>
+POLICY_DESCRIPTION</map_entry>
+</translated_fields>
+<unit_of_measurement>MIN</unit_of_measurement>
+<value>30</value>
+</ful_policy_wrapper>
+</policy_list>
+<process_status>NORMAL</process_status>
+<process_status_circ_desk></process_status_circ_desk>
+<process_status_creator></process_status_creator>
+<publication_year>2006.</publication_year>
+<reading_room_status>NO_AT_RR</reading_room_status>
+<record_type>PUBLIC</record_type>
+<renew_status></renew_status>
+<resource_sharing_operation>false</resource_sharing_operation>
+<return_circ_desk_id></return_circ_desk_id>
+<return_date></return_date>
+<return_date_str></return_date_str>
+<returned_by></returned_by>
+<shortened_due_date_reason></shortened_due_date_reason>
+<source_institution_id></source_institution_id>
+<source_institution_name></source_institution_name>
+<title>Pancakes for supper! / Anne Isaacs ; illustrated by Mark Teague.</title>
+<user></user>
+<user_expired>false</user_expired>
+<user_group>AFNUSER</user_group>
+<user_id>user_id</user_id>
+<user_name></user_name>
+<user_statistics1>NRU</user_statistics1>
+<user_statistics10></user_statistics10>
+<user_statistics2>UG</user_statistics2>
+<user_statistics3>UG_SHARED_PATRON</user_statistics3>
+<user_statistics4>Fac</user_statistics4>
+<user_statistics5></user_statistics5>
+<user_statistics6></user_statistics6>
+<user_statistics7></user_statistics7>
+<user_statistics8></user_statistics8>
+<user_statistics9></user_statistics9>
+<user_type>EXTERNAL</user_type>
+<version>2</version>
+<was_due_date_adjusted_to_library_open_hours>false</was_due_date_adjusted_to_library_open_hours>
+</item_loan>
+</item_loans>
+<languages>
+<string>en</string>
+</languages>
+<letter_params></letter_params>
+<letter_texts></letter_texts>
+<loans_by_library></loans_by_library>
+<message>RECALL_DUEDATE_CHANGE</message>
+<normalize_sum_strategy></normalize_sum_strategy>
+<organization_unit>
+<address>
+<city>Guelph</city>
+<country>Canada</country>
+<country_display></country_display>
+<create_date>07 May 2019</create_date>
+<entity_action></entity_action>
+<library_id></library_id>
+<library_unit_id></library_unit_id>
+<line1>50 Stone Road East</line1>
+<line2></line2>
+<line3></line3>
+<line4></line4>
+<line5></line5>
+<note></note>
+<originating_id></originating_id>
+<postal_code>postal_code</postal_code>
+<preferred>true</preferred>
+<segment_types_display>
+<string>Primary</string>
+<string>Patron Communications</string>
+<string>Billing</string>
+<string>Shipping</string>
+<string>Research</string>
+</segment_types_display>
+<state_province>Ontario</state_province>
+<user_address_types_display></user_address_types_display>
+</address>
+<automatic_creation>false</automatic_creation>
+<automatically_activate_locate_profile>true</automatically_activate_locate_profile>
+<automatically_locate_resource>true</automatically_locate_resource>
+<bibliographic_titles></bibliographic_titles>
+<cancel_request_on_locate_failure>false</cancel_request_on_locate_failure>
+<code>mclaughlin</code>
+<code_rfid></code_rfid>
+<country></country>
+<create_date>07 May 2019</create_date>
+<data_encryption_type></data_encryption_type>
+<default_acq_loctaion_id>default_acq_loctaion_id</default_acq_loctaion_id>
+<default_item_loctaion_id>default_item_loctaion_id</default_item_loctaion_id>
+<default_move_loctaion_id></default_move_loctaion_id>
+<default_pickup_loctaion_id>default_pickup_loctaion_id</default_pickup_loctaion_id>
+<default_printer>mcl_circ</default_printer>
+<description></description>
+<digital_objects></digital_objects>
+<digital_storage_size></digital_storage_size>
+<disable_call_number_calculation>false</disable_call_number_calculation>
+<edi_code></edi_code>
+<edi_type></edi_type>
+<email>
+<create_date>07 May 2019</create_date>
+<description></description>
+<email>FAKEDESK@uoguelph.ca</email>
+<entity_action></entity_action>
+<esploro_display_email>0</esploro_display_email>
+<external_id></external_id>
+<library_id></library_id>
+<library_unit_id></library_unit_id>
+<originating_id></originating_id>
+<preferred>false</preferred>
+</email>
+<entity_action></entity_action>
+<hold_shelf_email_delay></hold_shelf_email_delay>
+<ignore_electronic>true</ignore_electronic>
+<inactive_dates_end_bor></inactive_dates_end_bor>
+<inactive_dates_end_lend></inactive_dates_end_lend>
+<inactive_dates_start_bor></inactive_dates_start_bor>
+<inactive_dates_start_lend></inactive_dates_start_lend>
+<isil_code></isil_code>
+<itemless_library></itemless_library>
+<leader_institution_id></leader_institution_id>
+<library_id></library_id>
+<library_unit_id></library_unit_id>
+<name>McLaughlin Library</name>
+<named_users></named_users>
+<org_scope>
+<customer_id>5150</customer_id>
+<institution_id>5154</institution_id>
+<library_id>library_id</library_id>
+<library_unit_id></library_unit_id>
+</org_scope>
+<organization_id>221360870005154</organization_id>
+<organization_path>5150.5154.221360870005154</organization_path>
+<organization_type>LIBRARY</organization_type>
+<parent_org_id>5154</parent_org_id>
+<path>01OCUL.01OCUL_GUE.mclaughlin</path>
+<personal_delivery_by_other_libraries>false</personal_delivery_by_other_libraries>
+<phone></phone>
+<premium_sandbox></premium_sandbox>
+<prod_instance_name></prod_instance_name>
+<rapido_symbol></rapido_symbol>
+<reject_not_available>false</reject_not_available>
+<reject_not_requestable>false</reject_not_requestable>
+<reject_on_locate_failure>false</reject_on_locate_failure>
+<reject_only_electronic>false</reject_only_electronic>
+<reshelf_period>72.00</reshelf_period>
+<resource_sharing_library>true</resource_sharing_library>
+<extend_due_date></extend_due_date>
+<uresolver_locate>false</uresolver_locate>
+<serves_other_institutions>true</serves_other_institutions>
+<standard_sandbox></standard_sandbox>
+<status>ACTIVE</status>
+<support_code></support_code>
+<temp_inactive_borrowing>false</temp_inactive_borrowing>
+<temp_inactive_lending>false</temp_inactive_lending>
+<unique_ejournal_titles></unique_ejournal_titles>
+<url_mapping_prefix></url_mapping_prefix>
+</organization_unit>
+<phys_item_display></phys_item_display>
+<receivers>
+<receiver>
+<address_types></address_types>
+<attached_to_entity_id>attached_to_entity_id</attached_to_entity_id>
+<email_types></email_types>
+<params></params>
+<preferred_language>en</preferred_language>
+<receiver_id></receiver_id>
+<receiver_type></receiver_type>
+<receiver_type_class>com.exlibris.core.infra.model.HFrUser</receiver_type_class>
+<user_address>
+<city>Guelph, ON</city>
+<country></country>
+<country_display></country_display>
+<create_date>19 January 2021</create_date>
+<entity_action></entity_action>
+<library_id></library_id>
+<library_unit_id></library_unit_id>
+<line1>user_address</line1>
+<line2></line2>
+<line3></line3>
+<line4></line4>
+<line5></line5>
+<note></note>
+<originating_id></originating_id>
+<postal_code>postal_code</postal_code>
+<preferred>true</preferred>
+<state_province></state_province>
+</user_address>
+<user_email>
+<create_date>19 January 2021</create_date>
+<description></description>
+<email>XXXX@uoguelph.ca</email>
+<entity_action></entity_action>
+<esploro_display_email></esploro_display_email>
+<external_id>SIS</external_id>
+<library_id></library_id>
+<library_unit_id></library_unit_id>
+<originating_id></originating_id>
+<preferred>true</preferred>
+</user_email>
+<user_phone></user_phone>
+<user>
+<addresses_mask>$preferredlabel$ $false$, ::enc::258C6BEA4CB26F94D7D517D429C89B5C::enc::, ::enc::6EE1F7A0A435E5DA972EA0F387245E1F::enc::, ::enc::29C3ACB3E0D4E965CFA55AF0388AA716C41A661AAD387754021BE74BB8A76D380C324EDB7215C48D2C0A06575CFC5454::enc::, $addresstypeslabel$ ::ctvs::school::ctvs::, $notelabel$ This is maintained from the HR LOAD: Address line 1: College Address line 2: Dept Address line 3: Dept Description, $startdatelabel$ ::date::::date::, $enddatelabel$ ::date::::date::&lt;br&gt;$preferredlabel$ $true$, ::enc::71D0A38AAF5857DC136CDBAB41CEE95C37D1C37AE1577B146019A454348EFE41::enc::, ::enc::94785414F8BB4843205FBB9E6D2BE1FF::enc::, ::enc::CC3D842537774E88705A3F69F74A376E::enc::, $addresstypeslabel$ ::ctvs::home::ctvs::, $notelabel$ , $startdatelabel$ ::date::::date::, $enddatelabel$ ::date::::date::&lt;br&gt;</addresses_mask>
+<birth_date></birth_date>
+<birth_date_dummy>
+<calendar>31 December 1969</calendar>
+<calendar_ui></calendar_ui>
+<day>1</day>
+<day_ui></day_ui>
+<default_value_for_with_validation>0</default_value_for_with_validation>
+<full_date></full_date>
+<full_date_from_ui></full_date_from_ui>
+<input_date_tag_format>00.00.0</input_date_tag_format>
+<month>0</month>
+<month_ui></month_ui>
+<date>true</date>
+<year>1970</year>
+<year_ui></year_ui>
+</birth_date_dummy>
+<blocks_mask></blocks_mask>
+<campus_code></campus_code>
+<campus_code_original_value></campus_code_original_value>
+<cataloger_level>00</cataloger_level>
+<cataloger_level_original_value>00</cataloger_level_original_value>
+<checksum></checksum>
+<copied_from_z>false</copied_from_z>
+<create_date>08 April 2005</create_date>
+<default_language>en</default_language>
+<duplicate_user_name>duplicate_user_name</duplicate_user_name>
+<emails_mask>$preferredlabel$ $true$, ::enc::2A68564AF3EE4345A5DBC991EAE5F6C635B1E29B6D8BD88421A9B2A03FABFB9B::enc::, $emailtypeslabel$ ::ctvs::school::ctvs::, $descriptionlabel$ &lt;br&gt;</emails_mask>
+<encrypted_pin_number></encrypted_pin_number>
+<encrypted_pin_number_original_value></encrypted_pin_number_original_value>
+<entity_action></entity_action>
+<expiry_date>15 September 2021</expiry_date>
+<expiry_date_dummy>
+<calendar>15 September 2021</calendar>
+<calendar_ui></calendar_ui>
+<day>16</day>
+<day_ui></day_ui>
+<default_value_for_with_validation>default_value_for_with_validation</default_value_for_with_validation>
+<full_date>2021-09-16</full_date>
+<full_date_from_ui></full_date_from_ui>
+<input_date_tag_format>16.09.2021</input_date_tag_format>
+<month>8</month>
+<month_ui></month_ui>
+<date>false</date>
+<year>2021</year>
+<year_ui></year_ui>
+</expiry_date_dummy>
+<external_id>01OCUL_WTL</external_id>
+<failed_authentication>0</failed_authentication>
+<first_name>Randy</first_name>
+<force_password_change>false</force_password_change>
+<force_update_external>false</force_update_external>
+<force_update_external_original_fields>false</force_update_external_original_fields>
+<from_register_new_user>false</from_register_new_user>
+<gender></gender>
+<identifiers_mask>$isactive$ $true$, $typelabel$ ::ctvs::INST_ID::ctvs::, $valuelabel$ ::enc::4FB6D66CA8996FD4D2C5B55BC642F1BE::enc::, $notelabel$ &lt;br&gt;$isactive$ $true$, $typelabel$ ::ctvs::INST_ID::ctvs::, $valuelabel$ ::enc::F2600124AAA11BE337E4AA4C13F8539190A3FE43CA2879026A013A22B30F3E04::enc::, $notelabel$ &lt;br&gt;</identifiers_mask>
+<from_external_system>true</from_external_system>
+<researcher></researcher>
+<job_description></job_description>
+<job_title></job_title>
+<job_title_original_value></job_title_original_value>
+<last_name>Oldham</last_name>
+<last_patron_activity_date>18 May 2021</last_patron_activity_date>
+<last_patron_activity_date_dummy>
+<calendar>18 May 2021</calendar>
+<calendar_ui></calendar_ui>
+<day>18</day>
+<day_ui></day_ui>
+<default_value_for_with_validation>default_value_for_with_validation</default_value_for_with_validation>
+<full_date>2021-05-18</full_date>
+<full_date_from_ui></full_date_from_ui>
+<input_date_tag_format>18.05.2021</input_date_tag_format>
+<month>4</month>
+<month_ui></month_ui>
+<date>false</date>
+<year>2021</year>
+<year_ui></year_ui>
+</last_patron_activity_date_dummy>
+<library_id></library_id>
+<library_unit_id></library_unit_id>
+<linked_account>false</linked_account>
+<linking_id>linking_id</linking_id>
+<locked_out>false</locked_out>
+<locked_out_date></locked_out_date>
+<login_restriction_exception></login_restriction_exception>
+<lti_course_code></lti_course_code>
+<middle_name>W.d.</middle_name>
+<notes_mask>$notelabel$ This record was loaded from HR for staff, and matched to the barcode, $typelabel$ ::ctvs::REGISTAR::ctvs::, $userviewable$ $false$, $popupnote$ $false$ &lt;br&gt;</notes_mask>
+<distributed>false</distributed>
+<original_id>291381-triudb</original_id>
+<originating_id></originating_id>
+<password_expiry_date></password_expiry_date>
+<password_in_idp></password_in_idp>
+<phones_mask></phones_mask>
+<pin_number></pin_number>
+<pin_number_for_display></pin_number_for_display>
+<pin_number_original_value></pin_number_original_value>
+<pin_number_salt></pin_number_salt>
+<ppr_libraries_d></ppr_libraries_d>
+<preferred_first_name></preferred_first_name>
+<preferred_first_name_orig_value></preferred_first_name_orig_value>
+<preferred_first_name_set_by></preferred_first_name_set_by>
+<preferred_first_name_set_by_enum></preferred_first_name_set_by_enum>
+<preferred_last_name></preferred_last_name>
+<preferred_last_name_orig_value></preferred_last_name_orig_value>
+<preferred_last_name_set_by></preferred_last_name_set_by>
+<preferred_last_name_set_by_enum></preferred_last_name_set_by_enum>
+<preferred_middle_name></preferred_middle_name>
+<preferred_middle_name_orig_value></preferred_middle_name_orig_value>
+<preferred_middle_name_set_by></preferred_middle_name_set_by>
+<preferred_middle_name_set_by_enum></preferred_middle_name_set_by_enum>
+<preferred_name_suffix></preferred_name_suffix>
+<preferred_name_suffix_orig_value></preferred_name_suffix_orig_value>
+<product_name></product_name>
+<proxy_for_mask></proxy_for_mask>
+<purge_date></purge_date>
+<purge_date_dummy>
+<calendar>31 December 1969</calendar>
+<calendar_ui></calendar_ui>
+<day>1</day>
+<day_ui></day_ui>
+<default_value_for_with_validation>0</default_value_for_with_validation>
+<full_date></full_date>
+<full_date_from_ui></full_date_from_ui>
+<input_date_tag_format>00.00.0</input_date_tag_format>
+<month>0</month>
+<month_ui></month_ui>
+<date>true</date>
+<year>1970</year>
+<year_ui></year_ui>
+</purge_date_dummy>
+<record_type>PUBLIC</record_type>
+<registration_key></registration_key>
+<roles_mask>$rolename$ ::ctvs::0::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::1::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::12::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::2::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::200::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::204::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::205::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::206::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::209::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::21::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::210::ctvs::, $rolescope$ ::msvs::::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::210::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::214::ctvs::, $rolescope$ ::msvs::::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::214::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::214::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::214::ctvs::, $rolescope$ ::msvs::5150.5154.221360870005154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$  $serviceunit$ - McLReserves, DEFAULT_CIRC_DESK&lt;br&gt;$rolename$ ::ctvs::215::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::215::ctvs::, $rolescope$ ::msvs::5150.5154.12900830000231::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::215::ctvs::, $rolescope$ ::msvs::5150.5154.221360870005154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::215::ctvs::, $rolescope$ ::msvs::5150.5154.3380515460005154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::215::ctvs::, $rolescope$ ::msvs::5150.5154.3380515840005154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::216::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::217::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::218::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::220::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::2200::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::221::ctvs::, $rolescope$ ::msvs::5150.5154.221360870005154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$  $circulationdesk$ - DEFAULT_CIRC_DESK&lt;br&gt;$rolename$ ::ctvs::221::ctvs::, $rolescope$ ::msvs::5150.5154.3380515460005154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$  $circulationdesk$ - DEFAULT_CIRC_DESK, false&lt;br&gt;$rolename$ ::ctvs::222::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::223::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::224::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::225::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::226::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::227::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::228::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::229::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::230::ctvs::, $rolescope$ ::msvs::::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::230::ctvs::, $rolescope$ ::msvs::5150.5154.221360870005154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::231::ctvs::, $rolescope$ ::msvs::::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::231::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::232::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::233::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::234::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::235::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::236::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::238::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::239::ctvs::, $rolescope$ ::msvs::::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::239::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::239::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::240::ctvs::, $rolescope$ ::msvs::::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::240::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::244::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::245::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::246::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::247::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::248::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::248::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::249::ctvs::, $rolescope$ ::msvs::::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::249::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::250::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::251::ctvs::, $rolescope$ ::msvs::::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::251::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::26::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::29::ctvs::, $rolescope$ ::msvs::::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::29::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::299::ctvs::, $rolescope$ ::msvs::::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::299::ctvs::, $rolescope$ ::msvs::::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::300::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::301::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::32::ctvs::, $rolescope$ ::msvs::::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::32::ctvs::, $rolescope$ ::msvs::5150.5154.12900830000231::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$  $circulationdesk$ - RES_DESK&lt;br&gt;$rolename$ ::ctvs::32::ctvs::, $rolescope$ ::msvs::5150.5154.221360870005154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$  $circulationdesk$ - DEFAULT_CIRC_DESK&lt;br&gt;$rolename$ ::ctvs::33::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::34::ctvs::, $rolescope$ ::msvs::::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::34::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::36::ctvs::, $rolescope$ ::msvs::::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::36::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::37::ctvs::, $rolescope$ ::msvs::::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::37::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$  $serviceunit$ - RecvDept&lt;br&gt;$rolename$ ::ctvs::37::ctvs::, $rolescope$ ::msvs::5150.5154.221360870005154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$  $serviceunit$ - DEFAULT_CIRC_DESK-AcqWorkOrder&lt;br&gt;$rolename$ ::ctvs::371::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::372::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::38::ctvs::, $rolescope$ ::msvs::::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::38::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$  $serviceunit$ - GUE-CR&lt;br&gt;$rolename$ ::ctvs::38::ctvs::, $rolescope$ ::msvs::5150.5154.12900830000231::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::38::ctvs::, $rolescope$ ::msvs::5150.5154.3380515460005154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::38::ctvs::, $rolescope$ ::msvs::5150.5154.3380515840005154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::41::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::43::ctvs::, $rolescope$ ::msvs::::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::43::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::44::ctvs::, $rolescope$ ::msvs::::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::44::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::45::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::450::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::46::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::47::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::48::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::50::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::51::ctvs::, $rolescope$ ::msvs::::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::51::ctvs::, $rolescope$ ::msvs::::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::51::ctvs::, $rolescope$ ::msvs::5150.5154.12900830000231::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$  $circulationdesk$ - RES_DESK&lt;br&gt;$rolename$ ::ctvs::51::ctvs::, $rolescope$ ::msvs::5150.5154.221360870005154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$  $circulationdesk$ - DEFAULT_CIRC_DESK&lt;br&gt;$rolename$ ::ctvs::52::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::53::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::54::ctvs::, $rolescope$ ::msvs::::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::54::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::55::ctvs::, $rolescope$ ::msvs::::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::55::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::56::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::57::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::58::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;</roles_mask>
+<library_code></library_code>
+<library_code_original_value></library_code_original_value>
+<secret_key></secret_key>
+<selected_patron_letters></selected_patron_letters>
+<selected_patron_letters_original_value></selected_patron_letters_original_value>
+<source_institution_id></source_institution_id>
+<source_institution_name></source_institution_name>
+<source_link_id></source_link_id>
+<status>ACTIVE</status>
+<status_date>19 January 2021</status_date>
+<status_date_dummy>
+<calendar>19 January 2021</calendar>
+<calendar_ui></calendar_ui>
+<day>19</day>
+<day_ui></day_ui>
+<default_value_for_with_validation>some_int_val</default_value_for_with_validation>
+<full_date>2021-01-19</full_date>
+<full_date_from_ui></full_date_from_ui>
+<input_date_tag_format>19.01.2021</input_date_tag_format>
+<month>0</month>
+<month_ui></month_ui>
+<date>false</date>
+<year>2021</year>
+<year_ui></year_ui>
+</status_date_dummy>
+<temp_generated_password></temp_generated_password>
+<update_source></update_source>
+<user_address_list>
+<user_address>
+<city>Guelph, ON</city>
+<country></country>
+<country_display></country_display>
+<create_date>19 January 2021</create_date>
+<entity_action></entity_action>
+<library_id></library_id>
+<library_unit_id></library_unit_id>
+<line1>user_address</line1>
+<line2></line2>
+<line3></line3>
+<line4></line4>
+<line5></line5>
+<note></note>
+<originating_id></originating_id>
+<postal_code>postal_code</postal_code>
+<preferred>true</preferred>
+<state_province></state_province>
+</user_address>
+<user_address>
+<city></city>
+<country></country>
+<country_display></country_display>
+<create_date>19 January 2021</create_date>
+<entity_action></entity_action>
+<library_id></library_id>
+<library_unit_id></library_unit_id>
+<line1>Library</line1>
+<line2>0400</line2>
+<line3>Office Of The University Librarian</line3>
+<line4></line4>
+<line5></line5>
+<note>This is maintained from the HR LOAD: Address line 1: College Address line 2: Dept Address line 3: Dept Description</note>
+<originating_id></originating_id>
+<postal_code></postal_code>
+<preferred>false</preferred>
+<state_province></state_province>
+</user_address>
+</user_address_list>
+<user_email_list>
+<user_email>
+<create_date>19 January 2021</create_date>
+<description></description>
+<email>XXX@uoguelph.ca</email>
+<entity_action></entity_action>
+<esploro_display_email></esploro_display_email>
+<external_id>SIS</external_id>
+<library_id></library_id>
+<library_unit_id></library_unit_id>
+<originating_id></originating_id>
+<preferred>true</preferred>
+</user_email>
+</user_email_list>
+<user_gender></user_gender>
+<user_group>AFNUSER</user_group>
+<user_group_original_value>AFNUSER</user_group_original_value>
+<user_name>primary_id</user_name>
+<user_phone_list></user_phone_list>
+<user_preferred_language>en</user_preferred_language>
+<user_preferred_language_original_value>en</user_preferred_language_original_value>
+<user_record_type>PUBLIC</user_record_type>
+<user_status>ACTIVE</user_status>
+<user_title></user_title>
+<user_title_original_value></user_title_original_value>
+<user_type>EXTERNAL</user_type>
+<user_user_type>EXTERNAL</user_user_type>
+<user_web_address_list></user_web_address_list>
+<web_site_url></web_site_url>
+</user>
+</receiver>
+</receivers>
+<send_after_commit>true</send_after_commit>
+<sms_content></sms_content>
+<throw_exceptions>false</throw_exceptions>
+<user_for_printing>
+<address1>user_address</address1>
+<address2></address2>
+<address3></address3>
+<address4></address4>
+<address5></address5>
+<blocks></blocks>
+<city>Guelph, ON</city>
+<country></country>
+<email>XXXX@uoguelph.ca</email>
+<first_name>Randy</first_name>
+<identifiers>
+<code_value>
+<code>Primary Identifier</code>
+<value>primary_id</value>
+</code_value>
+<code_value>
+<code>INST_ID</code>
+<value>XXXX@uoguelph.ca</value>
+</code_value>
+<code_value>
+<code>INST_ID</code>
+<value>id_val</value>
+</code_value>
+</identifiers>
+<last_name>Oldham</last_name>
+<middle_name></middle_name>
+<name>Oldham, Randy</name>
+<phone></phone>
+<postal_code>postal_code</postal_code>
+<preferred_first_name></preferred_first_name>
+<preferred_last_name></preferred_last_name>
+<preferred_middle_name></preferred_middle_name>
+<state></state>
+<title></title>
+<user_group>AFNUSER</user_group>
+<user_title></user_title>
+</user_for_printing>
+<webhook_data>
+<fees></fees>
+<items></items>
+<loans></loans>
+<outgoing_resource_sharing_requests></outgoing_resource_sharing_requests>
+<receivers></receivers>
+<smss_content></smss_content>
+<user_requests></user_requests>
+</webhook_data>
+</notification_data>

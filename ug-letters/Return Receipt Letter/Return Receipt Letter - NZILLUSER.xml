@@ -1,0 +1,1167 @@
+<notification_data>
+<circ_desk_name>McLaughlin Library Circulation Desk</circ_desk_name>
+<enable_quick_print>true</enable_quick_print>
+<general_data><address_c>None;None</address_c>
+<address_c>None;None</address_c>
+<address_from>library@institution.ca</address_from>
+<current_date>23 February 2024</current_date>
+<current_time>16:10:15 EST</current_time>
+<letter_channel_info></letter_channel_info>
+<letter_name>Library Return Receipt</letter_name>
+<letter_type>FulReturnReceiptLetter</letter_type>
+<subject>Library Return Receipt</subject>
+</general_data>
+<items><item_loan><accession_number></accession_number>
+<alternative_call_number></alternative_call_number>
+<author>Mortimer, Charles E.</author>
+<barcode>31188013749177</barcode>
+<booking_request_id></booking_request_id>
+<calculated_due_date></calculated_due_date>
+<call_number>QD 31.2.M65 1986</call_number>
+<create_date>23 February 2024</create_date>
+<create_date_allow_null></create_date_allow_null>
+<created_by_user></created_by_user>
+<delivery_address></delivery_address>
+<description></description>
+<description_for_display>Call Number: QD 31.2.M65 1986 </description_for_display>
+<due_date>05 April 2024</due_date>
+<due_date_beyond_expiry></due_date_beyond_expiry>
+<due_date_shortened_reason></due_date_shortened_reason>
+<due_date_start_calculation_date></due_date_start_calculation_date>
+<entity_action></entity_action>
+<external_item_id></external_item_id>
+<fine></fine>
+<fine_action></fine_action>
+<from_another_inst></from_another_inst>
+<from_another_inst_circ_desk></from_another_inst_circ_desk>
+<from_another_inst_library></from_another_inst_library>
+<from_fulfillment_configuration_util>false</from_fulfillment_configuration_util>
+<item_description></item_description>
+<item_id>item_id val</item_id>
+<item_loan_change_list></item_loan_change_list>
+<item_location_lib_id>item_location_lib_id val</item_location_lib_id>
+<job_title></job_title>
+<last_renew_date></last_renew_date>
+<last_renew_status></last_renew_status>
+<library_id>library_id val</library_id>
+<library_name>McLaughlin Library (U of G)</library_name>
+<library_unit_id></library_unit_id>
+<loan_circ_desk_id>loan_circ_desk_id id</loan_circ_desk_id>
+<loan_circ_desk_institution_code></loan_circ_desk_institution_code>
+<loan_circ_desk_name></loan_circ_desk_name>
+<loan_date>23 February 2024</loan_date>
+<loan_note></loan_note>
+<loan_notes></loan_notes>
+<loan_status>Complete</loan_status>
+<loaned_at_library>McLaughlin Library (U of G)</loaned_at_library>
+<location_code>book</location_code>
+<location_name>Book Stacks</location_name>
+<material_type>BOOK</material_type>
+<middle_id>middle_id id</middle_id>
+<mms_id>mms_id id</mms_id>
+<modification_date_allow_null></modification_date_allow_null>
+<modified_by_user></modified_by_user>
+<need_to_create_user_demerit>false</need_to_create_user_demerit>
+<new_due_date_str>05 April 2024 22:00:00 EDT</new_due_date_str>
+<new_loan_date_str>23 February 2024 16:09:40 EST</new_loan_date_str>
+<next_step>Reshelve</next_step>
+<normalized_barcode>31188013749177</normalized_barcode>
+<normalized_fine></normalized_fine>
+<notified_by_profiles></notified_by_profiles>
+<old_due_date></old_due_date>
+<old_due_date_str></old_due_date_str>
+<originating_system_id></originating_system_id>
+<originating_user_id></originating_user_id>
+<physical_item><accession_number></accession_number>
+<alt_number_source></alt_number_source>
+<alternative_call_number></alternative_call_number>
+<alternative_call_number_type></alternative_call_number_type>
+<arrival_date>12 March 1998</arrival_date>
+<arrival_operator>import</arrival_operator>
+<author>Mortimer, Charles E.</author>
+<barcode>31188013749177</barcode>
+<base_status>1</base_status>
+<break_indicator></break_indicator>
+<call_number>QD 31.2.M65 1986</call_number>
+<call_number_all_levels>QD 31.2.M65 1986</call_number_all_levels>
+<call_number_type>0</call_number_type>
+<call_number_type_all_levels>0</call_number_type_all_levels>
+<chronology_i></chronology_i>
+<chronology_j></chronology_j>
+<chronology_k></chronology_k>
+<chronology_l></chronology_l>
+<chronology_m></chronology_m>
+<committed_to_retain></committed_to_retain>
+<complete_edition>6th ed.</complete_edition>
+<copied_to_host>false</copied_to_host>
+<copy_id>1</copy_id>
+<create_date>25 November 2019</create_date>
+<customer_id>5150</customer_id>
+<date_of_publication>1986.</date_of_publication>
+<description></description>
+<display_alternative_call_number></display_alternative_call_number>
+<enumeration_a></enumeration_a>
+<enumeration_b></enumeration_b>
+<enumeration_c></enumeration_c>
+<enumeration_d></enumeration_d>
+<enumeration_e></enumeration_e>
+<enumeration_f></enumeration_f>
+<enumeration_g></enumeration_g>
+<enumeration_h></enumeration_h>
+<expected_arrival_date></expected_arrival_date>
+<expected_return_from_temp_location></expected_return_from_temp_location>
+<fulfillment_note></fulfillment_note>
+<holding_d>holding_d val</holding_d>
+<institution_id>5154</institution_id>
+<internal_note_1></internal_note_1>
+<internal_note_2></internal_note_2>
+<internal_note_3>ON_RESERVE: N | RESERVE_CHARGES: 0 | RECALLS_PLACED: 0 | HOLDS_PLACED: 0 | HISTORICAL_BOOKINGS: 0 | SHORT_LOAN_CHARGES: 0 | </internal_note_3>
+<inventory_date></inventory_date>
+<inventory_number></inventory_number>
+<inventory_price></inventory_price>
+<item_requested></item_requested>
+<magnetic>false</magnetic>
+<isbn>0534056709</isbn>
+<issn></issn>
+<issue_date></issue_date>
+<issue_year></issue_year>
+<item_d>item_d val</item_d>
+<item_policy>BOOK</item_policy>
+<item_replacement_cost></item_replacement_cost>
+<language>eng</language>
+<library_id>library_id val</library_id>
+<library_unit_id></library_unit_id>
+<loaded_by_update_order>false</loaded_by_update_order>
+<location_code>book</location_code>
+<material_type>BOOK</material_type>
+<mms_id>9921659163505154</mms_id>
+<modification_date>23 February 2024</modification_date>
+<network_number><string>863026407</string>
+<string>(OCoLC)12104310</string>
+<string>CaOLU009714929</string>
+<string>(CaOLU)b18977741-01ocul_uwo</string>
+<string>(EXLNZ-01OCUL_NETWORK)992320302505151</string>
+</network_number>
+<org_fields><customer_id>5150</customer_id>
+<institution_id>5154</institution_id>
+<library_id>library_id val</library_id>
+<library_unit_id></library_unit_id>
+</org_fields>
+<pages></pages>
+<pattern_linking_number></pattern_linking_number>
+<pattern_type></pattern_type>
+<permanent_call_number>QD 31.2.M65 1986</permanent_call_number>
+<permanent_call_number_type>0</permanent_call_number_type>
+<permanent_library_id>permanent_library_id val</permanent_library_id>
+<permanent_location_code>book</permanent_location_code>
+<pieces>1</pieces>
+<place_of_publication>Belmont, CA :</place_of_publication>
+<line_id></line_id>
+<process_id></process_id>
+<process_type></process_type>
+<provenance></provenance>
+<public_note></public_note>
+<publication_place>Belmont, CA :</publication_place>
+<publication_year>1986.</publication_year>
+<publisher>Wadsworth,</publisher>
+<publisher_const>Wadsworth</publisher_const>
+<real_item_policy>BOOK</real_item_policy>
+<receive_number></receive_number>
+<retention_note></retention_note>
+<retention_reason></retention_reason>
+<row_call_number>$$h QD 31.2.M65 1986 </row_call_number>
+<series_volume></series_volume>
+<statistics_note_1></statistics_note_1>
+<statistics_note_2></statistics_note_2>
+<statistics_note_3></statistics_note_3>
+<storage_location_d></storage_location_d>
+<suppressed>false</suppressed>
+<temporary_call_number></temporary_call_number>
+<temporary_call_number_type></temporary_call_number_type>
+<temporary_item_policy></temporary_item_policy>
+<temporary_library></temporary_library>
+<temporary_location_code></temporary_location_code>
+<temporary_physical_location_in_use>false</temporary_physical_location_in_use>
+<title>Chemistry /</title>
+<title_abcnph>Chemistry / Charles E. Mortimer.</title_abcnph>
+<tmp_number_source></tmp_number_source>
+<version_date>23 February 2024</version_date>
+<weeding_date></weeding_date>
+<weeding_number></weeding_number>
+</physical_item>
+<policy_list></policy_list>
+<process_status>NORMAL</process_status>
+<process_status_circ_desk></process_status_circ_desk>
+<process_status_creator></process_status_creator>
+<publication_year>1986.</publication_year>
+<reading_room_status>NO_AT_RR</reading_room_status>
+<record_type>PUBLIC</record_type>
+<renew_status></renew_status>
+<resource_sharing_operation>false</resource_sharing_operation>
+<return_circ_desk_id>return_circ_desk_id val</return_circ_desk_id>
+<return_date>23 February 2024</return_date>
+<return_date_str>23 February 2024 16:10:08 EST</return_date_str>
+<returned_by>returned_by val</returned_by>
+<shortened_by_accept_item_due_date>false</shortened_by_accept_item_due_date>
+<shortened_due_date_reason></shortened_due_date_reason>
+<source_institution_id></source_institution_id>
+<source_institution_name></source_institution_name>
+<title>Chemistry / Charles E. Mortimer.</title>
+<user></user>
+<user_expired>false</user_expired>
+<user_group>NZILLUSER</user_group>
+<user_id>user_id val</user_id>
+<user_name></user_name>
+<user_statistics1>NRU</user_statistics1>
+<user_statistics10></user_statistics10>
+<user_statistics2>UG</user_statistics2>
+<user_statistics3>UG_SHARED_PATRON</user_statistics3>
+<user_statistics4>Sta</user_statistics4>
+<user_statistics5></user_statistics5>
+<user_statistics6></user_statistics6>
+<user_statistics7></user_statistics7>
+<user_statistics8></user_statistics8>
+<user_statistics9></user_statistics9>
+<user_type>EXTERNAL</user_type>
+<version>4</version>
+<was_due_date_adjusted_to_library_open_hours>false</was_due_date_adjusted_to_library_open_hours>
+</item_loan>
+</items>
+<languages><string>en</string>
+</languages>
+<letter_params></letter_params>
+<letter_texts></letter_texts>
+<loans_by_library><library_loans_for_display><item_loans><overdue_and_lost_loan_notification_display><fines_fees_list></fines_fees_list>
+<fines_fees_list></fines_fees_list>
+<item_loan><accession_number></accession_number>
+<alternative_call_number></alternative_call_number>
+<author>Mortimer, Charles E.</author>
+<barcode>31188013749177</barcode>
+<booking_request_id></booking_request_id>
+<calculated_due_date></calculated_due_date>
+<call_number>QD 31.2.M65 1986</call_number>
+<create_date>23 February 2024</create_date>
+<create_date_allow_null></create_date_allow_null>
+<created_by_user></created_by_user>
+<delivery_address></delivery_address>
+<description></description>
+<description_for_display>Call Number: QD 31.2.M65 1986 </description_for_display>
+<due_date>05 April 2024</due_date>
+<due_date_beyond_expiry></due_date_beyond_expiry>
+<due_date_shortened_reason></due_date_shortened_reason>
+<due_date_start_calculation_date></due_date_start_calculation_date>
+<entity_action></entity_action>
+<external_item_id></external_item_id>
+<fine></fine>
+<fine_action></fine_action>
+<from_another_inst></from_another_inst>
+<from_another_inst_circ_desk></from_another_inst_circ_desk>
+<from_another_inst_library></from_another_inst_library>
+<from_fulfillment_configuration_util>false</from_fulfillment_configuration_util>
+<item_description></item_description>
+<item_id>23158696980005154</item_id>
+<item_loan_change_list></item_loan_change_list>
+<item_location_lib_id>221360870005154</item_location_lib_id>
+<job_title></job_title>
+<last_renew_date></last_renew_date>
+<last_renew_status></last_renew_status>
+<library_id>221360870005154</library_id>
+<library_name>McLaughlin Library (U of G)</library_name>
+<library_unit_id></library_unit_id>
+<loan_circ_desk_id>221360890005154</loan_circ_desk_id>
+<loan_circ_desk_institution_code></loan_circ_desk_institution_code>
+<loan_circ_desk_name></loan_circ_desk_name>
+<loan_date>23 February 2024</loan_date>
+<loan_note></loan_note>
+<loan_notes></loan_notes>
+<loan_status>Complete</loan_status>
+<loaned_at_library>McLaughlin Library (U of G)</loaned_at_library>
+<location_code>book</location_code>
+<location_name>Book Stacks</location_name>
+<material_type>BOOK</material_type>
+<middle_id>middle_id val</middle_id>
+<mms_id>9921659163505154</mms_id>
+<modification_date_allow_null></modification_date_allow_null>
+<modified_by_user></modified_by_user>
+<need_to_create_user_demerit>false</need_to_create_user_demerit>
+<new_due_date_str>05 April 2024 22:00:00 EDT</new_due_date_str>
+<new_loan_date_str>23 February 2024 16:09:40 EST</new_loan_date_str>
+<next_step>Reshelve</next_step>
+<normalized_barcode>31188013749177</normalized_barcode>
+<normalized_fine></normalized_fine>
+<notified_by_profiles></notified_by_profiles>
+<old_due_date></old_due_date>
+<old_due_date_str></old_due_date_str>
+<originating_system_id></originating_system_id>
+<originating_user_id></originating_user_id>
+<physical_item><accession_number></accession_number>
+<alt_number_source></alt_number_source>
+<alternative_call_number></alternative_call_number>
+<alternative_call_number_type></alternative_call_number_type>
+<arrival_date>12 March 1998</arrival_date>
+<arrival_operator>import</arrival_operator>
+<author>Mortimer, Charles E.</author>
+<barcode>31188013749177</barcode>
+<base_status>1</base_status>
+<break_indicator></break_indicator>
+<call_number>QD 31.2.M65 1986</call_number>
+<call_number_all_levels>QD 31.2.M65 1986</call_number_all_levels>
+<call_number_type>0</call_number_type>
+<call_number_type_all_levels>0</call_number_type_all_levels>
+<chronology_i></chronology_i>
+<chronology_j></chronology_j>
+<chronology_k></chronology_k>
+<chronology_l></chronology_l>
+<chronology_m></chronology_m>
+<committed_to_retain></committed_to_retain>
+<complete_edition>6th ed.</complete_edition>
+<copied_to_host>false</copied_to_host>
+<copy_id>1</copy_id>
+<create_date>25 November 2019</create_date>
+<customer_id>5150</customer_id>
+<date_of_publication>1986.</date_of_publication>
+<description></description>
+<display_alternative_call_number></display_alternative_call_number>
+<enumeration_a></enumeration_a>
+<enumeration_b></enumeration_b>
+<enumeration_c></enumeration_c>
+<enumeration_d></enumeration_d>
+<enumeration_e></enumeration_e>
+<enumeration_f></enumeration_f>
+<enumeration_g></enumeration_g>
+<enumeration_h></enumeration_h>
+<expected_arrival_date></expected_arrival_date>
+<expected_return_from_temp_location></expected_return_from_temp_location>
+<fulfillment_note></fulfillment_note>
+<holding_d>holding_d val</holding_d>
+<institution_id>5154</institution_id>
+<internal_note_1></internal_note_1>
+<internal_note_2></internal_note_2>
+<internal_note_3>ON_RESERVE: N | RESERVE_CHARGES: 0 | RECALLS_PLACED: 0 | HOLDS_PLACED: 0 | HISTORICAL_BOOKINGS: 0 | SHORT_LOAN_CHARGES: 0 | </internal_note_3>
+<inventory_date></inventory_date>
+<inventory_number></inventory_number>
+<inventory_price></inventory_price>
+<item_requested></item_requested>
+<magnetic>false</magnetic>
+<isbn>0534056709</isbn>
+<issn></issn>
+<issue_date></issue_date>
+<issue_year></issue_year>
+<item_d>item_d val</item_d>
+<item_policy>BOOK</item_policy>
+<item_replacement_cost></item_replacement_cost>
+<language>eng</language>
+<library_id>library_id val</library_id>
+<library_unit_id></library_unit_id>
+<loaded_by_update_order>false</loaded_by_update_order>
+<location_code>book</location_code>
+<material_type>BOOK</material_type>
+<mms_id>9921659163505154</mms_id>
+<modification_date>23 February 2024</modification_date>
+<network_number><string>863026407</string>
+<string>(OCoLC)12104310</string>
+<string>CaOLU009714929</string>
+<string>(CaOLU)b18977741-01ocul_uwo</string>
+<string>(EXLNZ-01OCUL_NETWORK)992320302505151</string>
+</network_number>
+<org_fields><customer_id>5150</customer_id>
+<institution_id>5154</institution_id>
+<library_id>library_id val</library_id>
+<library_unit_id></library_unit_id>
+</org_fields>
+<pages></pages>
+<pattern_linking_number></pattern_linking_number>
+<pattern_type></pattern_type>
+<permanent_call_number>QD 31.2.M65 1986</permanent_call_number>
+<permanent_call_number_type>0</permanent_call_number_type>
+<permanent_library_id>permanent_library_id val</permanent_library_id>
+<permanent_location_code>book</permanent_location_code>
+<pieces>1</pieces>
+<place_of_publication>Belmont, CA :</place_of_publication>
+<line_id></line_id>
+<process_id></process_id>
+<process_type></process_type>
+<provenance></provenance>
+<public_note></public_note>
+<publication_place>Belmont, CA :</publication_place>
+<publication_year>1986.</publication_year>
+<publisher>Wadsworth,</publisher>
+<publisher_const>Wadsworth</publisher_const>
+<real_item_policy>BOOK</real_item_policy>
+<receive_number></receive_number>
+<retention_note></retention_note>
+<retention_reason></retention_reason>
+<row_call_number>$$h QD 31.2.M65 1986 </row_call_number>
+<series_volume></series_volume>
+<statistics_note_1></statistics_note_1>
+<statistics_note_2></statistics_note_2>
+<statistics_note_3></statistics_note_3>
+<storage_location_d></storage_location_d>
+<suppressed>false</suppressed>
+<temporary_call_number></temporary_call_number>
+<temporary_call_number_type></temporary_call_number_type>
+<temporary_item_policy></temporary_item_policy>
+<temporary_library></temporary_library>
+<temporary_location_code></temporary_location_code>
+<temporary_physical_location_in_use>false</temporary_physical_location_in_use>
+<title>Chemistry /</title>
+<title_abcnph>Chemistry / Charles E. Mortimer.</title_abcnph>
+<tmp_number_source></tmp_number_source>
+<version_date>23 February 2024</version_date>
+<weeding_date></weeding_date>
+<weeding_number></weeding_number>
+</physical_item>
+<policy_list></policy_list>
+<process_status>NORMAL</process_status>
+<process_status_circ_desk></process_status_circ_desk>
+<process_status_creator></process_status_creator>
+<publication_year>1986.</publication_year>
+<reading_room_status>NO_AT_RR</reading_room_status>
+<record_type>PUBLIC</record_type>
+<renew_status></renew_status>
+<resource_sharing_operation>false</resource_sharing_operation>
+<return_circ_desk_id>return_circ_desk_id val</return_circ_desk_id>
+<return_date>23 February 2024</return_date>
+<return_date_str>23 February 2024 16:10:08 EST</return_date_str>
+<returned_by>returned_by val</returned_by>
+<shortened_by_accept_item_due_date>false</shortened_by_accept_item_due_date>
+<shortened_due_date_reason></shortened_due_date_reason>
+<source_institution_id></source_institution_id>
+<source_institution_name></source_institution_name>
+<title>Chemistry / Charles E. Mortimer.</title>
+<user></user>
+<user_expired>false</user_expired>
+<user_group>NZILLUSER</user_group>
+<user_id>user_id val</user_id>
+<user_name></user_name>
+<user_statistics1>NRU</user_statistics1>
+<user_statistics10></user_statistics10>
+<user_statistics2>UG</user_statistics2>
+<user_statistics3>UG_SHARED_PATRON</user_statistics3>
+<user_statistics4>Sta</user_statistics4>
+<user_statistics5></user_statistics5>
+<user_statistics6></user_statistics6>
+<user_statistics7></user_statistics7>
+<user_statistics8></user_statistics8>
+<user_statistics9></user_statistics9>
+<user_type>EXTERNAL</user_type>
+<version>4</version>
+<was_due_date_adjusted_to_library_open_hours>false</was_due_date_adjusted_to_library_open_hours>
+</item_loan>
+<physical_item_display_for_printing><accession_number></accession_number>
+<alt_call_number_type></alt_call_number_type>
+<attachments></attachments>
+<author>Mortimer, Charles E.</author>
+<available_items><available_item><barcode>31188013749177</barcode>
+<call_number>QD 31.2.M65 1986</call_number>
+<inventory_number></inventory_number>
+<item_policy>BOOK</item_policy>
+<library_code>mclaughlin</library_code>
+<library_name>McLaughlin Library (U of G)</library_name>
+<location_code>book</location_code>
+<location_name>Guelph Book Stacks</location_name>
+<material_type>BOOK</material_type>
+<public_note></public_note>
+<shelving_location></shelving_location>
+</available_item>
+</available_items>
+<barcode>31188013749177</barcode>
+<call_number>QD 31.2.M65 1986</call_number>
+<call_number_type>0</call_number_type>
+<chron_i></chron_i>
+<chron_j></chron_j>
+<chron_k></chron_k>
+<chron_l></chron_l>
+<chron_m></chron_m>
+<committed_to_retain></committed_to_retain>
+<copy_id>1</copy_id>
+<destination_name></destination_name>
+<display_alt_call_numbers></display_alt_call_numbers>
+<edition>6th ed.</edition>
+<enum_a></enum_a>
+<enum_b></enum_b>
+<enum_c></enum_c>
+<enum_d></enum_d>
+<enum_e></enum_e>
+<enum_f></enum_f>
+<enum_g></enum_g>
+<enum_h></enum_h>
+<fulfillment_note></fulfillment_note>
+<imprint>Belmont, CA : Wadsworth, 1986.</imprint>
+<internal_note1></internal_note1>
+<internal_note2></internal_note2>
+<internal_note3>ON_RESERVE: N | RESERVE_CHARGES: 0 | RECALLS_PLACED: 0 | HOLDS_PLACED: 0 | HISTORICAL_BOOKINGS: 0 | SHORT_LOAN_CHARGES: 0 | </internal_note3>
+<inventory_material_type>Book</inventory_material_type>
+<isbn>0534056709</isbn>
+<issn></issn>
+<issue_level_description></issue_level_description>
+<item_pid>item_pid val</item_pid>
+<item_policy>Book</item_policy>
+<library_code>mclaughlin</library_code>
+<library_name>McLaughlin Library (U of G)</library_name>
+<location_code>book</location_code>
+<location_name>Guelph Book Stacks</location_name>
+<material_type>BOOK</material_type>
+<optional_barcodes><string>31188013749177</string>
+</optional_barcodes>
+<owning_library_details><active_balance></active_balance>
+<address1>50 Stone Road East</address1>
+<address2></address2>
+<address3></address3>
+<address4></address4>
+<address5></address5>
+<blocks></blocks>
+<city>Guelph</city>
+<country>Canada</country>
+<country_display></country_display>
+<email></email>
+<first_name></first_name>
+<gender></gender>
+<identifiers><code_value><code>Primary Identifier</code>
+<value></value>
+</code_value>
+</identifiers>
+<last_name></last_name>
+<middle_name></middle_name>
+<name>McLaughlin Library (U of G)</name>
+<phone></phone>
+<postal_code>N1G 2W1</postal_code>
+<preferred_first_name></preferred_first_name>
+<preferred_last_name></preferred_last_name>
+<preferred_middle_name></preferred_middle_name>
+<state>Ontario</state>
+<title></title>
+<user_group></user_group>
+<user_title></user_title>
+</owning_library_details>
+<owning_library_id>owning_library_id val</owning_library_id>
+<owning_library_name>McLaughlin Library (U of G)</owning_library_name>
+<parsed_alt_call_number></parsed_alt_call_number>
+<parsed_call_number></parsed_call_number>
+<parsed_issue_level_description></parsed_issue_level_description>
+<permanent_library></permanent_library>
+<permanent_location></permanent_location>
+<profile_names></profile_names>
+<public_note></public_note>
+<publication_date>1986.</publication_date>
+<publication_place>Belmont, CA :</publication_place>
+<publisher>Wadsworth,</publisher>
+<retention_note></retention_note>
+<retention_reason></retention_reason>
+<row_call_number>$$h QD 31.2.M65 1986 </row_call_number>
+<shelving_location></shelving_location>
+<statistics_note1></statistics_note1>
+<statistics_note2></statistics_note2>
+<statistics_note3></statistics_note3>
+<summary_holding_infos></summary_holding_infos>
+<suppressed>false</suppressed>
+<title>Chemistry /</title>
+<title_abcnph>Chemistry / Charles E. Mortimer.</title_abcnph>
+</physical_item_display_for_printing>
+<total_fines_amount>0.00</total_fines_amount>
+</overdue_and_lost_loan_notification_display>
+</item_loans>
+<organization_unit><address><city>Guelph</city>
+<country>Canada</country>
+<country_display></country_display>
+<create_date>07 May 2019</create_date>
+<create_date_allow_null></create_date_allow_null>
+<created_by_user></created_by_user>
+<entity_action></entity_action>
+<library_id></library_id>
+<library_unit_id></library_unit_id>
+<line1>50 Stone Road East</line1>
+<line2></line2>
+<line3></line3>
+<line4></line4>
+<line5></line5>
+<modification_date_allow_null></modification_date_allow_null>
+<modified_by_user></modified_by_user>
+<note></note>
+<originating_id></originating_id>
+<postal_code>N1G 2W1</postal_code>
+<preferred>true</preferred>
+<segment_types_display><string>Primary</string>
+<string>Patron Communications</string>
+<string>Billing</string>
+<string>Shipping</string>
+<string>Research</string>
+</segment_types_display>
+<state_province>Ontario</state_province>
+<user_address_types_display></user_address_types_display>
+</address>
+<automatic_creation>false</automatic_creation>
+<automatically_activate_locate_profile>true</automatically_activate_locate_profile>
+<automatically_locate_resource>true</automatically_locate_resource>
+<bibliographic_titles></bibliographic_titles>
+<cancel_request_on_locate_failure>false</cancel_request_on_locate_failure>
+<code>mclaughlin</code>
+<code_rfid></code_rfid>
+<country></country>
+<create_date>07 May 2019</create_date>
+<create_date_allow_null></create_date_allow_null>
+<created_by_user></created_by_user>
+<data_encryption_type></data_encryption_type>
+<default_acq_loctaion_id>default_acq_loctaion_id val</default_acq_loctaion_id>
+<default_item_loctaion_id>default_item_loctaion_id val</default_item_loctaion_id>
+<default_move_loctaion_id></default_move_loctaion_id>
+<default_pickup_loctaion_id>221360870005154</default_pickup_loctaion_id>
+<default_printer>mcl_circ</default_printer>
+<description></description>
+<digital_objects></digital_objects>
+<digital_storage_size></digital_storage_size>
+<disable_call_number_calculation>false</disable_call_number_calculation>
+<edi_code></edi_code>
+<edi_type></edi_type>
+<email><create_date>07 May 2019</create_date>
+<create_date_allow_null></create_date_allow_null>
+<created_by_user></created_by_user>
+<description></description>
+<email>lib.oculcf@institution.ca</email>
+<entity_action></entity_action>
+<esploro_display_email>0</esploro_display_email>
+<external_id></external_id>
+<library_id></library_id>
+<library_unit_id></library_unit_id>
+<modification_date_allow_null></modification_date_allow_null>
+<modified_by_user></modified_by_user>
+<originating_id></originating_id>
+<preferred>false</preferred>
+</email>
+<entity_action></entity_action>
+<hold_shelf_email_delay></hold_shelf_email_delay>
+<ignore_electronic>true</ignore_electronic>
+<ignore_electronic_for_physical_s>false</ignore_electronic_for_physical_s>
+<inactive_dates_end_bor></inactive_dates_end_bor>
+<inactive_dates_end_lend></inactive_dates_end_lend>
+<inactive_dates_start_bor></inactive_dates_start_bor>
+<inactive_dates_start_lend></inactive_dates_start_lend>
+<isil_code></isil_code>
+<itemless_library></itemless_library>
+<leader_institution_id></leader_institution_id>
+<library_id></library_id>
+<library_unit_id></library_unit_id>
+<modification_date_allow_null></modification_date_allow_null>
+<modified_by_user></modified_by_user>
+<name>McLaughlin Library (U of G)</name>
+<named_users></named_users>
+<org_scope><customer_id>5150</customer_id>
+<institution_id>5154</institution_id>
+<library_id>library_id val</library_id>
+<library_unit_id></library_unit_id>
+</org_scope>
+<organization_id>organization_id val</organization_id>
+<organization_path>5150.5154.221360870005154</organization_path>
+<organization_type>LIBRARY</organization_type>
+<parent_org_id>5154</parent_org_id>
+<path>01OCUL.01OCUL_GUE.mclaughlin</path>
+<personal_delivery_by_other_libraries>false</personal_delivery_by_other_libraries>
+<phone></phone>
+<premium_sandbox></premium_sandbox>
+<prod_instance_name></prod_instance_name>
+<rapido_symbol></rapido_symbol>
+<reject_not_available>false</reject_not_available>
+<reject_not_requestable>false</reject_not_requestable>
+<reject_on_locate_failure>false</reject_on_locate_failure>
+<reject_only_electronic>false</reject_only_electronic>
+<reshelf_period></reshelf_period>
+<resource_sharing_library>false</resource_sharing_library>
+<extend_due_date></extend_due_date>
+<uresolver_locate>false</uresolver_locate>
+<serves_other_institutions>true</serves_other_institutions>
+<ship_resources_directly>false</ship_resources_directly>
+<standard_sandbox></standard_sandbox>
+<status>ACTIVE</status>
+<support_code></support_code>
+<temp_inactive_borrowing>false</temp_inactive_borrowing>
+<temp_inactive_lending>false</temp_inactive_lending>
+<unique_ejournal_titles></unique_ejournal_titles>
+<url_mapping_prefix></url_mapping_prefix>
+</organization_unit>
+</library_loans_for_display>
+</loans_by_library>
+<normalize_sum_strategy></normalize_sum_strategy>
+<organization_unit><address><city>Guelph</city>
+<country>Canada</country>
+<country_display></country_display>
+<create_date>07 May 2019</create_date>
+<create_date_allow_null></create_date_allow_null>
+<created_by_user></created_by_user>
+<entity_action></entity_action>
+<library_id></library_id>
+<library_unit_id></library_unit_id>
+<line1>50 Stone Road East</line1>
+<line2></line2>
+<line3></line3>
+<line4></line4>
+<line5></line5>
+<modification_date_allow_null></modification_date_allow_null>
+<modified_by_user></modified_by_user>
+<note></note>
+<originating_id></originating_id>
+<postal_code>N1G 2W1</postal_code>
+<preferred>true</preferred>
+<segment_types_display><string>Primary</string>
+<string>Patron Communications</string>
+<string>Billing</string>
+<string>Shipping</string>
+<string>Research</string>
+</segment_types_display>
+<state_province>Ontario</state_province>
+<user_address_types_display></user_address_types_display>
+</address>
+<automatic_creation>false</automatic_creation>
+<automatically_activate_locate_profile>true</automatically_activate_locate_profile>
+<automatically_locate_resource>true</automatically_locate_resource>
+<bibliographic_titles></bibliographic_titles>
+<cancel_request_on_locate_failure>false</cancel_request_on_locate_failure>
+<code>mclaughlin</code>
+<code_rfid></code_rfid>
+<country></country>
+<create_date>07 May 2019</create_date>
+<create_date_allow_null></create_date_allow_null>
+<created_by_user></created_by_user>
+<data_encryption_type></data_encryption_type>
+<default_acq_loctaion_id>default_acq_loctaion_id val</default_acq_loctaion_id>
+<default_item_loctaion_id>default_item_loctaion_id val</default_item_loctaion_id>
+<default_move_loctaion_id></default_move_loctaion_id>
+<default_pickup_loctaion_id>221360870005154</default_pickup_loctaion_id>
+<default_printer>mcl_circ</default_printer>
+<description></description>
+<digital_objects></digital_objects>
+<digital_storage_size></digital_storage_size>
+<disable_call_number_calculation>false</disable_call_number_calculation>
+<edi_code></edi_code>
+<edi_type></edi_type>
+<email><create_date>07 May 2019</create_date>
+<create_date_allow_null></create_date_allow_null>
+<created_by_user></created_by_user>
+<description></description>
+<email>lib.oculcf@institution.ca</email>
+<entity_action></entity_action>
+<esploro_display_email>0</esploro_display_email>
+<external_id></external_id>
+<library_id></library_id>
+<library_unit_id></library_unit_id>
+<modification_date_allow_null></modification_date_allow_null>
+<modified_by_user></modified_by_user>
+<originating_id></originating_id>
+<preferred>false</preferred>
+</email>
+<entity_action></entity_action>
+<hold_shelf_email_delay></hold_shelf_email_delay>
+<ignore_electronic>true</ignore_electronic>
+<ignore_electronic_for_physical_s>false</ignore_electronic_for_physical_s>
+<inactive_dates_end_bor></inactive_dates_end_bor>
+<inactive_dates_end_lend></inactive_dates_end_lend>
+<inactive_dates_start_bor></inactive_dates_start_bor>
+<inactive_dates_start_lend></inactive_dates_start_lend>
+<isil_code></isil_code>
+<itemless_library></itemless_library>
+<leader_institution_id></leader_institution_id>
+<library_id></library_id>
+<library_unit_id></library_unit_id>
+<modification_date_allow_null></modification_date_allow_null>
+<modified_by_user></modified_by_user>
+<name>McLaughlin Library (U of G)</name>
+<named_users></named_users>
+<org_scope><customer_id>5150</customer_id>
+<institution_id>5154</institution_id>
+<library_id>library_id val</library_id>
+<library_unit_id></library_unit_id>
+</org_scope>
+<organization_id>organization_id val</organization_id>
+<organization_path>5150.5154.221360870005154</organization_path>
+<organization_type>LIBRARY</organization_type>
+<parent_org_id>5154</parent_org_id>
+<path>01OCUL.01OCUL_GUE.mclaughlin</path>
+<personal_delivery_by_other_libraries>false</personal_delivery_by_other_libraries>
+<phone></phone>
+<premium_sandbox></premium_sandbox>
+<prod_instance_name></prod_instance_name>
+<rapido_symbol></rapido_symbol>
+<reject_not_available>false</reject_not_available>
+<reject_not_requestable>false</reject_not_requestable>
+<reject_on_locate_failure>false</reject_on_locate_failure>
+<reject_only_electronic>false</reject_only_electronic>
+<reshelf_period></reshelf_period>
+<resource_sharing_library>false</resource_sharing_library>
+<extend_due_date></extend_due_date>
+<uresolver_locate>false</uresolver_locate>
+<serves_other_institutions>true</serves_other_institutions>
+<ship_resources_directly>false</ship_resources_directly>
+<standard_sandbox></standard_sandbox>
+<status>ACTIVE</status>
+<support_code></support_code>
+<temp_inactive_borrowing>false</temp_inactive_borrowing>
+<temp_inactive_lending>false</temp_inactive_lending>
+<unique_ejournal_titles></unique_ejournal_titles>
+<url_mapping_prefix></url_mapping_prefix>
+</organization_unit>
+<phys_item_display></phys_item_display>
+<receivers><receiver><address_types></address_types>
+<attached_to_entity_id>attached_to_entity_id val</attached_to_entity_id>
+<email_types></email_types>
+<params></params>
+<preferred_language>en</preferred_language>
+<receiver_id></receiver_id>
+<receiver_type></receiver_type>
+<receiver_type_class>com.exlibris.core.infra.model.HFrUser</receiver_type_class>
+<user_address><city>Cambridge, ON</city>
+<country>Null</country>
+<country_display></country_display>
+<create_date>27 May 2020</create_date>
+<create_date_allow_null></create_date_allow_null>
+<created_by_user></created_by_user>
+<entity_action></entity_action>
+<library_id></library_id>
+<library_unit_id></library_unit_id>
+<line1>36 Chase Crescent</line1>
+<line2></line2>
+<line3></line3>
+<line4></line4>
+<line5></line5>
+<modification_date_allow_null></modification_date_allow_null>
+<modified_by_user></modified_by_user>
+<note></note>
+<originating_id></originating_id>
+<postal_code>N3C0C5</postal_code>
+<preferred>true</preferred>
+<state_province></state_province>
+</user_address>
+<user_email><create_date>07 February 2024</create_date>
+<create_date_allow_null></create_date_allow_null>
+<created_by_user></created_by_user>
+<description></description>
+<email>email val</email>
+<entity_action></entity_action>
+<esploro_display_email></esploro_display_email>
+<external_id>SIS</external_id>
+<library_id></library_id>
+<library_unit_id></library_unit_id>
+<modification_date_allow_null></modification_date_allow_null>
+<modified_by_user></modified_by_user>
+<originating_id></originating_id>
+<preferred>true</preferred>
+</user_email>
+<user_phone></user_phone>
+<user><addresses_mask>$preferredlabel$ $false$, ::enc::F30069EC25107C04A9A1E40DD7551BD4A3BEFA65965F054B2517D519E4DA8777::enc::, ::enc::6542B0AF445843905051B84E8328EC57::enc::, ::enc::06B5C30975898A3354838B3983966754::enc::, $addresstypeslabel$ ::ctvs::home::ctvs::, $notelabel$ , $startdatelabel$ ::date::::date::, $enddatelabel$ ::date::::date::&lt;br&gt;$preferredlabel$ $false$, ::enc::258C6BEA4CB26F94D7D517D429C89B5C::enc::, ::enc::6EE1F7A0A435E5DA972EA0F387245E1F::enc::, ::enc::29C3ACB3E0D4E965CFA55AF0388AA716C41A661AAD387754021BE74BB8A76D380C324EDB7215C48D2C0A06575CFC5454::enc::, $addresstypeslabel$ ::ctvs::school::ctvs::, $notelabel$ This is maintained from the HR LOAD: Address line 1: College Address line 2: Dept Address line 3: Dept Description, $startdatelabel$ ::date::::date::, $enddatelabel$ ::date::::date::&lt;br&gt;$preferredlabel$ $true$, ::enc::F30069EC25107C04A9A1E40DD7551BD4A3BEFA65965F054B2517D519E4DA8777::enc::, ::enc::6542B0AF445843905051B84E8328EC57::enc::, ::enc::06B5C30975898A3354838B3983966754::enc::, ::enc::0519DC4ACC74267C035EB542A8B165F0::enc::, $addresstypeslabel$ ::ctvs::home::ctvs::, $notelabel$ , $startdatelabel$ ::date::::date::, $enddatelabel$ ::date::::date::&lt;br&gt;</addresses_mask>
+<authorized_for_rs></authorized_for_rs>
+<authorized_for_rs_edit_user>true</authorized_for_rs_edit_user>
+<birth_date></birth_date>
+<birth_date_dummy><calendar>31 December 1969</calendar>
+<calendar_ui></calendar_ui>
+<day>1</day>
+<day_ui></day_ui>
+<default_value_for_with_validation>0</default_value_for_with_validation>
+<full_date></full_date>
+<full_date_from_ui></full_date_from_ui>
+<input_date_tag_format>00.00.0</input_date_tag_format>
+<month>0</month>
+<month_ui></month_ui>
+<date>true</date>
+<year>1970</year>
+<year_ui></year_ui>
+</birth_date_dummy>
+<blocks_mask></blocks_mask>
+<campus_code></campus_code>
+<campus_code_original_value></campus_code_original_value>
+<cataloger_level>00</cataloger_level>
+<cataloger_level_original_value>00</cataloger_level_original_value>
+<checksum></checksum>
+<copied_from_z>false</copied_from_z>
+<create_date>19 March 2009</create_date>
+<create_date_allow_null></create_date_allow_null>
+<created_by_user></created_by_user>
+<default_language>en</default_language>
+<duplicate_user_name>duplicate_user_name val</duplicate_user_name>
+<emails_mask>$preferredlabel$ $true$, ::enc::422F21787211A02450C7418E2995F82B90A3FE43CA2879026A013A22B30F3E04::enc::, $emailtypeslabel$ ::ctvs::school::ctvs::, $descriptionlabel$ &lt;br&gt;</emails_mask>
+<encrypted_pin_number>k&amp;h!eCFPF67D</encrypted_pin_number>
+<encrypted_pin_number_original_value></encrypted_pin_number_original_value>
+<entity_action></entity_action>
+<expiry_date>15 September 2024</expiry_date>
+<expiry_date_dummy><calendar>15 September 2024</calendar>
+<calendar_ui></calendar_ui>
+<day>16</day>
+<day_ui></day_ui>
+<default_value_for_with_validation>1726459199999</default_value_for_with_validation>
+<full_date>2024-09-16</full_date>
+<full_date_from_ui></full_date_from_ui>
+<input_date_tag_format>16.09.2024</input_date_tag_format>
+<month>8</month>
+<month_ui></month_ui>
+<date>false</date>
+<year>2024</year>
+<year_ui></year_ui>
+</expiry_date_dummy>
+<external_id>SIS</external_id>
+<failed_authentication>0</failed_authentication>
+<fields_to_validate></fields_to_validate>
+<first_name>Matthew</first_name>
+<force_password_change>false</force_password_change>
+<force_update_external>false</force_update_external>
+<force_update_external_original_fields>false</force_update_external_original_fields>
+<from_register_new_user>false</from_register_new_user>
+<gender></gender>
+<identifiers_mask>$isactive$ $true$, $typelabel$ ::ctvs::INST_ID::ctvs::, $valuelabel$ ::enc::422F21787211A02450C7418E2995F82B90A3FE43CA2879026A013A22B30F3E04::enc::, $notelabel$ &lt;br&gt;$isactive$ $true$, $typelabel$ ::ctvs::INST_ID::ctvs::, $valuelabel$ ::enc::F71B024CD4EE55375ADEE50B28F32510::enc::, $notelabel$ &lt;br&gt;</identifiers_mask>
+<from_external_system>true</from_external_system>
+<researcher></researcher>
+<job_description></job_description>
+<job_title></job_title>
+<job_title_original_value></job_title_original_value>
+<last_name>Van ast</last_name>
+<last_patron_activity_date>23 February 2024</last_patron_activity_date>
+<last_patron_activity_date_dummy><calendar>23 February 2024</calendar>
+<calendar_ui></calendar_ui>
+<day>23</day>
+<day_ui></day_ui>
+<default_value_for_with_validation>default_value_for_with_validation val</default_value_for_with_validation>
+<full_date>2024-02-23</full_date>
+<full_date_from_ui></full_date_from_ui>
+<input_date_tag_format>23.02.2024</input_date_tag_format>
+<month>1</month>
+<month_ui></month_ui>
+<date>false</date>
+<year>2024</year>
+<year_ui></year_ui>
+</last_patron_activity_date_dummy>
+<library_id></library_id>
+<library_unit_id></library_unit_id>
+<linked_account>false</linked_account>
+<linking_id>linking_id val</linking_id>
+<locked_out>false</locked_out>
+<locked_out_date></locked_out_date>
+<login_restriction_exception></login_restriction_exception>
+<lti_course_code></lti_course_code>
+<middle_name>Roeland</middle_name>
+<modification_date_allow_null></modification_date_allow_null>
+<modified_by_user></modified_by_user>
+<notes_mask>$notelabel$ This record was loaded from HR for staff, and matched to the barcode, $typelabel$ ::ctvs::REGISTAR::ctvs::, $userviewable$ $false$, $popupnote$ $false$ &lt;br&gt;</notes_mask>
+<distributed>false</distributed>
+<original_id>391349-triudb</original_id>
+<originating_id></originating_id>
+<password_expiry_date></password_expiry_date>
+<password_in_idp>false</password_in_idp>
+<phones_mask></phones_mask>
+<pin_number>pin_number val</pin_number>
+<pin_number_for_display>****</pin_number_for_display>
+<pin_number_original_value></pin_number_original_value>
+<pin_number_salt></pin_number_salt>
+<ppr_libraries_d></ppr_libraries_d>
+<preferred_first_name></preferred_first_name>
+<preferred_first_name_orig_value></preferred_first_name_orig_value>
+<preferred_first_name_set_by>SIS</preferred_first_name_set_by>
+<preferred_first_name_set_by_enum>SIS</preferred_first_name_set_by_enum>
+<preferred_first_name_set_by_restore>false</preferred_first_name_set_by_restore>
+<preferred_last_name>Van Ast</preferred_last_name>
+<preferred_last_name_orig_value></preferred_last_name_orig_value>
+<preferred_last_name_set_by>UI</preferred_last_name_set_by>
+<preferred_last_name_set_by_enum>UI</preferred_last_name_set_by_enum>
+<preferred_last_name_set_by_restore>false</preferred_last_name_set_by_restore>
+<preferred_middle_name></preferred_middle_name>
+<preferred_middle_name_orig_value></preferred_middle_name_orig_value>
+<preferred_middle_name_set_by>SIS</preferred_middle_name_set_by>
+<preferred_middle_name_set_by_enum>SIS</preferred_middle_name_set_by_enum>
+<preferred_middle_name_set_by_restore>false</preferred_middle_name_set_by_restore>
+<preferred_name_suffix></preferred_name_suffix>
+<preferred_name_suffix_orig_value></preferred_name_suffix_orig_value>
+<product_name></product_name>
+<profile_template_ids></profile_template_ids>
+<proxy_for_mask></proxy_for_mask>
+<purge_date></purge_date>
+<purge_date_dummy><calendar>31 December 1969</calendar>
+<calendar_ui></calendar_ui>
+<day>1</day>
+<day_ui></day_ui>
+<default_value_for_with_validation>0</default_value_for_with_validation>
+<full_date></full_date>
+<full_date_from_ui></full_date_from_ui>
+<input_date_tag_format>00.00.0</input_date_tag_format>
+<month>0</month>
+<month_ui></month_ui>
+<date>true</date>
+<year>1970</year>
+<year_ui></year_ui>
+</purge_date_dummy>
+<record_type>PUBLIC</record_type>
+<registration_key></registration_key>
+<roles_mask>$rolename$ ::ctvs::0::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::0::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::0::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::1::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::1::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::1::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::12::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::12::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::12::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::2::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::2::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::2::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::200::ctvs::, $rolescope$ ::msvs::::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::200::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::204::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::205::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::206::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::208::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::209::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::21::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::210::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::210::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::210::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::214::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$  $serviceunit$ - DIGI_DEPT_INST&lt;br&gt;$rolename$ ::ctvs::214::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::214::ctvs::, $rolescope$ ::msvs::5150.5154.221360550005154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$  $serviceunit$ - DEFAULT_CIRC_DESK_PHYSICAL_TO_DIGITIZATION, DEFAULT_CIRC_DESK&lt;br&gt;$rolename$ ::ctvs::214::ctvs::, $rolescope$ ::msvs::5150.5154.221360870005154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$  $serviceunit$ - DEFAULT_CIRC_DESK, DEFAULT_CIRC_DESK_PHYSICAL_TO_DIGITIZATION&lt;br&gt;$rolename$ ::ctvs::214::ctvs::, $rolescope$ ::msvs::5150.5154.3380515460005154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$  $serviceunit$ - DEFAULT_CIRC_DESK&lt;br&gt;$rolename$ ::ctvs::215::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::215::ctvs::, $rolescope$ ::msvs::5150.5154.12900830000231::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::215::ctvs::, $rolescope$ ::msvs::5150.5154.221360870005154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::215::ctvs::, $rolescope$ ::msvs::5150.5154.3380515460005154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::216::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::217::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::218::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::220::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::2200::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::221::ctvs::, $rolescope$ ::msvs::::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::221::ctvs::, $rolescope$ ::msvs::::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::221::ctvs::, $rolescope$ ::msvs::::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::221::ctvs::, $rolescope$ ::msvs::5150.5154.12900830000231::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$  $circulationdesk$ - RES_DESK&lt;br&gt;$rolename$ ::ctvs::221::ctvs::, $rolescope$ ::msvs::5150.5154.221360550005154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$  $circulationdesk$ - DEFAULT_CIRC_DESK&lt;br&gt;$rolename$ ::ctvs::221::ctvs::, $rolescope$ ::msvs::5150.5154.221360870005154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$  $circulationdesk$ - DEFAULT_CIRC_DESK&lt;br&gt;$rolename$ ::ctvs::221::ctvs::, $rolescope$ ::msvs::5150.5154.3380515460005154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$  $circulationdesk$ - DEFAULT_CIRC_DESK&lt;br&gt;$rolename$ ::ctvs::221::ctvs::, $rolescope$ ::msvs::5150.5154.3380515840005154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$  $circulationdesk$ - DEFAULT_CIRC_DESK&lt;br&gt;$rolename$ ::ctvs::222::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::223::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::224::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::224::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::224::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::225::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::225::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::225::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::226::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::226::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::226::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::227::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::228::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::228::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::228::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::229::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::229::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::229::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::230::ctvs::, $rolescope$ ::msvs::::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::230::ctvs::, $rolescope$ ::msvs::::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::230::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::231::ctvs::, $rolescope$ ::msvs::::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::231::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::231::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::232::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::233::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::234::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::235::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::236::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::238::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::239::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::240::ctvs::, $rolescope$ ::msvs::::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::240::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::240::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::244::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::245::ctvs::, $rolescope$ ::msvs::::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::245::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::246::ctvs::, $rolescope$ ::msvs::::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::246::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::247::ctvs::, $rolescope$ ::msvs::::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::247::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::248::ctvs::, $rolescope$ ::msvs::::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::248::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::248::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::249::ctvs::, $rolescope$ ::msvs::::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::249::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::249::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::250::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::251::ctvs::, $rolescope$ ::msvs::::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::251::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::251::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::26::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::29::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::29::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::29::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::299::ctvs::, $rolescope$ ::msvs::::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::299::ctvs::, $rolescope$ ::msvs::::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::299::ctvs::, $rolescope$ ::msvs::::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::299::ctvs::, $rolescope$ ::msvs::5150.5154.12900830000231::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$  $circulationdesk$ - RES_DESK&lt;br&gt;$rolename$ ::ctvs::299::ctvs::, $rolescope$ ::msvs::5150.5154.221360550005154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$  $circulationdesk$ - DEFAULT_CIRC_DESK&lt;br&gt;$rolename$ ::ctvs::299::ctvs::, $rolescope$ ::msvs::5150.5154.221360870005154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$  $circulationdesk$ - DEFAULT_CIRC_DESK&lt;br&gt;$rolename$ ::ctvs::299::ctvs::, $rolescope$ ::msvs::5150.5154.3380515460005154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$  $circulationdesk$ - DEFAULT_CIRC_DESK&lt;br&gt;$rolename$ ::ctvs::299::ctvs::, $rolescope$ ::msvs::5150.5154.3380515840005154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$  $circulationdesk$ - DEFAULT_CIRC_DESK&lt;br&gt;$rolename$ ::ctvs::300::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::301::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::32::ctvs::, $rolescope$ ::msvs::::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::32::ctvs::, $rolescope$ ::msvs::5150.5154.12900830000231::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$  $circulationdesk$ - RES_DESK&lt;br&gt;$rolename$ ::ctvs::32::ctvs::, $rolescope$ ::msvs::5150.5154.12900830000231::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$  $circulationdesk$ - RES_DESK, false&lt;br&gt;$rolename$ ::ctvs::32::ctvs::, $rolescope$ ::msvs::5150.5154.221360550005154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$  $circulationdesk$ - DEFAULT_CIRC_DESK&lt;br&gt;$rolename$ ::ctvs::32::ctvs::, $rolescope$ ::msvs::5150.5154.221360870005154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$  $circulationdesk$ - DEFAULT_CIRC_DESK&lt;br&gt;$rolename$ ::ctvs::32::ctvs::, $rolescope$ ::msvs::5150.5154.221360870005154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$  $circulationdesk$ - DEFAULT_CIRC_DESK, false&lt;br&gt;$rolename$ ::ctvs::32::ctvs::, $rolescope$ ::msvs::5150.5154.3380515460005154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$  $circulationdesk$ - DEFAULT_CIRC_DESK&lt;br&gt;$rolename$ ::ctvs::32::ctvs::, $rolescope$ ::msvs::5150.5154.3380515840005154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$  $circulationdesk$ - DEFAULT_CIRC_DESK&lt;br&gt;$rolename$ ::ctvs::33::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::34::ctvs::, $rolescope$ ::msvs::::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::34::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::36::ctvs::, $rolescope$ ::msvs::::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::36::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::37::ctvs::, $rolescope$ ::msvs::::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::37::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::37::ctvs::, $rolescope$ ::msvs::5150.5154.221360550005154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$  $serviceunit$ - AcqDeptannex&lt;br&gt;$rolename$ ::ctvs::37::ctvs::, $rolescope$ ::msvs::5150.5154.221360870005154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$  $serviceunit$ - DEFAULT_CIRC_DESK-AcqWorkOrder&lt;br&gt;$rolename$ ::ctvs::371::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::371::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::372::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::38::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::38::ctvs::, $rolescope$ ::msvs::5150.5154.12900830000231::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::38::ctvs::, $rolescope$ ::msvs::5150.5154.221360870005154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::38::ctvs::, $rolescope$ ::msvs::5150.5154.3380515460005154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::41::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::43::ctvs::, $rolescope$ ::msvs::::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::43::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::44::ctvs::, $rolescope$ ::msvs::::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::44::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::45::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::450::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::46::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::47::ctvs::, $rolescope$ ::msvs::::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::47::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::48::ctvs::, $rolescope$ ::msvs::::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::48::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::50::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::51::ctvs::, $rolescope$ ::msvs::::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::51::ctvs::, $rolescope$ ::msvs::::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::51::ctvs::, $rolescope$ ::msvs::5150.5154.12900830000231::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$  $circulationdesk$ - RES_DESK&lt;br&gt;$rolename$ ::ctvs::51::ctvs::, $rolescope$ ::msvs::5150.5154.221360550005154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$  $circulationdesk$ - DEFAULT_CIRC_DESK&lt;br&gt;$rolename$ ::ctvs::51::ctvs::, $rolescope$ ::msvs::5150.5154.221360870005154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$  $circulationdesk$ - DEFAULT_CIRC_DESK&lt;br&gt;$rolename$ ::ctvs::51::ctvs::, $rolescope$ ::msvs::5150.5154.3380515460005154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$  $circulationdesk$ - DEFAULT_CIRC_DESK&lt;br&gt;$rolename$ ::ctvs::51::ctvs::, $rolescope$ ::msvs::5150.5154.3380515840005154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$  $circulationdesk$ - DEFAULT_CIRC_DESK&lt;br&gt;$rolename$ ::ctvs::52::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::53::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::54::ctvs::, $rolescope$ ::msvs::::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::54::ctvs::, $rolescope$ ::msvs::5150.5154.221360550005154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::55::ctvs::, $rolescope$ ::msvs::::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::55::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $false$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::56::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::57::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;$rolename$ ::ctvs::58::ctvs::, $rolescope$ ::msvs::5150.5154::msvs::, $isactive$ $true$, $expirydate$ ::date::::date::,  $parameterslabel$ &lt;br&gt;</roles_mask>
+<library_code></library_code>
+<library_code_original_value></library_code_original_value>
+<secret_key></secret_key>
+<selected_patron_letters></selected_patron_letters>
+<selected_patron_letters_original_value></selected_patron_letters_original_value>
+<source_institution_id></source_institution_id>
+<source_institution_name></source_institution_name>
+<source_link_id></source_link_id>
+<status>ACTIVE</status>
+<status_date>07 February 2024</status_date>
+<status_date_dummy><calendar>07 February 2024</calendar>
+<calendar_ui></calendar_ui>
+<day>7</day>
+<day_ui></day_ui>
+<default_value_for_with_validation>1707293143317</default_value_for_with_validation>
+<full_date>2024-02-07</full_date>
+<full_date_from_ui></full_date_from_ui>
+<input_date_tag_format>07.02.2024</input_date_tag_format>
+<month>1</month>
+<month_ui></month_ui>
+<date>false</date>
+<year>2024</year>
+<year_ui></year_ui>
+</status_date_dummy>
+<temp_generated_password></temp_generated_password>
+<update_source></update_source>
+<user_address_list><user_address><city>city val</city>
+<country>Null</country>
+<country_display></country_display>
+<create_date>27 May 2020</create_date>
+<create_date_allow_null></create_date_allow_null>
+<created_by_user></created_by_user>
+<entity_action></entity_action>
+<library_id></library_id>
+<library_unit_id></library_unit_id>
+<line1>line1 val</line1>
+<line2></line2>
+<line3></line3>
+<line4></line4>
+<line5></line5>
+<modification_date_allow_null></modification_date_allow_null>
+<modified_by_user></modified_by_user>
+<note></note>
+<originating_id></originating_id>
+<postal_code>postal_code val</postal_code>
+<preferred>true</preferred>
+<state_province></state_province>
+</user_address>
+<user_address><city>city val</city>
+<country></country>
+<country_display></country_display>
+<create_date>07 February 2024</create_date>
+<create_date_allow_null></create_date_allow_null>
+<created_by_user></created_by_user>
+<entity_action></entity_action>
+<library_id></library_id>
+<library_unit_id></library_unit_id>
+<line1>line1 val</line1>
+<line2></line2>
+<line3></line3>
+<line4></line4>
+<line5></line5>
+<modification_date_allow_null></modification_date_allow_null>
+<modified_by_user></modified_by_user>
+<note></note>
+<originating_id></originating_id>
+<postal_code>postal_code val</postal_code>
+<preferred>false</preferred>
+<state_province></state_province>
+</user_address>
+<user_address><city></city>
+<country></country>
+<country_display></country_display>
+<create_date>07 February 2024</create_date>
+<create_date_allow_null></create_date_allow_null>
+<created_by_user></created_by_user>
+<entity_action></entity_action>
+<library_id></library_id>
+<library_unit_id></library_unit_id>
+<line1>Library</line1>
+<line2>0400</line2>
+<line3>Office Of The University Librarian</line3>
+<line4></line4>
+<line5></line5>
+<modification_date_allow_null></modification_date_allow_null>
+<modified_by_user></modified_by_user>
+<note>This is maintained from the HR LOAD: Address line 1: College Address line 2: Dept Address line 3: Dept Description</note>
+<originating_id></originating_id>
+<postal_code></postal_code>
+<preferred>false</preferred>
+<state_province></state_province>
+</user_address>
+</user_address_list>
+<user_email_list><user_email><create_date>07 February 2024</create_date>
+<create_date_allow_null></create_date_allow_null>
+<created_by_user></created_by_user>
+<description></description>
+<email>email val</email>
+<entity_action></entity_action>
+<esploro_display_email></esploro_display_email>
+<external_id>SIS</external_id>
+<library_id></library_id>
+<library_unit_id></library_unit_id>
+<modification_date_allow_null></modification_date_allow_null>
+<modified_by_user></modified_by_user>
+<originating_id></originating_id>
+<preferred>true</preferred>
+</user_email>
+</user_email_list>
+<user_gender></user_gender>
+<user_group>NZILLUSER</user_group>
+<user_group_original_value>UGSTAFF</user_group_original_value>
+<user_name>user_name val</user_name>
+<user_phone_list></user_phone_list>
+<user_preferred_language>en</user_preferred_language>
+<user_preferred_language_original_value>en</user_preferred_language_original_value>
+<user_record_type>PUBLIC</user_record_type>
+<user_status>ACTIVE</user_status>
+<user_title></user_title>
+<user_title_original_value></user_title_original_value>
+<user_type>EXTERNAL</user_type>
+<user_user_type>EXTERNAL</user_user_type>
+<user_web_address_list></user_web_address_list>
+<web_site_url></web_site_url>
+</user>
+</receiver>
+</receivers>
+<send_after_commit>true</send_after_commit>
+<sms_content></sms_content>
+<throw_exceptions>false</throw_exceptions>
+<user_for_printing><active_balance><currency>CAD</currency>
+<normalized_sum>27.00</normalized_sum>
+<sum>27.00</sum>
+<vat>0.00</vat>
+</active_balance>
+<address1>address1 val</address1>
+<address2></address2>
+<address3></address3>
+<address4></address4>
+<address5></address5>
+<blocks></blocks>
+<city>city val</city>
+<country>Null</country>
+<country_display></country_display>
+<email>email val</email>
+<first_name>Matthew</first_name>
+<gender></gender>
+<identifiers><code_value><code>Primary Identifier</code>
+<value>value val</value>
+</code_value>
+<code_value><code>INST_ID</code>
+<value>INST_ID val</value>
+</code_value>
+<code_value><code>INST_ID</code>
+<value>INST_ID val</value>
+</code_value>
+</identifiers>
+<last_name>Van ast</last_name>
+<middle_name>Roeland</middle_name>
+<name>Van Ast, Matthew</name>
+<phone></phone>
+<postal_code>postal_code val</postal_code>
+<preferred_first_name></preferred_first_name>
+<preferred_last_name>Van Ast</preferred_last_name>
+<preferred_middle_name></preferred_middle_name>
+<state></state>
+<title></title>
+<user_group>NZILLUSER</user_group>
+<user_title></user_title>
+</user_for_printing>
+<webhook_data><fees></fees>
+<items></items>
+<loans></loans>
+<outgoing_resource_sharing_requests></outgoing_resource_sharing_requests>
+<receivers></receivers>
+<smss_content></smss_content>
+<user_requests></user_requests>
+</webhook_data>
+</notification_data>
