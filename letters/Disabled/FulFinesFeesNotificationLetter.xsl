@@ -34,59 +34,60 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 				<xsl:call-template name="senderReceiver" /> <!-- SenderReceiver.xsl -->
 
 				<br />
-				<xsl:call-template name="toWhomIsConcerned" /> <!-- mailReason.xsl -->
 
-				<xsl:if  test="notification_data/transaction_id != ''" >
-					<h4>@@transaction_id@@: <xsl:value-of select="/notification_data/transaction_id"/></h4>
-				</xsl:if>
-
-				<xsl:for-each select="notification_data/labels_list">
-				<table role='presentation'  cellspacing="0" cellpadding="5" border="0">
-					<tr>
-						<td><xsl:value-of select="letter.fineFeePaymentReceiptLetter.message"/></td>
-					</tr>
+		<table role='presentation'  cellspacing="0" cellpadding="5" border="0">
+				<tr>
+				<td>
+					<h>@@dear@@ </h> <br />
+					<h>@@we_would_like@@ <xsl:value-of select="notification_data/organization_unit/name"/> @@debt_of@@ <strong><xsl:value-of select="notification_data/total_fines_amount"/>
+					&#160;<xsl:value-of select="notification_data/total_fines_currency"/></strong></h>
+				</td>
+				</tr>
 				</table>
-				<br />
 
-				</xsl:for-each>
+				<table role='presentation'  cellpadding="5" class="listing">
+				<xsl:attribute name="style">
+					<xsl:call-template name="mainTableStyleCss" /> <!-- style.xsl -->
+				</xsl:attribute>
+
 				<table cellpadding="5" class="listing">
 				<xsl:attribute name="style">
 					<xsl:call-template name="mainTableStyleCss" /> <!-- style.xsl -->
 				</xsl:attribute>
 					<tr>
 						<th>@@fee_type@@</th>
-						<th>@@payment_date@@</th>
-						<th align="right">@@paid_amount@@</th>
-						<th>@@payment_method@@</th>
+						<th>@@fee_amount@@</th>
 						<th>@@note@@</th>
 					</tr>
-					<xsl:for-each select="notification_data/user_fines_fees_list/user_fines_fees">
+					<xsl:for-each select="notification_data/fines_fees_list/user_fines_fees">
 					<tr>
 						<td><xsl:value-of select="fine_fee_type_display"/></td>
-						<td><xsl:value-of select="create_date"/></td>
-						<td align="right"><xsl:value-of select="fines_fee_transactions/fines_fee_transaction/transaction_ammount/currency"/>&#160;<xsl:value-of select="fines_fee_transactions/fines_fee_transaction/transaction_amount_display"/></td>
-						<td><xsl:value-of select="fines_fee_transactions/fines_fee_transaction/transaction_method"/></td>
-						<td><xsl:value-of select="fines_fee_transactions/fines_fee_transaction/transaction_note"/></td>
+						<td><xsl:value-of select="fine_fee_ammount/normalized_sum"/>&#160;<xsl:value-of select="fine_fee_ammount/currency"/></td>
+						<td><xsl:value-of select="fine_comment"/></td>
 					</tr>
 					</xsl:for-each>
 
-					<tr>
-						<td> </td>
-						<td align="right"><strong>@@total@@:</strong></td>
-						<td align="right"><xsl:value-of select="notification_data/total_amount_paid"/></td>
-					</tr>
+				</table><br />
+				<xsl:if test="notification_data/fine_fee_notification_fee_amount/sum !=''">
+		        	<tr>
+		            	<td>
+		                	<strong>@@fine_fee_notification_fee@@ </strong>
+		                    <xsl:value-of select="notification_data/fine_fee_notification_fee_amount/normalized_sum"/>&#160;<xsl:value-of select="notification_data/fine_fee_notification_fee_amount/currency"/>&#160;<xsl:value-of select="ff"/>
+		                </td>
+		            </tr>
+		        </xsl:if>
+				<h><strong>@@please_settle@@</strong></h>
 
-				</table>
+				<br />
 				<br />
 				<table role='presentation' >
-
 						<tr><td>@@sincerely@@</td></tr>
 						<tr><td>@@department@@</td></tr>
-
 				</table>
+				</table>
+				<br />
 
 				<xsl:call-template name="lastFooter" /> <!-- footer.xsl -->
-				<xsl:call-template name="contactUs" />
 			</body>
 	</html>
 </xsl:template>
