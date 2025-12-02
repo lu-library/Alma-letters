@@ -1,12 +1,12 @@
 # TODO 
-Working in Alphabetic Order.
+Working in Alphabetic Order. Changes need to be reviewed are in bold text.
 
 - AnalyticsLetter: 12.02 - Done. No significant update compared to UG's version.
 - BorrowedByLetter: 12.02 - Done. No significant update compared to UG's version.
 - BorrowerClaimEmailLetter: 12.02 - Done. No significant update compared to UG's version. 
-** - BorrowerOverdueEmailLetter: 12.02 - AFNLetterNameTemplate added under footer. **
-** - BorrowerReiceiveEmailLetter: 12.02 - AFNLetterNameTemplate added under footer. **
-** - BorrowerReturnEmailLetter: 12.02 - AFNLetterNameTemplate added under footer. **
+- **BorrowerOverdueEmailLetter: 12.02 - AFNLetterNameTemplate added under footer. **
+- **BorrowerReiceiveEmailLetter: 12.02 - AFNLetterNameTemplate added under footer. **
+- **BorrowerReturnEmailLetter: 12.02 - AFNLetterNameTemplate added under footer. **
 - BorrowingActivityLetter: 12.02 - Done. No significant update compared to UG's version.
 
 ## Check Letters UofG currently has turned on
