@@ -15,6 +15,9 @@ Working in Alphabetic Order. Changes need to be reviewed are highlighted and in 
 - <mark>[currently Disabled]</mark>DepositStatusUpdateLetter: Done. No significant update compared to UG's version.
 - <mark>**DocumentDeliveryNotificationLetter: Very different from UG's version, not sure what to keep. UG's includes: more details about the resource(Authur, Volume, etc); populate both local and ISO resource sharing; check about user's login method; Copyright Statement.**</mark>
 - EmailRecordsLetter: Done. No significant update compared to UG's version.
+- <mark>**FineFeePaymentReceiptLetter: START AFN-VERSION 1.8: Check if an email partner. If it is, we're trying to send more of an invoice letter. Need to fill with LU's info.**</mark>
+- <mark>**FulBorrowingInfoLetter: AFN footer template options(AFNAccount and AFNLastFooter ) replcaing footer.**</mark>
+- <mark>**FulCancelEmailLetter: START AFN-VERSION 1.0: more detailed library address added, AFNLetterNameTemplate added under footer.**</mark>
 
 ## Check Letters UofG currently has turned on
  
