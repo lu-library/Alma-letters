@@ -1,13 +1,20 @@
 # TODO 
 Working in Alphabetic Order. Changes need to be reviewed are highlighted and in bold text.
 
-- AnalyticsLetter: 12.02 - Done. No significant update compared to UG's version.
-- BorrowedByLetter: 12.02 - Done. No significant update compared to UG's version.
-- BorrowerClaimEmailLetter: 12.02 - Done. No significant update compared to UG's version. 
-- <mark>**BorrowerOverdueEmailLetter: 12.02 - AFNLetterNameTemplate added under footer.**</mark>
-- <mark>**BorrowerReiceiveEmailLetter: 12.02 - AFNLetterNameTemplate added under footer.**</mark>
-- <mark>**BorrowerReturnEmailLetter: 12.02 - AFNLetterNameTemplate added under footer.**</mark>
-- BorrowingActivityLetter: 12.02 - Done. No significant update compared to UG's version.
+2025.12.02
+- AnalyticsLetter: Done. No significant update compared to UG's version.
+- BorrowedByLetter: Done. No significant update compared to UG's version.
+- BorrowerClaimEmailLetter: Done. No significant update compared to UG's version. 
+- <mark>**BorrowerOverdueEmailLetter: AFNLetterNameTemplate added under footer.**</mark>
+- <mark>**BorrowerReiceiveEmailLetter: AFNLetterNameTemplate added under footer.**</mark>
+- <mark>**BorrowerReturnEmailLetter: AFNLetterNameTemplate added under footer.**</mark>
+- BorrowingActivityLetter: Done. No significant update compared to UG's version.
+
+2025.12.03
+- CourtesyLetter: Done. No significant update compared to UG's version, but <mark>UG's contains extra logic to identify which library the loaned items come from.</mark>
+- <mark>[currently Disabled]</mark>DepositStatusUpdateLetter: Done. No significant update compared to UG's version.
+- <mark>**DocumentDeliveryNotificationLetter: Very different from UG's version, not sure what to keep. UG's includes: more details about the resource(Authur, Volume, etc); populate both local and ISO resource sharing; check about user's login method; Copyright Statement.**</mark>
+- EmailRecordsLetter: Done. No significant update compared to UG's version.
 
 ## Check Letters UofG currently has turned on
  

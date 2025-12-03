@@ -30,7 +30,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
         <!-- SenderReceiver.xsl -->
         <div class="messageArea">
           <div class="messageBody">
-
+        <!-- Very different from UG's version, Almost need to replace the whole document, not sure what to keep. -->
           	<table cellspacing="0" cellpadding="5" border="0">
           		<tr>
 					<td>@@your_request@@.</td>
