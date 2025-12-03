@@ -5,19 +5,22 @@ Working in Alphabetic Order. Changes need to be reviewed are highlighted and in 
 - AnalyticsLetter: Done. No significant update compared to UG's version.
 - BorrowedByLetter: Done. No significant update compared to UG's version.
 - BorrowerClaimEmailLetter: Done. No significant update compared to UG's version. 
-- <mark>**BorrowerOverdueEmailLetter: AFNLetterNameTemplate added under footer.**</mark>
-- <mark>**BorrowerReiceiveEmailLetter: AFNLetterNameTemplate added under footer.**</mark>
-- <mark>**BorrowerReturnEmailLetter: AFNLetterNameTemplate added under footer.**</mark>
+- <mark>BorrowerOverdueEmailLetter: AFNLetterNameTemplate added under footer.</mark>
+- <mark>BorrowerReiceiveEmailLetter: AFNLetterNameTemplate added under footer.</mark>
+- <mark>BorrowerReturnEmailLetter: AFNLetterNameTemplate added under footer.</mark>
 - BorrowingActivityLetter: Done. No significant update compared to UG's version.
 
 2025.12.03
-- CourtesyLetter: Done. No significant update compared to UG's version, but <mark>UG's contains extra logic to identify which library the loaned items come from.</mark>
+- CourtesyLetter: Done. No significant update compared to UG's version, but **UG's contains extra logic to identify which library the loaned items come from.**
 - <mark>[currently Disabled]</mark>DepositStatusUpdateLetter: Done. No significant update compared to UG's version.
-- <mark>**DocumentDeliveryNotificationLetter: Very different from UG's version, not sure what to keep. UG's includes: more details about the resource(Authur, Volume, etc); populate both local and ISO resource sharing; check about user's login method; Copyright Statement.**</mark>
+- <mark>DocumentDeliveryNotificationLetter: Customized very differently from UG's version, not sure what to keep. UG's includes: **more details about the resource(Authur, Volume, etc); populate both local and ISO resource sharing; check about user's login method; Copyright Statement.**</mark>
 - EmailRecordsLetter: Done. No significant update compared to UG's version.
-- <mark>**FineFeePaymentReceiptLetter: START AFN-VERSION 1.8: Check if an email partner. If it is, we're trying to send more of an invoice letter. Need to fill with LU's info.**</mark>
-- <mark>**FulBorrowingInfoLetter: AFN footer template options(AFNAccount and AFNLastFooter ) replcaing footer.**</mark>
-- <mark>**FulCancelEmailLetter: START AFN-VERSION 1.0: more detailed library address added, AFNLetterNameTemplate added under footer.**</mark>
+- <mark>FineFeePaymentReceiptLetter: START AFN-VERSION 1.8: Check if an email partner. If it is, we're trying to send more of an invoice letter. **Need to fill with LU's info.**</mark>
+- <mark>FulBorrowingInfoLetter: AFN footer template options(AFNAccount and AFNLastFooter ) replcaing footer.</mark>
+- <mark>FulCancelEmailLetter: START AFN-VERSION 1.0: more detailed library address added, AFNLetterNameTemplate added under footer.</mark>
+- <mark>FulCancelRequestLetter: Stop emails for converted to resource sharing,If the approval note is populated, don't show cancel_reason but the reject note.</mark>
+- <mark>FulDamagedEmailLetter: AFNLetterNameTemplate added under footer.</mark>
+- <mark>FulDigitizationNotificationItemLetter: Customized very differently from UG's version, **Need furthur comparison.**</mark>
 
 ## Check Letters UofG currently has turned on
  

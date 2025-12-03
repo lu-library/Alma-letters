@@ -18,6 +18,8 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
   <xsl:variable name="patronCost" select="/notification_data/patron_cost" />
   <xsl:variable name="isEbook" select="notification_data/incoming_request/book_indication" />
 
+	<!-- Customized very differently from UG's version. Need furthur comparison. -->
+
 	<xsl:template match="/">
     <html>
 			<xsl:if test="notification_data/languages/string">
