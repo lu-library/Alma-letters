@@ -1,95 +1,278 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <xsl:stylesheet version="1.0"
-xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+	xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
-<xsl:include href="header.xsl" />
-<xsl:include href="senderReceiver.xsl" />
-<xsl:include href="mailReason.xsl" />
-<xsl:include href="footer.xsl" />
-<xsl:include href="style.xsl" />
+	<xsl:include href="header.xsl" />
+	<xsl:include href="senderReceiver.xsl" />
+	<xsl:include href="mailReason.xsl" />
+	<xsl:include href="footer.xsl" />
+	<xsl:include href="style.xsl" />
 
-<xsl:template match="/">
-	<html>
+	<!-- START AFN CODE - Check if an email partner. If it is, we're trying to send more of an
+	invoice letter -->
+	<xsl:variable name="is_email_partner">
+		<xsl:if
+			test="(notification_data/user_for_printing/user_group = 'NZILLUSER') or (notification_data/user/user_group = 'NZILLUSER')">
+		TRUE </xsl:if>
+	</xsl:variable>
+	<!-- END OF AFN CODE -->
+
+	<xsl:template match="/">
+		<html>
 			<xsl:if test="notification_data/languages/string">
 				<xsl:attribute name="lang">
-					<xsl:value-of select="notification_data/languages/string"/>
+					<xsl:value-of select="notification_data/languages/string" />
 				</xsl:attribute>
 			</xsl:if>
 
-		<head>
+			<head>
 				<title>
-					<xsl:value-of select="notification_data/general_data/subject"/>
+					<xsl:value-of select="notification_data/general_data/subject" />
 				</title>
 
-		<xsl:call-template name="generalStyle" />
-		</head>
+				<xsl:call-template name="generalStyle" />
+			</head>
 
 			<body>
-			<xsl:attribute name="style">
-				<xsl:call-template name="bodyStyleCss" /> <!-- style.xsl -->
-			</xsl:attribute>
+				<xsl:attribute name="style">
+					<xsl:call-template name="bodyStyleCss" /> <!-- style.xsl -->
+				</xsl:attribute>
 
 				<xsl:call-template name="head" /> <!-- header.xsl -->
 				<xsl:call-template name="senderReceiver" /> <!-- SenderReceiver.xsl -->
 
-				<br />
+				<xsl:choose>
+					<xsl:when test="(string-length($is_email_partner) > 0)">
+						<!-- Omni Email Partner receipt -->
+						<!-- handle AFN supported languages (is_preferred_lang_fr) defined in
+						footer.xsl-->
+                    <xsl:choose>
+							<xsl:when test="(string-length($is_preferred_lang_fr) > 0)">
+								<!-- Omni Email Partner receipt FRENCH-->
+                            <p
+									id="email_partner_count_summary_id" align="right">
 
-		<table role='presentation'  cellspacing="0" cellpadding="5" border="0">
-				<tr>
-				<td>
-					<h>@@dear@@ </h> <br />
-					<h>@@we_would_like@@ <xsl:value-of select="notification_data/organization_unit/name"/> @@debt_of@@ <strong><xsl:value-of select="notification_data/total_fines_amount"/>
-					&#160;<xsl:value-of select="notification_data/total_fines_currency"/></strong></h>
-				</td>
-				</tr>
-				</table>
+								</p>
+							</xsl:when>
+							<xsl:otherwise>
+								<!-- Omni Email Partner receipt ENGLISH-->
+                            <p id="email_partner_count_summary_id" align="left">
+									<b> Total Number of Requests: <xsl:value-of
+											select="count(notification_data/fines_fees_list/*)" />
+									</b>
+								</p>
+                            <p
+									id="email_partner_amount_summary_id" align="left">
+									<b> Total Amount Due: <xsl:value-of
+											select="notification_data/total_fines_currency" />&#160;<xsl:value-of
+											select="notification_data/total_fines_amount" />
+									</b>
+								</p>
+                            <p
+									id="email_partner_info_id" align="left">
+									<b> Requesting Library: <xsl:value-of
+											select="notification_data/user_for_printing/name" />
+		&#160;<xsl:value-of select="notification_data/user_for_printing/last_name" />
+									</b>
+								</p>
 
-				<table role='presentation'  cellpadding="5" class="listing">
-				<xsl:attribute name="style">
-					<xsl:call-template name="mainTableStyleCss" /> <!-- style.xsl -->
-				</xsl:attribute>
+                            <p
+									id="email_partner_request_lib_id" align="left">
+		@@we_would_like@@ <xsl:call-template name="AFNOrgName" /> - <xsl:value-of
+										select="notification_data/organization_unit/name" />
+		@@debt_of@@ <b><xsl:value-of select="notification_data/total_fines_amount" />&#160;<xsl:value-of
+											select="notification_data/total_fines_currency" /></b>
+								</p>                        
+                        
+                        <table
+									cellpadding="4" class="listing">
+									<xsl:attribute name="style">
+										<xsl:call-template name="mainTableStyleCss" /> <!-- style.xsl -->
+									</xsl:attribute>
+									<tr>
+										<th>@@fee_type@@</th>
+										<th>Shipped</th>
+										<th>Item</th>
+										<th>@@fee_amount@@</th>
 
-				<table cellpadding="5" class="listing">
-				<xsl:attribute name="style">
-					<xsl:call-template name="mainTableStyleCss" /> <!-- style.xsl -->
-				</xsl:attribute>
-					<tr>
-						<th>@@fee_type@@</th>
-						<th>@@fee_amount@@</th>
-						<th>@@note@@</th>
-					</tr>
-					<xsl:for-each select="notification_data/fines_fees_list/user_fines_fees">
-					<tr>
-						<td><xsl:value-of select="fine_fee_type_display"/></td>
-						<td><xsl:value-of select="fine_fee_ammount/normalized_sum"/>&#160;<xsl:value-of select="fine_fee_ammount/currency"/></td>
-						<td><xsl:value-of select="fine_comment"/></td>
-					</tr>
-					</xsl:for-each>
+									</tr>
+									<xsl:for-each
+										select="notification_data/fines_fees_list/user_fines_fees">
+										<tr>
+											<td>
+												<xsl:value-of select="fine_fee_type_display" />
+											</td>
+											<td>
+												<xsl:value-of select="create_date" />
+											</td>
+											<td>
+												<xsl:value-of select="item_title" />
+											</td>
+											<td>
+												<xsl:value-of
+													select="fine_fee_ammount/normalized_sum" />
+											</td>
+										</tr>
+									</xsl:for-each>
 
-				</table><br />
-				<xsl:if test="notification_data/fine_fee_notification_fee_amount/sum !=''">
-		        	<tr>
-		            	<td>
-		                	<strong>@@fine_fee_notification_fee@@ </strong>
-		                    <xsl:value-of select="notification_data/fine_fee_notification_fee_amount/normalized_sum"/>&#160;<xsl:value-of select="notification_data/fine_fee_notification_fee_amount/currency"/>&#160;<xsl:value-of select="ff"/>
-		                </td>
-		            </tr>
-		        </xsl:if>
-				<h><strong>@@please_settle@@</strong></h>
+								</table>
+                        <br />
 
-				<br />
-				<br />
-				<table role='presentation' >
+							</xsl:otherwise>
+						</xsl:choose>
+					</xsl:when>
+					<xsl:otherwise>
+						<!-- Fine/Fee Notification -->                                
+                        <p id="patron_lending_lib_id" align="left"> @@we_would_like@@ <xsl:call-template
+								name="AFNOrgName" /> - <xsl:value-of
+								select="notification_data/organization_unit/name" /> @@debt_of@@ <b><xsl:value-of
+									select="notification_data/total_fines_amount" />&#160;<xsl:value-of
+									select="notification_data/total_fines_currency" /></b>
+						</p>                                            
+                        
+                        <table cellpadding="4" class="listing">
+							<xsl:attribute name="style">
+								<xsl:call-template name="mainTableStyleCss" /> <!-- style.xsl -->
+							</xsl:attribute>
+							<tr>
+								<th>@@fee_type@@</th>
+								<th>@@fee_amount@@</th>
+								<th>@@note@@</th>
+								<th>@@line1@@</th>
+							</tr>
+							<xsl:for-each select="notification_data/fines_fees_list/user_fines_fees">
+								<tr>
+									<td>
+										<xsl:value-of select="fine_fee_type_display" />
+									</td>
+									<td><xsl:value-of select="fine_fee_ammount/normalized_sum" />
+		&#160;<xsl:value-of select="fine_fee_ammount/currency" /></td>
+									<td>
+										<xsl:value-of select="fine_comment" />
+									</td>
+									<td>
+										<xsl:value-of select="item_title" />
+									</td>
+								</tr>
+							</xsl:for-each>
+
+						<br />
+				<xsl:if
+							test="notification_data/fine_fee_notification_fee_amount/sum !=''">
+							<tr>
+								<td>
+									<strong>@@fine_fee_notification_fee@@ </strong>
+		                    <xsl:value-of
+										select="notification_data/fine_fee_notification_fee_amount/normalized_sum" />
+		&#160;<xsl:value-of select="notification_data/fine_fee_notification_fee_amount/currency" />
+		&#160;<xsl:value-of select="ff" />
+								</td>
+							</tr>
+						</xsl:if>
+				<h>
+							<strong>@@please_settle@@</strong>
+						</h>
+
+                        </table>
+
+				<xsl:choose>
+							<xsl:when test="(string-length($is_afn_patron) > 0)">
+								<xsl:choose>
+									<!-- handle AFN supported languages -->
+									<xsl:when test="(string-length($is_preferred_lang_fr) > 0)">
+										<!-- Message for AFN Patron FRENCH-->	
+                                        <p id="patron_afn_payment_id" align="left">
+                                            Les options de paiement varient dans chaque bibliothèque Omni. Veuillez contacter votre bibliothèque d'origine pour plus de détails sur la façon de payer votre amende.
+										</p>
+									</xsl:when>
+									<xsl:otherwise>
+										<!-- Message for AFN Patron -->	
+                                        <p id="patron_afn_payment_id" align="left">
+                                            Payment options vary at each Omni library. Please contact your home library for details about how to pay your fine.
+										</p>
+									</xsl:otherwise>
+								</xsl:choose>
+							</xsl:when>
+							<xsl:otherwise>
+								<!-- standard patron footer for home Institution -->	
+                                <p id="patron_settle_id" align="left">
+									<b>@@please_settle@@</b>
+								</p>                        
+                                <p id="patron_local_payment_id" align="left">
+                                    Fine payments are accepted in-person at the Library's Ask Us Desk or over the phone using a credit card. Debit cards are only accepted in-person at the Library. Please note that we cannot accept cash payments.
+								</p>
+							</xsl:otherwise>
+						</xsl:choose>
+
+						<!-- AFN TODO some AFN schools may want these                
+                        <table>
 						<tr><td>@@sincerely@@</td></tr>
 						<tr><td>@@department@@</td></tr>
 				</table>
-				</table>
-				<br />
+				-->
 
-				<xsl:call-template name="lastFooter" /> <!-- footer.xsl -->
+					</xsl:otherwise>
+				</xsl:choose>
+
+				<xsl:choose>
+					<xsl:when test="(string-length($is_email_partner) > 0)">
+						<!-- START AFN EXAMPLE  Enter your institutions financial contact info                    
+                    <p id="email_partner_financial_contact">
+                        Our ILL Responder #: XXXX<br/>
+                        (Please quote this number on your remittance)<br/><br/>
+                        Please direct inquiries about this invoice to:<br/><br/>
+
+                        YOUR IZ CONTACT - REPLACE THIS<br/>
+                        Phone number: xxx-xxx-xxx ext. xxxxx <br/>
+                        Fax number: xxx-xxx-xxx <br/>
+                        Email: some_account@institution_.ca <br/>
+                        Library Code: XXXXX<br/>
+                    </p>
+                    END AFN EXAMPLE -->
+
+						<!-- START AFN TODO Enter your institutions financial contact info -->
+						<!-- email partner footer -->
+                    <p
+							id="email_partner_financial_contact"> Please direct inquiries about this
+		invoice to:<br /><br /> Interlibrary Loans<br /> Chancellor Paterson Library, Lakehead
+		University<br /> 955 Oliver Rd.<br /> Thunder Bay, ON P7B 5E1<br /> Tel: TO BE FILLED<br />
+		Email: TO BE FILLED<br />
+                        <b>Library Code: TO BE FILLED</b><br />
+						</p>
+                    <p id="email_partner_payment_options_intro">
+                        <b>Possible Payment Options:</b><br/>
+						</p>
+                    <ol id="email_partner_payment_options">
+							<li>Email (TO BE FILLED) or call (TO BE FILLED) with the following
+		credit card information:</li>
+							<ul>
+								<li>Card Type: VISA/Mastercard</li>
+								<li>Card Holder</li>
+								<li>Card Number</li>
+								<li>Expiry Date</li>
+							</ul>
+							<li>Payment by cheque Make cheque payable to:</li>
+							<ul class="afn_letter_plain_list">
+								<li>Chancellor Paterson Library</li>
+								<li>Lakehead University</li>
+								<li>955 Oliver Rd.</li>
+								<li>Thunder Bay, ON P7B 5E1</li>
+							</ul>
+
+							<li>International Postal Coupons</li>
+						</ol>
+						<!-- END AFN TODO Enter your institutions financial contact info -->
+					</xsl:when>
+					<xsl:otherwise>
+						<!-- standard patron footer -->	
+                    <xsl:call-template name="AFNLastFooter" />
+                    <xsl:call-template name="AFNAccount" />
+					</xsl:otherwise>
+				</xsl:choose>
+
 			</body>
-	</html>
-</xsl:template>
+		</html>
+	</xsl:template>
 
 </xsl:stylesheet>

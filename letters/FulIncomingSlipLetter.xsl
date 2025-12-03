@@ -82,6 +82,27 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 							  <td><b>@@my_id@@: </b><img src="externalId.png" alt="externalId" /></td>
 				      </tr>
 
+						<xsl:choose>
+							<xsl:when test="/notification_data/items/physical_item_display_for_printing/available_items/available_item/shelving_location != ''" >							
+								<tr>
+									<td>
+										<b>Annex SLN: </b>
+										<xsl:value-of select="/notification_data/items/physical_item_display_for_printing/available_items/available_item/shelving_location"/>
+									</td>
+								</tr>
+							</xsl:when>	
+							<xsl:otherwise>						
+								<xsl:if  test="notification_data/items/physical_item_display_for_printing/internal_note1 != ''" >
+									<tr>
+										<td>
+											<b>Original Annex SLN (internal_note1): </b>
+											<xsl:value-of select="notification_data/items/physical_item_display_for_printing/internal_note1"/>
+										</td>
+									</tr>
+								</xsl:if>
+							</xsl:otherwise>
+						</xsl:choose>
+						
 						<tr>
 							<td>
 								<b>@@format@@: </b>

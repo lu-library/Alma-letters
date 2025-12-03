@@ -5,22 +5,26 @@ Working in Alphabetic Order. Changes need to be reviewed are highlighted and in 
 - AnalyticsLetter: Done. No significant update compared to UG's version.
 - BorrowedByLetter: Done. No significant update compared to UG's version.
 - BorrowerClaimEmailLetter: Done. No significant update compared to UG's version. 
-- <mark>BorrowerOverdueEmailLetter: AFNLetterNameTemplate added under footer.</mark>
-- <mark>BorrowerReiceiveEmailLetter: AFNLetterNameTemplate added under footer.</mark>
-- <mark>BorrowerReturnEmailLetter: AFNLetterNameTemplate added under footer.</mark>
+- BorrowerOverdueEmailLetter: <mark>AFNLetterNameTemplate added under footer.</mark>
+- BorrowerReiceiveEmailLetter: <mark>AFNLetterNameTemplate added under footer.</mark>
+- BorrowerReturnEmailLetter: <mark>AFNLetterNameTemplate added under footer.</mark>
 - BorrowingActivityLetter: Done. No significant update compared to UG's version.
 
 2025.12.03
 - CourtesyLetter: Done. No significant update compared to UG's version, but **UG's contains extra logic to identify which library the loaned items come from.**
 - <mark>[currently Disabled]</mark>DepositStatusUpdateLetter: Done. No significant update compared to UG's version.
-- <mark>DocumentDeliveryNotificationLetter: Customized very differently from UG's version, not sure what to keep. UG's includes: **more details about the resource(Authur, Volume, etc); populate both local and ISO resource sharing; check about user's login method; Copyright Statement.**</mark>
+- DocumentDeliveryNotificationLetter: <mark>Customized very differently from UG's version, not sure what to keep. UG's includes: **more details about the resource(Authur, Volume, etc); populate both local and ISO resource sharing; check about user's login method; Copyright Statement.**</mark>
 - EmailRecordsLetter: Done. No significant update compared to UG's version.
-- <mark>FineFeePaymentReceiptLetter: START AFN-VERSION 1.8: Check if an email partner. If it is, we're trying to send more of an invoice letter. **Need to fill with LU's info.**</mark>
-- <mark>FulBorrowingInfoLetter: AFN footer template options(AFNAccount and AFNLastFooter ) replcaing footer.</mark>
-- <mark>FulCancelEmailLetter: START AFN-VERSION 1.0: more detailed library address added, AFNLetterNameTemplate added under footer.</mark>
-- <mark>FulCancelRequestLetter: Stop emails for converted to resource sharing,If the approval note is populated, don't show cancel_reason but the reject note.</mark>
-- <mark>FulDamagedEmailLetter: AFNLetterNameTemplate added under footer.</mark>
-- <mark>FulDigitizationNotificationItemLetter: Customized very differently from UG's version, **Need furthur comparison.**</mark>
+- FineFeePaymentReceiptLetter: <mark>AFN-VERSION 1.8: Check if an email partner. If it is, we're trying to send more of an invoice letter. **Need to fill with LU's info.**</mark>
+- FulBorrowingInfoLetter: <mark>AFN footer template options(AFNAccount and AFNLastFooter ) replcaing footer.</mark>
+- FulCancelEmailLetter: <mark>AFN-VERSION 1.0: more detailed library address added, AFNLetterNameTemplate added under footer.</mark>
+- FulCancelRequestLetter: <mark>Stop emails for converted to resource sharing,If the approval note is populated, don't show cancel_reason but the reject note.</mark>
+- FulDamagedEmailLetter: <mark>AFNLetterNameTemplate added under footer.</mark>
+- FulDigitizationNotificationItemLetter: <mark>Customized very differently from UG's version, not sure what to keep. **Need furthur comparison.**</mark>
+- <mark>[currently Disabled]</mark>FulFinesFeesNotificationLetter: <mark>AFN CODE: Check if an email partner. If it is, we're trying to send more of an invoice letter; Added Omni Email Partner receipt; Handled AFN supported languages; Updated institutions financial contact info. </mark>
+- FulIncomingSlipLetter: <mark>Added a logic to choose from **"Annex SLN" or "Original Annex SLN (internal_note1)", not sure if we need?** Also more detailed infomation including chapter, volume, etc.</mark>
+- FulLostEmailLetter: <mark>AFNLetterNameTemplate added under footer.</mark>
+
 
 ## Check Letters UofG currently has turned on
  
