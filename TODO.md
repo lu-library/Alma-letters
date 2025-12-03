@@ -21,9 +21,17 @@ Working in Alphabetic Order. Changes need to be reviewed are highlighted and in 
 - FulCancelRequestLetter: <mark>Stop emails for converted to resource sharing,If the approval note is populated, don't show cancel_reason but the reject note.</mark>
 - FulDamagedEmailLetter: <mark>AFNLetterNameTemplate added under footer.</mark>
 - FulDigitizationNotificationItemLetter: <mark>Customized very differently from UG's version, not sure what to keep. **Need furthur comparison.**</mark>
-- <mark>[currently Disabled]</mark>FulFinesFeesNotificationLetter: <mark>AFN CODE: Check if an email partner. If it is, we're trying to send more of an invoice letter; Added Omni Email Partner receipt; Handled AFN supported languages; Updated institutions financial contact info. </mark>
+- <mark>[currently Disabled]</mark>FulFinesFeesNotificationLetter: <mark>AFN CODE: Check if an email partner. If it is, we're trying to send more of an invoice letter; Added Omni Email Partner receipt; Handled AFN supported languages; **Updated institutions financial contact info.**</mark>
 - FulIncomingSlipLetter: <mark>Added a logic to choose from **"Annex SLN" or "Original Annex SLN (internal_note1)", not sure if we need?** Also more detailed infomation including chapter, volume, etc.</mark>
 - FulLostEmailLetter: <mark>AFNLetterNameTemplate added under footer.</mark>
+- <mark>[currently Disabled]</mark>FulLostLoanLetter: Done. No significant update compared to UG's version.
+- <mark>[currently Disabled]</mark>FulLostLoanNotificationLetter: Done. No significant update compared to UG's version.
+- FulLostRefundFeeLoadnLetter: Done. No significant update compared to UG's version.
+- FulOutgoingEmailLetter: <mark>AFN-VERSION 1.0: more detailed library address added, AFNLetterNameTemplate added under footer.</mark>
+- FulOverdueAndLostLoanLetter: Done. No significant update compared to UG's version.
+- FulOverdueAndLostLoanNotificationLetter: <mark>Updated explanation texts.</mark>
+- FulRenewEmailLetter: <mark>AFNLetterNameTemplate added under footer.</mark>
+
 
 
 ## Check Letters UofG currently has turned on

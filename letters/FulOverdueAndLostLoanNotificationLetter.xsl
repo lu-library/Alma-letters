@@ -38,7 +38,7 @@
                 <table cellspacing="0" cellpadding="5" border="0">
                   <tr>
                     <td>
-                      <h>Pour éviter d'avoir à payer les frais indiqués, veuillez retourner le(s) document(s) suivant(s) à votre bibliothèque.</h>
+									<h>Pour éviter les frais indiqués, veuillez retourner le document (ou les documents) suivant(s) à votre bibliothèque. Une fois le(s) document(s) retourné(s), les frais correspondants seront supprimés de votre compte.</h>
                     </td>
                   </tr>
                 </table>
@@ -156,7 +156,7 @@
                 <table cellspacing="0" cellpadding="5" border="0">
                   <tr>
                     <td>
-                      <h>To avoid incurring the indicated fees, please return the following item(s) to your library.</h>
+									<h>To avoid incurring the indicated fees, please return the following item(s) to your library. When an item is returned, associated fees will be removed from your account.</h>									
                     </td>
                   </tr>
                 </table>
@@ -343,4 +343,3 @@
 </xsl:template>
 
 </xsl:stylesheet>
-
