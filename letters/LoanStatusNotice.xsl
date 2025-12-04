@@ -223,7 +223,7 @@
                     <!-- <b>@@message@@</b> -->
                     <b>The due date for the following item(s) currently on loan to you have been changed!<br />
                     <br />
-			Items can be returned to any branches of the Lakehead University libraries.</b>
+		Please return the item(s) prior to the new due date to avoid fines/fees. Items can be returned to any branches of the Lakehead University libraries.</b>
                 </xsl:if>
                 <xsl:if test="notification_data/message='RECALL_CANCEL_RESTORE_ORIGINAL_DUEDATE'">
                   <b>@@cancel_recall_date_change@@</b>

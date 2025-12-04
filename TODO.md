@@ -43,6 +43,10 @@ Working in Alphabetic Order. Changes need to be reviewed are highlighted and in 
 - LenderRejectEmailLetter: <mark>Included "@Due date" and "@Shipping cost" in the letter, AFNLetterNameTemplate added under footer.</mark>
 - LenderRenewResponseEmailLetter: <mark>Included "@Province" and "@Postal code" in the letter, AFNLetterNameTemplate added under footer.</mark>
 - LenderShipEmailLetter: <mark>Included "@Due date" and "@Shipping cost" in the letter</mark>
+- LenderWillSupplyEmailLetter: <mark>Included "@Due date" and "@Shipping cost" in the letter, AFNLetterNameTemplate added under footer.</mark>
+- LendingRecallEmailLetter: <mark>Included "@Shipping cost", "@Province" and "@Postal code" in the letter, AFNLetterNameTemplate added under footer.</mark>
+- LoanStatusNotice: Done. No significant update compared to UG's version.
+
 
 ## Check Letters UofG currently has turned on
  
