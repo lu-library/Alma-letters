@@ -1,3 +1,23 @@
+# Directory
+
+The /letters directory contains several sub-folders with different letter statuses:
+
+- Letters directly under /letters (e.g., AnalyticsLetter.xsl):
+LU: enabled
+UG: enabled
+
+- Letters under /letters/disabled (e.g., DepositStatusUpdateLetter.xsl):
+LU: disabled
+UG: enabled
+
+- Letters under /letters/Non-comparable/Disabled (e.g., CancelRequestLetter.xsl):
+UG: no XSL file provided for comparison
+LU: letter exists in Alma but is disabled
+
+- Letters under /letters/Non-comparable/Enabled (e.g., AutomaticLoansRenewNotice.xsl):
+UG: no XSL file provided for comparison
+LU: letter exists in Alma and is enabled
+
 # Alma Letters
 Letters for Alma are customized by Lakehead University Library
 
