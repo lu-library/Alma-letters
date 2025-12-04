@@ -37,6 +37,9 @@ Working in Alphabetic Order. Changes need to be reviewed are highlighted and in 
 - FulReasourceRequestSlipLetter: <mark>Included "@item_barcode", "@isbn", "@imprint", "@move_to_library", "@request_type" and footer to the letter.</mark>
 - FulTransitSlipLetter: Done. No significant update compared to UG's version.
 - GeneralMessageEmailLetter: <mark>AFNLetterNameTemplate added under footer.</mark>
+- HoldShelfExpiryDateUpdateLetter: <mark>Added logic to check if it's EMAIL partner, and updated French version. Also, UG has Home Delivery & Curbside Pickup option, since we do not provide this service, there's no need to sync with that?</mark>
+- InterestedInLetter: <mark>Added a "Link to Resource". If keep this link, need to update to LU's link.</mark>
+
 
 ## Check Letters UofG currently has turned on
  

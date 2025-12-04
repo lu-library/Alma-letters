@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xsl:stylesheet version="1.0"
-	xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-
+xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 	<xsl:include href="header.xsl" />
 	<xsl:include href="senderReceiver.xsl" />
 	<xsl:include href="mailReason.xsl" />
@@ -25,82 +24,145 @@
 			</head>
 			<body>
 				<xsl:attribute name="style">
-          <xsl:call-template name="bodyStyleCss" /><!-- style.xsl -->
-        </xsl:attribute>
+					<xsl:call-template name="bodyStyleCss" />
+					<!-- style.xsl -->
+				</xsl:attribute>
+				<xsl:call-template name="head" />
+				<!-- header.xsl -->
 
-				<xsl:call-template name="head" /><!-- header.xsl -->
-				<xsl:call-template name="senderReceiver" /> <!-- SenderReceiver.xsl -->
+			    <table role='presentation'  cellspacing="0" cellpadding="5" border="0">
+					<tr>
+						<td>
 
-				<br />
-				<xsl:call-template name="toWhomIsConcerned" /> <!-- mailReason.xsl -->
+							<h3>@@header@@</h3>
+
+						</td>
+					</tr>
+				</table>
 
 				<div class="messageArea">
 					<div class="messageBody">
-
-						<table role='presentation'  cellspacing="0" cellpadding="5" border="0"
-							style="width:100%; background-color: #f3f7f8; padding: 0px 25px 25px 25px; border-bottom: 2px solid #dce8eb; font-family: 'Source Sans Pro' !important;padding: 25px 0 15px 0;">
-
-							<tr>
-								<td style="font-size:18px;padding: 0px 0 5px 10px;">
-									@@due_dates_approaching@@
-									<br />
-								</td>
-							</tr>
-
-							<xsl:for-each
-								select="notification_data/courses_to_citations/course_citations_wrapper">
-								<tr>								
-									<td style="padding:0 0 5px 10px;">		
-									<br />																	
-										<strong>
-											<xsl:value-of select="course/name" />
-										</strong>
-										&#160;
-									</td>
-								</tr>
-
-								<xsl:for-each select="citations/reading_list_citation">
-									<tr>
-										<td style="padding:0 0 5px 10px;">
-											<xsl:value-of select="due_date" />
-											-
-											<xsl:value-of select="title" />
-											&#160;
-										</td>
-									</tr>
-								</xsl:for-each>
-							</xsl:for-each>
+						<table role='presentation'  cellspacing="0" cellpadding="5" border="0">
 
 							<tr>
 								<td>
-									<br />
-									<xsl:if test="notification_data/leganto_url  !=''">
-										<span style="padding:0 0 5px 10px;">
-											@@see_all_your_lists@@
-											<xsl:element name="a">
-												<xsl:attribute name="href">
-									<xsl:value-of select="notification_data/leganto_url" />
-								</xsl:attribute>
-												<xsl:attribute name="style">
-									<xsl:value-of select="'color:#337ab7;font-weight:bold;'" />
-								</xsl:attribute>
-												@@go_leganto@@
-											</xsl:element>
-										</span>
-									</xsl:if>
+									<strong>@@request@@</strong>
+								</td>
+							</tr>
+
+						</table>
+
+                        <br/>
+						<table role='presentation'  cellspacing="0" cellpadding="5" border="0">
+							<xsl:attribute name="style">
+								<xsl:call-template name="listStyleCss"/>
+								<!-- style.xsl -->
+							</xsl:attribute>
+							<tr>
+								<td>
+									<strong> @@requestId@@: </strong>
+									<xsl:value-of select="notification_data/request/external_request_id"/>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<strong> @@title@@: </strong>
+									<xsl:value-of select="notification_data/request/display/title"/>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<strong> @@author@@: </strong>
+									<xsl:value-of select="notification_data/request/display/author"/>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<strong> @@supplyDate@@: </strong>
+									<xsl:value-of select="notification_data/request/item_sent_date"/>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<strong> @@checkedInDate@@: </strong>
+									<xsl:value-of select="notification_data/checked_in_date"/>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<br/>
+									<strong> @@note@@: </strong>
+									<xsl:value-of select="notification_data/note_to_partner"/>
 								</td>
 							</tr>
 						</table>
 
-						<br />
+						<br/><br/>
 
+						<table role='presentation' >
+							<tr>
+								<td>@@signature@@</td>
+							</tr>
+							<tr>
+								<td>
+									<xsl:value-of select="notification_data/library/name" />
+								</td>
+							</tr>
+							<xsl:if test="notification_data/library/address/line1 !=''">
+								<tr>
+									<td>
+										<xsl:value-of select="notification_data/library/address/line1" />
+									</td>
+								</tr>
+							</xsl:if>
+							<xsl:if test="notification_data/library/address/line2 !=''">
+								<tr>
+									<td>
+										<xsl:value-of select="notification_data/library/address/line2" />
+									</td>
+								</tr>
+							</xsl:if>
+							<xsl:if test="notification_data/library/address/line3 !=''">
+								<tr>
+									<td>
+										<xsl:value-of select="notification_data/library/address/line3" />
+									</td>
+								</tr>
+							</xsl:if>
+							<xsl:if test="notification_data/library/address/line4 !=''">
+								<tr>
+									<td>
+										<xsl:value-of select="notification_data/library/address/line4" />
+									</td>
+								</tr>
+							</xsl:if>
+							<xsl:if test="notification_data/library/address/line5 !=''">
+								<tr>
+									<td>
+										<xsl:value-of select="notification_data/library/address/line5" />
+									</td>
+								</tr>
+							</xsl:if>
+							<xsl:if test="notification_data/library/address/city !=''">
+								<tr>
+									<td>
+										<xsl:value-of select="notification_data/library/address/city" />
+									</td>
+								</tr>
+							</xsl:if>
+							<xsl:if test="notification_data/library/address/country !=''">
+								<tr>
+									<td>
+										<xsl:value-of select="notification_data/library/address/country" />
+									</td>
+								</tr>
+
+							</xsl:if>
+						</table>
 					</div>
 				</div>
-
-				<!-- footer.xsl -->
 				<xsl:call-template name="lastFooter" />
-				<xsl:call-template name="myAccount" />
-				<xsl:call-template name="contactUs" />
+				<!-- footer.xsl -->
 			</body>
 		</html>
 	</xsl:template>

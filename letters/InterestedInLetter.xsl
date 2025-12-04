@@ -105,7 +105,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 				<tr>
 					<td>
 				<br />
-				@@receivingNote@@ :
+				@@receiving Note@@ :
 
 						<br />
 
@@ -120,7 +120,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 					<tr>
 					<td>
 				<br />
-				@@message@@	:
+				@@message @@	:
 
 						<br />
 
@@ -135,6 +135,13 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 					</tr>
 
 				</table>
+				<a>
+                        <xsl:attribute name="href">
+							<!-- NEED TO UPDATE LINK-->
+                            <!-- https://ocul-gue.primo.exlibrisgroup.com/permalink/01OCUL_GUE/1cpuvlv/alma --><xsl:value-of  select="notification_data/mms_id"/>
+                            </xsl:attribute>
+                            Link to Resource
+                    </a> 
 				<br />
 				<table role='presentation' >
 						<tr><td>@@sincerely@@</td></tr>
