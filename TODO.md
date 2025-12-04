@@ -54,6 +54,10 @@ Working in Alphabetic Order. Changes need to be reviewed are highlighted and in 
 - ResourceSharingReceiveSlipLetter: <mark>The letter in the system is mistakenly presenting unmatched XSL. **Update the whole letter with UG's version.**</mark>
 - ResourceSharingReturnSlipLetter: Done. No significant update compared to UG's version.
 - ReturnReceiptLetter: <mark>Added logic to check if it's EMAIL partner.</mark>
+- SavedSearchesLetter: Done. No significant update compared to UG's version.
+- <mark>[currently Disabled]</mark>ShortenedDueDateLetter: Done. No significant update compared to UG's version.
+- <mark>[currently Disabled]</mark>SocialLoginInviteLetter: Done. No significant update compared to UG's version.
+- SystemJobLetter: Done. No significant update compared to UG's version.
 
 ## Check Letters UofG currently has turned on
  
