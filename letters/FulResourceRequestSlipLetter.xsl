@@ -64,6 +64,11 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 						<tr>
 							<td><b>@@request_id@@: </b><img src="cid:request_id_barcode.png" alt="Request Barcode"/></td>
 						</tr>
+						<xsl:if  test="notification_data/request/selected_inventory_type='ITEM'" >
+						<tr>
+							<td><b>@@item_barcode@@: </b><img src="cid:item_id_barcode.png" alt="Item Barcode"/></td>
+						</tr>
+						</xsl:if>
 						<xsl:if  test="notification_data/external_id != ''" >
 							<tr>
 								<td><b>@@external_id@@: </b><xsl:value-of select="notification_data/external_id"/></td>
@@ -85,6 +90,11 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 							</td>
 						</tr>
 
+							<xsl:if test="notification_data/phys_item_display/isbn != ''">
+								<tr>
+								<td>@@isbn@@: <xsl:value-of select="notification_data/phys_item_display/isbn"/></td>
+								</tr>
+							</xsl:if>
 							<xsl:if test="notification_data/phys_item_display/issn != ''">
 								<tr>
 								<td>@@issn@@: <xsl:value-of select="notification_data/phys_item_display/issn"/></td>
@@ -93,6 +103,11 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 							<xsl:if test="notification_data/phys_item_display/edition != ''">
 								<tr>
 								<td>@@edition@@: <xsl:value-of select="notification_data/phys_item_display/edition"/></td>
+								</tr>
+							</xsl:if>
+							<xsl:if test="notification_data/phys_item_display/imprint != ''">
+								<tr>
+								<td>@@imprint@@: <xsl:value-of select="notification_data/phys_item_display/imprint"/></td>
 								</tr>
 							</xsl:if>
 							
@@ -169,7 +184,12 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 								<td><strong>@@Chapter or Article Info@@:  </strong><xsl:value-of select="notification_data/request/chapter_article_title"/>, pp. <xsl:value-of select="notification_data/request/pages"/></td>
 							</tr>
 						</xsl:if>
-
+<tr>
+							<td><h2><b>@@move_to_library@@: <xsl:value-of select="notification_data/destination"/></b></h2></td>
+						</tr>
+						<tr>
+							<td><b>@@request_type@@: </b><xsl:value-of select="notification_data/request_type"/></td>
+						</tr>
 
 						<xsl:if test="notification_data/request/system_notes != ''">
 							<tr>
@@ -190,6 +210,9 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
 
 
+
+	<xsl:call-template name="lastFooter" /> <!-- footer.xsl -->
+    <xsl:call-template name="myAccount" /> 
 
 </body>
 </html>
