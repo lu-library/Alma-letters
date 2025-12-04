@@ -114,6 +114,15 @@
                         <br />
                       </td>
                     </tr>
+
+										<tr>
+											<td>												
+												<!-- AFN-VERSION 1.1 -->
+												Pour connaitre les heures de service et les informations sur le ramassage, veuillez consulter la page web de la bibliothèque sur le ramassage, donnée ci-dessus.
+												<br/>
+											</td>
+										</tr>
+
                   </xsl:if>
                 </table>
               </xsl:when>
@@ -177,6 +186,14 @@
                         <br />
                       </td>
                     </tr>
+
+										<tr>                                                                                                                                
+                                            <td>                                                
+                                                Please check the website at the pickup library indicated above for service hours and pickup information.
+                                                <br/>
+                                            </td>
+                                        </tr>
+
                   </xsl:if>
                 </table>
 
@@ -373,4 +390,3 @@
   </xsl:template>
 
 </xsl:stylesheet>
-

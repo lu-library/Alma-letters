@@ -32,7 +32,11 @@ Working in Alphabetic Order. Changes need to be reviewed are highlighted and in 
 - FulOverdueAndLostLoanNotificationLetter: <mark>Updated explanation texts.</mark>
 - FulRenewEmailLetter: <mark>AFNLetterNameTemplate added under footer.</mark>
 
-
+2025.12.04
+- FulRequestsReportLetter: <mark>UG has Home Delivery & Curbside Pickup option, since we do not provide this service, there's no need to update accrodingly?</mark>
+- FulReasourceRequestSlipLetter: <mark>Included "@item_barcode", "@isbn", "@imprint", "@move_to_library", "@request_type" and footer to the letter.</mark>
+- FulTransitSlipLetter: Done. No significant update compared to UG's version.
+- GeneralMessageEmailLetter: <mark>AFNLetterNameTemplate added under footer.</mark>
 
 ## Check Letters UofG currently has turned on
  
