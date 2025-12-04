@@ -39,7 +39,10 @@ Working in Alphabetic Order. Changes need to be reviewed are highlighted and in 
 - GeneralMessageEmailLetter: <mark>AFNLetterNameTemplate added under footer.</mark>
 - HoldShelfExpiryDateUpdateLetter: <mark>Added logic to check if it's EMAIL partner, and updated French version. Also, UG has Home Delivery & Curbside Pickup option, since we do not provide this service, there's no need to sync with that?</mark>
 - InterestedInLetter: <mark>Added a "Link to Resource". If keep this link, need to update to LU's link.</mark>
-
+- LenderChecked-inEmailLetter: <mark>Included "@Due date" and "@Shipping cost" in the letter, AFNLetterNameTemplate added under footer.</mark>
+- LenderRejectEmailLetter: <mark>Included "@Due date" and "@Shipping cost" in the letter, AFNLetterNameTemplate added under footer.</mark>
+- LenderRenewResponseEmailLetter: <mark>Included "@Province" and "@Postal code" in the letter, AFNLetterNameTemplate added under footer.</mark>
+- LenderShipEmailLetter: <mark>Included "@Due date" and "@Shipping cost" in the letter</mark>
 
 ## Check Letters UofG currently has turned on
  

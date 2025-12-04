@@ -15,6 +15,10 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 				</xsl:attribute>
 			</xsl:if>
 
+			<!-- AFN-VERSION 1.0 START -->
+			<xsl:variable name="letter_lang" select="notification_data/languages/string"/>
+			<!-- AFN-VERSION 1.0 END -->
+
 			<head>
 				<title>
 					<xsl:value-of select="notification_data/general_data/subject"/>
@@ -88,13 +92,57 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 									<xsl:value-of select="notification_data/checked_in_date"/>
 								</td>
 							</tr>
+							<!-- AFN-VERSION 1.0 START -->
+							<!-- Add due date, no label for it so we must check language code -->							
+							<xsl:if test="notification_data/request/due_date !=''">
+								<tr>
+									<td>
+										<xsl:if test="$letter_lang = 'fr'">
+        									<!-- due date label if lang is 'fr' -->
+											<strong>Date d'échéance: </strong>
+    									</xsl:if>
+										<xsl:if test="$letter_lang = 'en'">
+											<strong>Due Date: </strong>
+    									</xsl:if>
+										
+										<xsl:value-of select="notification_data/request/due_date" />
+									</td>
+								</tr>
+							</xsl:if>
+							<!-- Add Shipping Cost -->						
+							<xsl:if test="notification_data/request/shipping_cost/sum > 0">
+								<tr>
+									<td>										
+										<xsl:if test="$letter_lang = 'fr'">
+        									<!-- Shipping cost label if lang is 'fr' -->
+											<strong>Frais de port: </strong>
+    									</xsl:if>
+										<xsl:if test="$letter_lang = 'en'">
+											<strong>Shipping Cost: </strong>
+    									</xsl:if>
+										<xsl:value-of select="notification_data/request/shipping_cost/sum" />&#160;<xsl:value-of select="notification_data/request/shipping_cost/currency" />
+									</td>
+								</tr>
+							</xsl:if>	
+							<!-- Add Notes -->							
+							<xsl:if test="notification_data/request/note_to_partner !=''">
 							<tr>
 								<td>
 									<br/>
 									<strong> @@note@@: </strong>
-									<xsl:value-of select="notification_data/note_to_partner"/>
+										<xsl:value-of select="notification_data/request/note_to_partner"/>
+									</td>
+								</tr>
+							</xsl:if>							
+							<!-- Add the standard note just after note to partner -->
+							<xsl:if test="notification_data/request/note !=''">
+								<tr>
+									<td>										
+										<xsl:value-of select="notification_data/request/note" />
 								</td>
 							</tr>
+							</xsl:if>
+							<!-- AFN-VERSION 1.0 END -->
 						</table>
 
 						<br/><br/>
@@ -146,7 +194,15 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 							<xsl:if test="notification_data/library/address/city !=''">
 								<tr>
 									<td>
-										<xsl:value-of select="notification_data/library/address/city" />
+										<xsl:value-of select="notification_data/library/address/city"/>
+										<!-- AFN-VERSION 1.0 START -->
+										<xsl:if test="notification_data/library/address/state_province !=''">											
+										, <xsl:value-of select="notification_data/library/address/state_province" />												
+										</xsl:if>
+										<xsl:if test="notification_data/library/address/postal_code !=''">											
+										, <xsl:value-of select="notification_data/library/address/postal_code" />												
+										</xsl:if>
+										<!-- AFN-VERSION 1.0 END -->
 									</td>
 								</tr>
 							</xsl:if>
@@ -162,6 +218,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 					</div>
 				</div>
 				<xsl:call-template name="lastFooter" />
+				<xsl:call-template name="AFNLetterNameTemplate" />
 				<!-- footer.xsl -->
 			</body>
 		</html>
