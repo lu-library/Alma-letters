@@ -9,6 +9,15 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 <xsl:include href="footer.xsl" />
 <xsl:include href="style.xsl" />
 
+<!-- START AFN-VERSION 1.8 -->
+<!-- Check if an email partner. If it is, we're trying to send more of an invoice letter -->
+<xsl:variable name="is_email_partner">
+	<xsl:if test="(notification_data/user_for_printing/user_group = 'NZILLUSER') or (notification_data/user/user_group = 'NZILLUSER')">
+		TRUE
+	</xsl:if>
+</xsl:variable>
+<!-- END AFN-VERSION 1.8 -->
+
 <xsl:template match="/">
 	<html>
 			<xsl:if test="notification_data/languages/string">
@@ -84,6 +93,34 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 						<tr><td>@@department@@</td></tr>
 
 				</table>
+				<!-- START AFN-VERSION 1.8 -->
+                <xsl:choose>
+                    <xsl:when test="(string-length($is_email_partner) > 0)">                        
+                        <!-- email partner footer -->
+                        <p id="email_partner_financial_contact" align="left">
+                            <!-- START AFN TODO Enter your institutions financial contact info -->
+                            Our ILL Responder #: TO BE FILLED<br/>
+                            (Please quote this number on your remittance)<br/><br/>
+                            Please direct inquiries about this payment to:<br/><br/>
+                            
+                            Interlibrary Loans<br/>
+                            Chancellor Paterson Library, Lakehead University<br/>
+                            955 Oliver Rd.<br/>
+                            Thunder Bay, ON P7B 5E1<br/>
+                            Tel: TO BE FILLED<br/>
+                            Email: TO BE FILLED<br/>
+                            <b>Library Code: TO BE FILLED</b><br/>
+                            <!-- END AFN TODO Enter your institutions financial contact info -->
+                        </p>                        
+                    </xsl:when>
+                    <xsl:otherwise>					
+                        <!-- standard patron footer Local and AFN (links to home IZ) -->
+						<!-- realistically, NO AFN messages would be sent. Patrons should pay at home IZ, but it would work -->
+                        <xsl:call-template name="AFNLastFooter" />
+                        <xsl:call-template name="AFNAccount" />
+                    </xsl:otherwise>
+                </xsl:choose>	
+                <!-- END AFN-VERSION 1.8 -->
 
 				<xsl:call-template name="lastFooter" /> <!-- footer.xsl -->
 				<xsl:call-template name="contactUs" />

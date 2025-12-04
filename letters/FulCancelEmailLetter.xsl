@@ -392,6 +392,14 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 								<tr>
 									<td>
 										<xsl:value-of select="notification_data/library/address/city" />
+										<!-- AFN-VERSION 1.0 START -->
+										<xsl:if test="notification_data/library/address/state_province !=''">											
+										, <xsl:value-of select="notification_data/library/address/state_province" />												
+										</xsl:if>
+										<xsl:if test="notification_data/library/address/postal_code !=''">											
+										, <xsl:value-of select="notification_data/library/address/postal_code" />												
+										</xsl:if>
+										<!-- AFN-VERSION 1.0 END -->
 									</td>
 								</tr>
 							</xsl:if>
@@ -407,6 +415,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 					</div>
 				</div>
 				<xsl:call-template name="lastFooter" />
+				<xsl:call-template name="AFNLetterNameTemplate" />
 				<!-- footer.xsl -->
 			</body>
 		</html>
