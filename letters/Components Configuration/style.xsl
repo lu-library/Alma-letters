@@ -10,6 +10,11 @@
       .listing tr:hover td {background-color:#eee}
       .listing th {background-color:#f5f5f5 }
       h4{line-height: 0.2em}
+ <!-- START AFN styles -->
+ .afn_steps_list li{margin-bottom:1em}
+ #afn_letter_name_id{margin-top:1em; font-size: 30%;}
+ .afn_letter_plain_list{list-style-type: none;}
+ <!-- END AFN styles -->
     </style>
   </xsl:template>
   
