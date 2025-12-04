@@ -33,7 +33,7 @@ Working in Alphabetic Order. Changes need to be reviewed are highlighted and in 
 - FulRenewEmailLetter: <mark>AFNLetterNameTemplate added under footer.</mark>
 
 2025.12.04
-- FulRequestsReportLetter: <mark>UG has Home Delivery & Curbside Pickup option, since we do not provide this service, there's no need to update accrodingly?</mark>
+- FulRequestsReportLetter: <mark>Added "check service hour" notification. UG has Home Delivery & Curbside Pickup option, since we do not provide this service, there's no need to update accrodingly?</mark>
 - FulReasourceRequestSlipLetter: <mark>Included "@item_barcode", "@isbn", "@imprint", "@move_to_library", "@request_type" and footer to the letter.</mark>
 - FulTransitSlipLetter: Done. No significant update compared to UG's version.
 - GeneralMessageEmailLetter: <mark>AFNLetterNameTemplate added under footer.</mark>
@@ -46,7 +46,14 @@ Working in Alphabetic Order. Changes need to be reviewed are highlighted and in 
 - LenderWillSupplyEmailLetter: <mark>Included "@Due date" and "@Shipping cost" in the letter, AFNLetterNameTemplate added under footer.</mark>
 - LendingRecallEmailLetter: <mark>Included "@Shipping cost", "@Province" and "@Postal code" in the letter, AFNLetterNameTemplate added under footer.</mark>
 - LoanStatusNotice: Done. No significant update compared to UG's version.
-
+- OnHoldShelfLetter: Done. No significant update compared to UG's version. <mark>UG has Home Delivery & Curbside Pickup option, since we do not provide this service, there's no need to update accrodingly?</mark>
+- OnHoldShelfReminderLetter: <mark>Added logic to check if it's EMAIL partner.</mark>
+- OverdueNoticeLetter: : Done. No significant update compared to UG's version.
+- QueryToPatronLetter: Done. No significant update compared to UG's version.
+- <mark>[currently Disabled]</mark>ResetPasswordLetter: Done. No significant update compared to UG's version.
+- ResourceSharingReceiveSlipLetter: <mark>The letter in the system is mistakenly presenting unmatched XSL. **Update the whole letter with UG's version.**</mark>
+- ResourceSharingReturnSlipLetter: Done. No significant update compared to UG's version.
+- ReturnReceiptLetter: <mark>Added logic to check if it's EMAIL partner.</mark>
 
 ## Check Letters UofG currently has turned on
  
