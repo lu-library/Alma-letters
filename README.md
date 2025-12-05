@@ -18,7 +18,10 @@ LU: letter exists in Alma but is disabled
 UG: no XSL file provided for comparison
 LU: letter exists in Alma and is enabled
 
-# Alma Letters
+## Reference Links
+- [x] [Letter Configuration for AFN & Resource Sharing](https://docs.scholarsportal.info/Main/OCUL/ORSH/Alma_Configuration_Instructions_for_AFN_%26_Resource_Sharing/Letter_configuration/)
+
+### Alma Letters
 Letters for Alma are customized by Lakehead University Library
 
 - [x] [Cancel Request Letter](letters/letters/FulCancelRequestLetter.xsl)
@@ -42,9 +45,8 @@ Letters for Alma are customized by Lakehead University Library
 - [x] [Short Loan Letter](letters/FulShortLoanLetter.xsl)
 - [x] [System Job Letter](letters/SystemJobLetter.xsl)
 
-## General XSLs
-- [x] [header.xsl](letters/header.xsl)
-- [x] [footer.xsl](letters/footer.xsl)
-- [x] [style.xsl](letters/style.xsl)
-- [x] [mailReason.xsl](letters/mailReason.xsl)
-
+### General XSLs
+- [x] [header.xsl](letters/Components Configuration/header.xsl) 
+- [x] [footer.xsl](letters/Components Configuration/footer.xsl)
+- [x] [style.xsl](letters/Components Configuration/style.xsl)
+- [x] [mailReason.xsl](letters/Components Configuration/mailReason.xsl)

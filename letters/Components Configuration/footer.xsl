@@ -67,7 +67,7 @@
   <xsl:template name="myAccount">
     <table align="left">
       <tr>
-        <td align="left">
+        <td align="left">	
           <a>
             <xsl:attribute name="href">
               @@email_my_account@@
@@ -634,6 +634,9 @@
         </td>
       </tr>
     </table>
+    <br/>
+    <br/>
+    <xsl:call-template name="AFNLetterNameTemplate" />
   </xsl:template>
   <!-- AFN-VERSION 1.4 ADD  AFNOrgName template and test_org_code var -->
   
@@ -717,6 +720,21 @@
     </xsl:choose>
   </xsl:template>
   <!-- END of Org name template -->
+
+<!-- START of AFN Letter name template -->
+<xsl:template name="AFNLetterNameTemplate">
+	<p id="afn_letter_name_id" align="right">        
+        [
+        <xsl:if test="notification_data/general_data/letter_name">
+            <xsl:value-of select="notification_data/general_data/letter_name"/>
+	    </xsl:if>		
+        <xsl:if test="notification_data/general_data/letter_type">
+		     - <xsl:value-of select="notification_data/general_data/letter_type"/>
+	    </xsl:if>
+        ]    
+    </p>
+</xsl:template>
+<!-- END of AFN Letter name template -->
   
   <!-- END OF AFN CODE -->
   

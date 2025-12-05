@@ -59,6 +59,9 @@ Working in Alphabetic Order. Changes need to be reviewed are highlighted and in 
 - <mark>[currently Disabled]</mark>SocialLoginInviteLetter: Done. No significant update compared to UG's version.
 - SystemJobLetter: Done. No significant update compared to UG's version.
 
+- footer: Updated AFNLetterNameTemplate
+- style.xsl: Updated AFN styles
+
 ## Check Letters UofG currently has turned on
  
  - Analytics Letter
