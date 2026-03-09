@@ -22,7 +22,7 @@
   </xsl:template>
   
   <xsl:template name="bodyStyleCss">
-    font-family: arial; color:#333; margin:0; padding:0em; font-size:80% 
+    font-family: arial; color:#333; margin:0; padding:0em; font-size:100% 
   </xsl:template>
   
   <xsl:template name="orderListbodyStyleCss">
@@ -55,11 +55,11 @@ width:100%; height:30px; text-shadow:1px 1px 1px #fff;
   </xsl:template>
   
   <xsl:template name="footerTableStyleCss">
-    background-color: #cccccc;  width:100%; text-shadow:1px 1px 1px #333333; color:#ffffff; margin-top:1em;  font-weight:700; line-height:2em; font-size:150%;
+    background-color:#f5f5f5;  width:100%; color:#444444; margin-top:1em; padding-left:1em; padding-bottom:1em; font-weight:400; line-height:1.5em; font-size:90%;
   </xsl:template>
   
   <xsl:template name="lhdFooterTableStyleCss">
-    background-color:#dddddd;  width:100%; text-shadow:1px 1px 1px #ccc; color:#000; margin-top:1em;  font-weight:700; line-height:1.5em; font-size:120%;
+    background-color:#f5f5f5;  width:100%; color:#444444; margin-top:1em; padding-left:1em; padding-bottom:1em; font-weight:400; line-height:1.5em; font-size:90%;
   </xsl:template>
   
 </xsl:stylesheet>
