@@ -44,7 +44,7 @@
         </td>
       </tr>
       <tr>
-        <td>For more information, please login to your <a href="https://ocul-lhd.primo.exlibrisgroup.com/discovery/account?vid=01OCUL_LHD:LHD_DEFAULT">Library Account</a>.</td>
+        <td>For more information, please log in to your <a href="https://ocul-lhd.primo.exlibrisgroup.com/discovery/account?vid=01OCUL_LHD:LHD_DEFAULT">Library Account</a>.</td>
       </tr>
     </table>
   </xsl:template>
