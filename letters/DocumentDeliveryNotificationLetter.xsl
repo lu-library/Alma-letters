@@ -66,6 +66,37 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
                         .</td>
                 </tr>
 				<tr>
+                <td>
+    ___________________________________________________________________________________________ <br />
+            <br />
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <strong>Copyright Statement - As you previously agreed:</strong>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  You are advised to print a copy of the article and destroy the electronic version. 
+                  The electronic version may not be stored, forwarded or distributed. 
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  The copy may only be used for the purpose of research, private study, criticism, 
+                  review, news reporting, education, satire or parody. If the copy is used for the purpose of review, 
+                  criticism, or news reporting, the source and the name of the author must be mentioned.
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <strong>The use of this copy for any other purpose may constitute violation of Canadian Copyright Law, 
+                  and/or relevant licensing agreements.</strong>
+                </td>
+              </tr>
+				<tr>
 					<td>@@sincerely@@<br />@@department@@</td>
 				</tr>
           	</table>
