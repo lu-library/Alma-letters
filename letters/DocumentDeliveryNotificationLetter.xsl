@@ -73,33 +73,25 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
               </tr>
 
               <tr>
-                <td>
-                  <strong>Copyright Statement - As you previously agreed:</strong>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  You are advised to print a copy of the article and destroy the electronic version. 
-                  The electronic version may not be stored, forwarded or distributed. 
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  The copy may only be used for the purpose of research, private study, criticism, 
-                  review, news reporting, education, satire or parody. If the copy is used for the purpose of review, 
-                  criticism, or news reporting, the source and the name of the author must be mentioned.
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <strong>The use of this copy for any other purpose may constitute violation of Canadian Copyright Law, 
-                  and/or relevant licensing agreements.</strong>
-                </td>
-              </tr>
-				<tr>
-					<td>@@sincerely@@<br />@@department@@</td>
+					<td><strong>Copyright Statement - As you previously agreed:</strong></td>
+				</tr>				        
+        <tr>
+					<td>You will receive only a single copy of the requested article/document.</td>
+				</tr>				        
+        <tr>
+					<td>This copy has been made pursuant to the Fair Dealing Policy of Lakehead University, for use by a student, staff member, faculty member, or library patron. This copy may be used by the recipient solely for the purpose of research, private study, education, parody, satire, criticism, review, or news reporting. When using the copy for the purpose of criticism, review, or news reporting, attribution must be given to the source, including the name of the author or creator, if available.</td>
+				</tr>				        
+        <tr>
+					<td>Any further reproduction or distribution of this copy, or use for any purpose other than those specified above, may require the consent of the copyright owner.</td>
+				</tr>				        
+        <tr>
+					<td><strong>Failing to comply with the above conditions may constitute copyright infringement under Canadian law.</strong></td>
 				</tr>
-          	</table>
+              
+              <tr>
+                <td>@@sincerely@@<br />@@department@@</td>
+              </tr>
+            </table>
           </div>
         </div>
         <xsl:call-template name="lastFooter" />
