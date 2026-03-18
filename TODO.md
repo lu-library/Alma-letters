@@ -11,21 +11,21 @@ Working in Alphabetic Order. Changes need to be reviewed are highlighted and in 
 - BorrowingActivityLetter: Done. No significant update compared to UG's version.
 
 2025.12.03
-- CourtesyLetter: Done. No significant update compared to UG's version, but **UG's contains extra logic to identify which library the loaned items come from.**
-- <mark>[currently Disabled]</mark>DepositStatusUpdateLetter: Done. No significant update compared to UG's version.
-- DocumentDeliveryNotificationLetter: <mark>Customized very differently from UG's version, not sure what to keep. UG's includes: **more details about the resource(Authur, Volume, etc); populate both local and ISO resource sharing; check about user's login method; Copyright Statement.**</mark>
+- CourtesyLetter: Done. No significant update compared to UG's version.
+- [currently Disabled]DepositStatusUpdateLetter: Done. No significant update compared to UG's version.
+- DocumentDeliveryNotificationLetter: Customized very differently from UG's version, not sure what to keep. UG's includes: more details about the resource(Authur, Volume, etc); Copyright Statement. - Updated 2026-03-18 
 - EmailRecordsLetter: Done. No significant update compared to UG's version.
 - FineFeePaymentReceiptLetter: <mark>AFN-VERSION 1.8: Check if an email partner. If it is, we're trying to send more of an invoice letter. **Need to fill with LU's info.**</mark>
 - FulBorrowingInfoLetter: AFN footer template options(AFNAccount and AFNLastFooter ) replcaing footer. - Updated 2026-02-25 
 - FulCancelEmailLetter: AFN-VERSION 1.0: more detailed library address added, AFNLetterNameTemplate added under footer. - Updated 2026-02-26
 - FulCancelRequestLetter: Stop emails for converted to resource sharing,If the approval note is populated, don't show cancel_reason but the reject note. - Updated 2026-02-26
 - FulDamagedEmailLetter: AFNLetterNameTemplate added under footer.- Updated 2026-02-25
-- FulDigitizationNotificationItemLetter: <mark>Customized very differently from UG's version, not sure what to keep. **Need furthur comparison.**</mark>
-- <mark>[currently Disabled]</mark>FulFinesFeesNotificationLetter: <mark>AFN CODE: Check if an email partner. If it is, we're trying to send more of an invoice letter; Added Omni Email Partner receipt; Handled AFN supported languages; **Updated institutions financial contact info.**</mark>
-- FulIncomingSlipLetter: <mark>Added a logic to choose from **"Annex SLN" or "Original Annex SLN (internal_note1)", not sure if we need?** Also more detailed infomation including chapter, volume, etc.</mark>
+- FulDigitizationNotificationItemLetter: Customized very differently from UG's version, but we never trigger this letter in the system so keep it as is.
+- [currently Disabled]FulFinesFeesNotificationLetter: AFN CODE: Check if an email partner. If it is, we're trying to send more of an invoice letter; Added Omni Email Partner receipt; Handled AFN supported languages; **Updated institutions financial contact info.**
+- FulIncomingSlipLetter: Added a logic to choose from "Annex SLN" or "Original Annex SLN (internal_note1)" Also more detailed infomation including chapter, volume, etc. - Updated 2026-03-18 
 - FulLostEmailLetter: AFNLetterNameTemplate added under footer. - Updated 2026-02-25
-- <mark>[currently Disabled]</mark>FulLostLoanLetter: Done. No significant update compared to UG's version.
-- <mark>[currently Disabled]</mark>FulLostLoanNotificationLetter: Done. No significant update compared to UG's version.
+- [currently Disabled]FulLostLoanLetter: Done. No significant update compared to UG's version.
+- [currently Disabled]FulLostLoanNotificationLetter: Done. No significant update compared to UG's version.
 - FulLostRefundFeeLoadnLetter: Done. No significant update compared to UG's version.
 - FulOutgoingEmailLetter: AFN-VERSION 1.0: more detailed library address added, AFNLetterNameTemplate added under footer. - Updated 2026-02-25
 - FulOverdueAndLostLoanLetter: Done. No significant update compared to UG's version.
@@ -33,11 +33,11 @@ Working in Alphabetic Order. Changes need to be reviewed are highlighted and in 
 - FulRenewEmailLetter: AFNLetterNameTemplate added under footer.- Updated 2026-02-25
 
 2025.12.04
-- FulRequestsReportLetter: <mark>Added "check service hour" notification. UG has Home Delivery & Curbside Pickup option, since we do not provide this service, there's no need to update accrodingly?</mark>
+- FulRequestsReportLetter: Added "check service hour" notification. UG has Home Delivery & Curbside Pickup option, since we do not provide this service, there's no need to update accrodingly.
 - FulReasourceRequestSlipLetter: Included "@item_barcode", "@isbn", "@imprint", "@move_to_library", "@request_type" and footer to the letter. - Updated 2026-02-26
 - FulTransitSlipLetter: Done. No significant update compared to UG's version.
 - GeneralMessageEmailLetter: AFNLetterNameTemplate added under footer. - Updated 2026-02-25
-- HoldShelfExpiryDateUpdateLetter: <mark>Added logic to check if it's EMAIL partner, and updated French version. Also, UG has Home Delivery & Curbside Pickup option, since we do not provide this service, there's no need to sync with that?</mark>
+- [currently Disabled]HoldShelfExpiryDateUpdateLetter: Added logic to check if it's EMAIL partner, and updated French version. Also, UG has Home Delivery & Curbside Pickup option, since we do not provide this service, there's no need to sync with that.
 - InterestedInLetter: <mark>Added a "Link to Resource". If keep this link, need to update to LU's link.</mark>
 - LenderChecked-inEmailLetter: Included "@Due date" and "@Shipping cost" in the letter, AFNLetterNameTemplate added under footer. - Updated 2026-02-26
 - LenderRejectEmailLetter: Included "@Due date" and "@Shipping cost" in the letter, AFNLetterNameTemplate added under footer. - Updated 2026-02-26
@@ -46,17 +46,17 @@ Working in Alphabetic Order. Changes need to be reviewed are highlighted and in 
 - LenderWillSupplyEmailLetter: Included "@Due date" and "@Shipping cost" in the letter, AFNLetterNameTemplate added under footer. - Updated 2026-02-26
 - LendingRecallEmailLetter: Included "@Shipping cost", "@Province" and "@Postal code" in the letter, AFNLetterNameTemplate added under footer. - Updated 2026-02-26
 - LoanStatusNotice: Done. No significant update compared to UG's version.
-- OnHoldShelfLetter: Done. No significant update compared to UG's version. <mark>UG has Home Delivery & Curbside Pickup option, since we do not provide this service, there's no need to update accrodingly?</mark>
+- OnHoldShelfLetter: Done. No significant update compared to UG's version. UG has Home Delivery & Curbside Pickup option, since we do not provide this service, there's no need to update accrodingly.
 - OnHoldShelfReminderLetter: Added logic to check if it's EMAIL partner. - Updated 2026-02-25
 - OverdueNoticeLetter: : Done. No significant update compared to UG's version.
 - QueryToPatronLetter: Done. No significant update compared to UG's version.
-- <mark>[currently Disabled]</mark>ResetPasswordLetter: Done. No significant update compared to UG's version.
+- [currently Disabled]ResetPasswordLetter: Done. No significant update compared to UG's version.
 - ResourceSharingReceiveSlipLetter: The letter in the system is mistakenly presenting unmatched XSL. Update the whole letter with UG's version. - updated 2026-02-25
 - ResourceSharingReturnSlipLetter: Done. No significant update compared to UG's version.
 - ReturnReceiptLetter: Added logic to check if it's EMAIL partner. - Updated 2026-02-26
 - SavedSearchesLetter: Done. No significant update compared to UG's version.
-- <mark>[currently Disabled]</mark>ShortenedDueDateLetter: Done. No significant update compared to UG's version.
-- <mark>[currently Disabled]</mark>SocialLoginInviteLetter: Done. No significant update compared to UG's version.
+- [currently Disabled]ShortenedDueDateLetter: Done. No significant update compared to UG's version.
+- [currently Disabled]SocialLoginInviteLetter: Done. No significant update compared to UG's version.
 - SystemJobLetter: Done. No significant update compared to UG's version.
 
 - footer: Updated AFNLetterNameTemplate
