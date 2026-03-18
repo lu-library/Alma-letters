@@ -30,7 +30,6 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
         <!-- SenderReceiver.xsl -->
         <div class="messageArea">
           <div class="messageBody">
-        <!-- Very different from UG's version, Almost need to replace the whole document, not sure what to keep. -->
           	<table cellspacing="0" cellpadding="5" border="0">
           		<tr>
 					<td>@@your_request@@.</td>
@@ -38,6 +37,21 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 				<tr>
 					<td><h2>@@title@@: <xsl:value-of select="notification_data/phys_item_display/title"/></h2></td>
 				</tr>
+				<xsl:if test="notification_data/resource_sharing_request/flat_d/author !=''">
+				<tr>
+					<td>Author: <xsl:value-of select="notification_data/resource_sharing_request/flat_d/author"/></td>
+				</tr>
+				</xsl:if>
+				<xsl:if test="notification_data/resource_sharing_request/flat_d/volume !=''">
+				<tr>
+					<td>Volume: <xsl:value-of select="notification_data/resource_sharing_request/flat_d/volume"/></td>
+				</tr>
+				</xsl:if>
+				<xsl:if test="notification_data/resource_sharing_request/flat_d/issue !=''">
+				<tr>
+					<td>Issue: <xsl:value-of select="notification_data/resource_sharing_request/flat_d/issue"/></td>
+				</tr>
+				</xsl:if>
 				<tr>
 					<td>@@to_see_the_resource@@</td>
 				</tr>
@@ -67,7 +81,8 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
                 </tr>
 				<tr>
                 <td>
-    ___________________________________________________________________________________________ <br />
+    ___________________________________________________________________________________________ 
+    <br />
             <br />
                 </td>
               </tr>
