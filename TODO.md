@@ -38,7 +38,7 @@ Working in Alphabetic Order. Changes need to be reviewed are highlighted and in 
 - FulTransitSlipLetter: Done. No significant update compared to UG's version.
 - GeneralMessageEmailLetter: AFNLetterNameTemplate added under footer. - Updated 2026-02-25
 - [currently Disabled]HoldShelfExpiryDateUpdateLetter: Added logic to check if it's EMAIL partner, and updated French version. Also, UG has Home Delivery & Curbside Pickup option, since we do not provide this service, there's no need to sync with that.
-- InterestedInLetter: <mark>Added a "Link to Resource". If keep this link, need to update to LU's link.</mark>
+- InterestedInLetter: Added a "Link to Resource". If keep this link, need to update to LU's link. - Updated 2026-03-18
 - LenderChecked-inEmailLetter: Included "@Due date" and "@Shipping cost" in the letter, AFNLetterNameTemplate added under footer. - Updated 2026-02-26
 - LenderRejectEmailLetter: Included "@Due date" and "@Shipping cost" in the letter, AFNLetterNameTemplate added under footer. - Updated 2026-02-26
 - LenderRenewResponseEmailLetter: Included "@Province" and "@Postal code" in the letter, AFNLetterNameTemplate added under footer. - Updated 2026-02-26
