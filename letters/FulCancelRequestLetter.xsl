@@ -289,19 +289,79 @@
 									</td>
 								</tr>
 							</xsl:if>
-							<!-- START stop emails for converted to resource sharing -->
-							<xsl:if test="notification_data/request/status_note">                        
-								<xsl:if test="contains(notification_data/request/status_note, 'ConvertedToResourceSharingRequest')">
-									<xsl:message terminate="yes">A converted to resource sharing cancellatio, don't send email</xsl:message>
-								</xsl:if>				
-							</xsl:if>							
-							<!-- END stop emails for converted to resource sharing -->
-							<tr>
-								<td>
-									<strong> @@reason_deleting_request@@: </strong>
+                            
+                            <!-- START stop emails for converted to resource sharing -->
+                            <xsl:if test="notification_data/request/status_note">                        
+                                <xsl:if test="contains(notification_data/request/status_note, 'ConvertedToResourceSharingRequest')">
+                                    <xsl:message terminate="yes">A converted to resource sharing cancellation, don't send email</xsl:message>
+                                </xsl:if>
+                            </xsl:if>
+                            <!-- END stop emails for converted to resource sharing -->
+						
+							
+							
+							
+						<!-- Start of Custom Cancellation reasons -->
+                            <tr><td>	
+                            <strong> @@reason_deleting_request@@: </strong>
+                            <xsl:choose>
+								<xsl:when test="notification_data/request/status_note='AdditionalReason10'">
+							    	<xsl:text>This is the cancellation note for testing.</xsl:text>
+								</xsl:when>
+
+								<!--
+                                <xsl:when test="notification_data/request/status_note='AdditionalReason01'">
+							    	<xsl:text>Due to copyright, we are only able to digitally send a single chapter, article, or excerpt of a work not exceeding 10% of total pages. This request will be cancelled. You may resubmit your request for a physical loan of this material OR resubmit your digitization request according to the copyright guidelines.</xsl:text>
+								</xsl:when>
+								
+								<xsl:when test="notification_data/request/status_note='RequestedMaterialCannotBeLocated'">
+							    	<xsl:text>We cannot find a resource matching this citation. This request will be cancelled. Please feel free to resubmit with updated citation information. If you believe this
+citation to be correct, please contact us with the source of your citation.</xsl:text>
+								</xsl:when>
+									
+								<xsl:when test="notification_data/request/status_note='FailedToLocateSuppliers'">
+							    	<xsl:text>Unfortunately, we have been unable to find a lender who will fill this request. This request will be cancelled. If you have any questions, please contact Interlibrary Loans at interlib@mcmaster.ca or hslill@mcmaster.ca for the Health Sciences Library.</xsl:text>
+								</xsl:when>
+								
+								<xsl:when test="notification_data/request/status_note='AdditionalReason05'">
+							    	<xsl:text>The charges from the lender to fill this request exceed the amount covered from the library.</xsl:text>
+								</xsl:when>
+								
+								<xsl:when test="notification_data/request/status_note='AdditionalReason04'">
+							    	<xsl:text>Unfortunately, this item is not presently available from McMaster Libraries. This request will be cancelled.</xsl:text>
+								</xsl:when>
+								
+								<xsl:when test="notification_data/request/status_note='ItemAlreadyAvailable'">
+							    	<xsl:text>This item is already available.</xsl:text>
+								</xsl:when>
+								
+								<xsl:when test="notification_data/request/status_note='RequestSwitched'">
+							    	<xsl:text>Request switched.</xsl:text>
+								</xsl:when>
+								
+								<xsl:when test="notification_data/request/status_note='PurchaseRequest'">
+							    	<xsl:text>Thank you for your request. The library will be purchasing the item for our collection. We will notify you when it is available. </xsl:text>
+								</xsl:when>
+								
+								<xsl:when test="notification_data/request/status_note='AdditionalReason03'">
+							    	<xsl:text>This is a high-demand item and it is not currently available from McMaster University Libraries or for interlibrary loan. You may wish to submit a new request at a later date.
+This request will be cancelled. If you have any questions, please contact Interlibrary Loans at interlib@mcmaster.ca or hslill@mcmaster.ca for the Health Sciences Library. Thank you.</xsl:text>
+								</xsl:when>
+								
+								<xsl:when test="notification_data/request/status_note='AdditionalReason02'">
+							    	<xsl:text>There is no print copy of this title available for loan and access to a digital version is available from the library. To recommend a print copy please fill out this form and Collections will evaluate: https://library.mcmaster.ca/forms/request-print-purchase.
+							    </xsl:text>
+							</xsl:when>
+							-->
+							    
+								<!--Cancellation reason when no custom description exists-->
+								<xsl:otherwise>
 									<xsl:value-of select="notification_data/request/status_note_display" />
-								</td>
-							</tr>
+								</xsl:otherwise>
+							</xsl:choose>
+								</td></tr>
+
+							<!-- Cancellation custom note from staff -->					
 							<!-- If the approval note is populated, don't show cancel_reason but the reject note -->
 							<xsl:choose>
 								<xsl:when test="notification_data/request/approval_entity/reject_reason != ''">
@@ -323,7 +383,18 @@
 								</tr>
 							</xsl:if>
 								</xsl:otherwise>
-							</xsl:choose>															
+							</xsl:choose>	
+
+								
+							<!-- ORIGINAL LINES
+							<xsl:if test="notification_data/request/cancel_reason != ''">
+								<tr>
+									<td>
+										<strong> @@request_cancellation_note@@: </strong>
+										<xsl:value-of select="notification_data/request/cancel_reason" />
+									</td>
+								</tr>
+							</xsl:if> -->
 						</table>
 					</div>
 				</div>
